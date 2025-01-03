@@ -1,0 +1,14 @@
+.Big-Pink {
+  color: rgb(255, 192, 230);
+  font-size: 60px;
+  font-family: Snell Roundhand, cursive;
+  text-align: center;
+  font-weight: 900;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
