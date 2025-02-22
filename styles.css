@@ -47,7 +47,7 @@ body {
 .close-btn {
   position: absolute;
   color: rgb(153, 106, 75);
-  top: 15px;
-  right: 15px;
+  top: 5px;
+  right: 19px;
   cursor: pointer;
 }
