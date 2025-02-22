@@ -14,8 +14,14 @@
   width: 50%;
 }
 
-body {
-  font-family: Didot, serif;
+.popup-header {
+  font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
+  color: rgb(153, 106, 75);
+  font-size: 48px;
+}
+
+.popup-body {
+  font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
   color: rgb(153, 106, 75);
   font-size: 30px;
 }
