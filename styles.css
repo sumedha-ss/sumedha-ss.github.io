@@ -1,9 +1,10 @@
 .Big-Pink {
-  color: rgb(255, 192, 230);
-  font-size: 60px;
+  color: rgb(254, 199, 229);
+  font-size: 100px;
   font-family: Snell Roundhand, cursive;
   text-align: center;
   font-weight: 900;
+  padding-top: 15px;
 }
 
 .center {
