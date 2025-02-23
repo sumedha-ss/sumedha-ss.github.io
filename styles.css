@@ -71,23 +71,22 @@
 .star {
   color: rgb(255, 223, 135);
   font-size: 80px;
-  position: relative;
-  top: -350px;
-  left: 0px;
-  animation: fall 8s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 0.5s;
-  animation-fill-mode: forwards;
+  top: -100px;
+  left: 20px;
+  position: absolute; /* Change to absolute for more control over position */
+  animation: fall 3s linear 0.5s forwards;
+  animation-delay: 1s;
   z-index: 3;
 }
 
 @keyframes fall {
   65% {
-    top: 450px;
+    transform: rotate(0.325turn);
     opacity: 1;
   }
   100% {
-    top: 450px;
+    transform: rotate(0.5turn);
+    top: 650px;
     opacity: 0;
   }
 }
