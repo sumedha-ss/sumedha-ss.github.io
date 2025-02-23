@@ -36,6 +36,8 @@
   background-color: rgba(255, 255, 255, 0.55);
   z-index: 1000;
   backdrop-filter: blur(1px);
+  opacity: 1;
+  transition: opacity 0.2s ease-out;
 }
 
 .popup-content {
@@ -50,6 +52,10 @@
   height: 220px;
   padding-top: 10px;
   border-radius: 15px;
+}
+
+.popup.hidden {
+  opacity: 0;
 }
 
 .close-btn {
