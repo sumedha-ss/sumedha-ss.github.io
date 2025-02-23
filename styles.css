@@ -18,12 +18,14 @@
   font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
   color: rgb(153, 106, 75);
   font-size: 48px;
+  z-index: 4;
 }
 
 .popup-body {
   font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
   color: rgb(153, 106, 75);
   font-size: 30px;
+  z-index: 4;
 }
 
 .popup {
@@ -66,20 +68,244 @@
   right: 19px;
   cursor: pointer;
   font-size: 24px;
+  z-index: 4;
 }
 
-.star {
-  color: rgb(255, 223, 135);
+.star1 {
+  position: absolute;
+  left: 40px;
+  color: rgb(255, 214, 101);
   font-size: 80px;
   top: -100px;
-  left: 20px;
-  position: absolute; /* Change to absolute for more control over position */
-  animation: fall 3s linear 0.5s forwards;
-  animation-delay: 1s;
-  z-index: 3;
+  animation: fall1 3s linear 1.2s;
 }
 
-@keyframes fall {
+.star2 {
+  position: absolute;
+  left: 360px;
+  color: rgb(255, 196, 35);
+  font-size: 100px;
+  top: -260px;
+  animation: fall2 4s linear 1.2s;
+}
+
+.star3 {
+  position: absolute;
+  left: 720px;
+  color: rgb(254, 212, 97);
+  font-size: 65px;
+  top: -110px;
+  animation: fall3 3.5s linear 1.2s;
+}
+
+.star4 {
+  position: absolute;
+  left: 1080px;
+  color: rgb(239, 196, 75);
+  font-size: 87px;
+  top: -150px;
+  animation: fall4 3s linear 1.2s;
+}
+
+.star5 {
+  position: absolute;
+  left: 1390px;
+  color: rgb(254, 222, 133);
+  font-size: 87px;
+  top: -100px;
+  animation: fall5 4.4s linear 1.2s;
+}
+
+.star6 {
+  position: absolute;
+  left: 126px;
+  color: rgb(255, 222, 133);
+  font-size: 70px;
+  top: -190px;
+  animation: fall3 3.2s linear 1.2s;
+}
+
+.star7 {
+  position: absolute;
+  left: 252px;
+  color: rgb(254, 222, 133);
+  font-size: 65px;
+  top: -130px;
+  animation: fall5 3.2s linear 1.2s;
+}
+
+.star8 {
+  position: absolute;
+  left: 480px;
+  color: rgb(230, 205, 137);
+  font-size: 65px;
+  top: -190px;
+  animation: fall4 2.8s linear 1s;
+}
+
+.star9 {
+  position: absolute;
+  left: 600px;
+  color: rgb(255, 227, 151);
+  font-size: 77px;
+  top: -130px;
+  animation: fall1 3s linear 1.2s;
+}
+
+.star10 {
+  position: absolute;
+  left: 840px;
+  color: rgb(246, 195, 57);
+  font-size: 75px;
+  top: -100px;
+  animation: fall5 3s linear 1.2s;
+}
+
+.star11 {
+  position: absolute;
+  left: 960px;
+  color: rgb(255, 227, 148);
+  font-size: 63px;
+  top: -160px;
+  animation: fall1 2.5s linear 1.2s;
+}
+
+.star12 {
+  position: absolute;
+  left: 1183px;
+  color: rgb(225, 198, 122);
+  font-size: 60px;
+  top: -140px;
+  animation: fall1 2.8s linear 1.2s;
+}
+
+.star13 {
+  position: absolute;
+  left: 1286px;
+  color: rgb(255, 227, 148);
+  font-size: 79px;
+  top: -120px;
+  animation: fall2 3.5s linear 1.2s;
+}
+
+.star14 {
+  position: absolute;
+  left: 1060px;
+  color: rgb(255, 233, 174);
+  font-size: 73px;
+  top: -100px;
+  animation: fall1 3s linear 1.8s;
+}
+
+.star15 {
+  position: absolute;
+  left: 600px;
+  color: rgb(233, 191, 78);
+  font-size: 94px;
+  top: -260px;
+  animation: fall2 4s linear 1.8s;
+}
+
+.star16 {
+  position: absolute;
+  left: 50px;
+  color: rgb(255, 229, 159);
+  font-size: 74px;
+  top: -110px;
+  animation: fall3 3.5s linear 1.8s;
+}
+
+.star17 {
+  position: absolute;
+  left: 390px;
+  color: rgb(255, 222, 132);
+  font-size: 63px;
+  top: -150px;
+  animation: fall4 3s linear 1.8s;
+}
+
+.star18 {
+  position: absolute;
+  left: 740px;
+  color: rgb(249, 203, 76);
+  font-size: 94px;
+  top: -120px;
+  animation: fall5 4.4s linear 1.8s;
+}
+
+.star19 {
+  position: absolute;
+  left: 1285px;
+  color: rgb(236, 220, 177);
+  font-size: 69px;
+  top: -190px;
+  animation: fall3 3.2s linear 1.8s;
+}
+
+.star20 {
+  position: absolute;
+  left: 890px;
+  color: rgb(255, 212, 92);
+  font-size: 72px;
+  top: -130px;
+  animation: fall5 3.2s linear 1.8s;
+}
+
+.star21 {
+  position: absolute;
+  left: 1125px;
+  color: rgb(229, 199, 115);
+  font-size: 85px;
+  top: -190px;
+  animation: fall4 2.8s linear 1.8s;
+}
+
+.star22 {
+  position: absolute;
+  left: 250px;
+  color: rgb(245, 208, 107);
+  font-size: 58px;
+  top: -130px;
+  animation: fall1 3s linear 1.8s;
+}
+
+.star23 {
+  position: absolute;
+  left: 450px;
+  color: rgb(255, 235, 181);
+  font-size: 87px;
+  top: -100px;
+  animation: fall5 3s linear 1.8s;
+}
+
+.star24 {
+  position: absolute;
+  left: 510px;
+  color: rgb(242, 196, 70);
+  font-size: 65px;
+  top: -160px;
+  animation: fall1 2.5s linear 1.8s;
+}
+
+.star25 {
+  position: absolute;
+  left: 160px;
+  color: rgb(255, 242, 205);
+  font-size: 62px;
+  top: -140px;
+  animation: fall1 2.8s linear 1.8s;
+}
+
+.star26 {
+  position: absolute;
+  left: 950px;
+  color: rgb(227, 217, 191);
+  font-size: 74px;
+  top: -250px;
+  animation: fall2 3.9s linear 1.8s;
+}
+
+@keyframes fall1 {
   65% {
     transform: rotate(0.325turn);
     opacity: 1;
@@ -87,6 +313,66 @@
   100% {
     transform: rotate(0.5turn);
     top: 650px;
+    opacity: 0;
+  }
+}
+
+@keyframes fall1 {
+  65% {
+    transform: rotate(0.325turn);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(0.5turn);
+    top: 650px;
+    opacity: 0;
+  }
+}
+
+@keyframes fall2 {
+  65% {
+    transform: rotate(0.5turn);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(0.77turn);
+    top: 700px;
+    opacity: 0;
+  }
+}
+
+@keyframes fall3 {
+  65% {
+    transform: rotate(0.4turn);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(0.615turn);
+    top: 550px;
+    opacity: 0;
+  }
+}
+
+@keyframes fall4 {
+  65% {
+    transform: rotate(0.6turn);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(0.92turn);
+    top: 500px;
+    opacity: 0;
+  }
+}
+
+@keyframes fall5 {
+  65% {
+    transform: rotate(0.5turn);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(0.769turn);
+    top: 700px;
     opacity: 0;
   }
 }
