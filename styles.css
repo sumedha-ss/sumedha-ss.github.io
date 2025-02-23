@@ -415,3 +415,52 @@
     opacity: 0;
   }
 }
+
+.candle1,
+.candle2,
+.candle3 {
+  position: absolute;
+  animation-name: candle;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.candle1 {
+  height: 3.4%;
+  width: 1.4%;
+  top: 550px;
+  left: 652px;
+}
+
+.candle2 {
+  height: 3.8%;
+  width: 1.8%;
+  top: 630px;
+  left: 678.5px;
+  animation-delay: 0.75s;
+}
+.candle3 {
+  height: 4.9%;
+  width: 1.9%;
+  top: 586.5px;
+  left: 712.25px;
+  animation-delay: 1.5s;
+}
+
+@keyframes candle {
+  0% {
+    transform: translateX(0px);
+  }
+  33% {
+    transform: translateX(0.75px);
+  }
+  50% {
+    transform: translateY(-1px);
+  }
+  66% {
+    transform: translateX(-0.75px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
