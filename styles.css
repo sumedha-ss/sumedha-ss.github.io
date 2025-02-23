@@ -428,21 +428,21 @@
 .candle1 {
   height: 3.4%;
   width: 1.4%;
-  top: 550px;
+  top: 552px;
   left: 652px;
 }
 
 .candle2 {
   height: 3.8%;
   width: 1.8%;
-  top: 630px;
+  top: 632px;
   left: 678.5px;
   animation-delay: 0.75s;
 }
 .candle3 {
   height: 4.9%;
   width: 1.9%;
-  top: 586.5px;
+  top: 588.5px;
   left: 712.25px;
   animation-delay: 1.5s;
 }
@@ -462,5 +462,70 @@
   }
   100% {
     transform: translateX(0px);
+  }
+}
+
+.snow1,
+.snow2,
+.snow3,
+.snow4,
+.snow5,
+.snow6 {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  scale: 45%;
+  animation-name: snowfall;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.snow1 {
+  left: 710px;
+  top: 404px;
+  animation-delay: 1s;
+}
+.snow2 {
+  left: 719px;
+  top: 401px;
+  animation-delay: 4s;
+}
+
+.snow3 {
+  left: 728px;
+  top: 399px;
+  animation-delay: 2s;
+}
+
+.snow4 {
+  left: 737px;
+  top: 402px;
+  animation-delay: 5s;
+}
+
+.snow5 {
+  left: 746px;
+  top: 409px;
+  animation-delay: 3s;
+}
+
+.snow6 {
+  left: 703px;
+  top: 412px;
+  animation-delay: 2s;
+}
+
+@keyframes snowfall {
+  0% {
+    transform: translateY(0px);
+    opacity: 0;
+  }
+  20% {
+    transform: translateY(12px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(60px);
+    opacity: 0;
   }
 }
