@@ -713,29 +713,45 @@
 .catInfo.show {
   display: block;
   position: absolute;
-  top: 59%;
-  left: 53%;
+  top: 490px;
+  left: 800px;
   transform: translate(-50%, -50%);
   background-color: rgba(255, 245, 250, 0.8);
-  padding: 44px;
-  text-align: center;
-  width: 600px;
-  height: 310px;
-  padding-top: 10px;
+  width: 700px;
+  height: 360px;
   border-radius: 20px;
-  z-index: 3;
 }
 
 .closeCat {
   position: absolute;
   border-width: 0px;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.88);
   border-radius: 12px;
-  font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
-  color: rgb(153, 106, 75);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgba(153, 106, 75, 0.671);
   font-size: 30px;
   height: 60px;
-  width: 100px;
-  top: 380px;
-  left: 588px;
+  width: 120px;
+  top: 379px;
+  left: 582px;
+}
+
+.infoHeader {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(153, 106, 75);
+  font-size: 54px;
+  position: absolute;
+  top: -30px;
+  padding-left: 45px;
+}
+
+.infoBody {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(153, 106, 75);
+  font-size: 25px;
+  position: absolute;
+  top: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
 }
