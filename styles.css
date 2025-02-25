@@ -755,3 +755,68 @@
   padding-right: 40px;
   padding-bottom: 40px;
 }
+
+.catPic1 {
+  display: none;
+}
+
+.catPic1.show {
+  display: block;
+  position: absolute;
+  height: 200px;
+  width: 360px;
+  top: 50px;
+  left: 1100px;
+}
+
+.catPic2 {
+  display: none;
+}
+
+.catPic2.show {
+  display: block;
+  position: absolute;
+  height: 300px;
+  width: 220px;
+  top: 270px;
+  left: 1215px;
+}
+
+.catPic3 {
+  display: none;
+}
+
+.catPic3.show {
+  display: block;
+  position: absolute;
+  height: 370px;
+  width: 230px;
+  top: 400px;
+  left: 170px;
+}
+
+.catPic4 {
+  display: none;
+}
+
+.catPic4.show {
+  display: block;
+  position: absolute;
+  height: 240px;
+  width: 260px;
+  top: 590px;
+  left: 1190px;
+}
+
+.catPic5 {
+  display: none;
+}
+
+.catPic5.show {
+  display: block;
+  position: absolute;
+  height: 300px;
+  width: 220px;
+  top: 78px;
+  left: 55px;
+}
