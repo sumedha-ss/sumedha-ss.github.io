@@ -558,7 +558,7 @@
 .cat19 {
   position: relative;
   background-color: rgba(0, 0, 0, 0);
-  border-width: 0.1px;
+  border-width: 0px;
   cursor: pointer;
 }
 
@@ -713,13 +713,15 @@
 
 .catBackground,
 .bookBackground,
-.photoBackground {
+.photoBackground,
+.tennisBackground {
   display: none;
 }
 
 .catBackground.show,
 .bookBackground.show,
-.photoBackground.show {
+.photoBackground.show,
+.tennisBackground.show {
   display: block;
   position: fixed;
   top: 0;
@@ -731,7 +733,8 @@
 
 .catInfo,
 .bookInfo,
-.photoInfo {
+.photoInfo,
+.tennisInfo {
   display: none;
 }
 
@@ -764,7 +767,8 @@
 
 .infoHeaderCat,
 .infoHeaderBook,
-.infoHeaderPhoto {
+.infoHeaderPhoto,
+.infoHeaderTennis {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: rgb(153, 106, 75);
   font-size: 54px;
@@ -775,7 +779,8 @@
 
 .infoBodyCat,
 .infoBodyBook,
-.infoBodyPhoto {
+.infoBodyPhoto,
+.infoBodyTennis {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: rgb(153, 106, 75);
   font-size: 25px;
@@ -1057,4 +1062,142 @@
   top: 360px;
   left: 582px;
   cursor: pointer;
+}
+
+.tennis1,
+.tennis2,
+.tennis3,
+.tennis4,
+.tennis5,
+.tennis6,
+.tennis7,
+.tennis8,
+.tennis9,
+.tennis10,
+.tennis11 {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0);
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.tennis1 {
+  height: 97px;
+  width: 161px;
+  top: 371px;
+  left: 1029px;
+  rotate: -13deg;
+  border-radius: 180px;
+}
+
+.tennis2 {
+  height: 10px;
+  width: 55px;
+  top: 368px;
+  left: 1059px;
+  rotate: -13deg;
+  transform: skew(-60deg);
+}
+
+.tennis3 {
+  height: 12px;
+  width: 35px;
+  top: 360px;
+  left: 1105px;
+  rotate: 167deg;
+  transform: skew(67deg);
+}
+
+.tennis4 {
+  height: 7px;
+  width: 50px;
+  top: 363px;
+  left: 1070px;
+  rotate: -13deg;
+  border-radius: 180px;
+}
+
+.tennis5 {
+  height: 12px;
+  width: 69px;
+  top: 465px;
+  left: 1082px;
+  rotate: 167deg;
+  transform: skew(67deg);
+}
+
+.tennis6 {
+  height: 35px;
+  width: 35px;
+  top: 444px;
+  left: 1143px;
+  rotate: -13deg;
+  border-radius: 180px;
+}
+
+.tennis7 {
+  height: 7px;
+  width: 38px;
+  top: 438.5px;
+  left: 972px;
+  rotate: -23deg;
+}
+
+.tennis8 {
+  height: 7px;
+  width: 42px;
+  top: 420px;
+  left: 999px;
+  rotate: -39deg;
+}
+
+.tennis9 {
+  height: 6px;
+  width: 38px;
+  top: 451.5px;
+  left: 972px;
+  rotate: -7deg;
+}
+
+.tennis10 {
+  height: 7px;
+  width: 42px;
+  top: 452px;
+  left: 1005px;
+  rotate: 9deg;
+}
+
+.tennis11 {
+  height: 18px;
+  width: 90px;
+  top: 453px;
+  left: 888px;
+  rotate: -13deg;
+}
+
+.closeTennis {
+  position: absolute;
+  border-width: 0px;
+  background-color: rgba(255, 255, 255, 0.88);
+  border-radius: 12px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgba(153, 106, 75, 0.671);
+  font-size: 32px;
+  height: 60px;
+  width: 120px;
+  top: 360px;
+  left: 0px;
+  cursor: pointer;
+}
+
+.tennisInfo.show {
+  display: block;
+  position: absolute;
+  top: 430px;
+  left: 500px;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 245, 250, 0.8);
+  width: 700px;
+  height: 340px;
+  border-radius: 20px;
 }
