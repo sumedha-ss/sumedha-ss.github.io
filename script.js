@@ -469,39 +469,74 @@ const book1 = document.getElementById("bookButton1");
 book1.addEventListener("click", function () {
   bookBackground.classList.add("show");
   bookInfo.classList.add("show");
+  photo1.classList.add("hidden");
+  photo2.classList.add("hidden");
 });
 
 const book2 = document.getElementById("bookButton2");
 book2.addEventListener("click", function () {
   bookBackground.classList.add("show");
   bookInfo.classList.add("show");
+  photo1.classList.add("hidden");
+  photo2.classList.add("hidden");
 });
 
 const book3 = document.getElementById("bookButton3");
 book3.addEventListener("click", function () {
   bookBackground.classList.add("show");
   bookInfo.classList.add("show");
+  photo1.classList.add("hidden");
+  photo2.classList.add("hidden");
 });
 
 const book4 = document.getElementById("bookButton4");
 book4.addEventListener("click", function () {
   bookBackground.classList.add("show");
   bookInfo.classList.add("show");
+  photo1.classList.add("hidden");
+  photo2.classList.add("hidden");
 });
 
 const book5 = document.getElementById("bookButton5");
 book5.addEventListener("click", function () {
   bookBackground.classList.add("show");
   bookInfo.classList.add("show");
+  photo1.classList.add("hidden");
+  photo2.classList.add("hidden");
 });
 
 const book6 = document.getElementById("bookButton6");
 book6.addEventListener("click", function () {
   bookBackground.classList.add("show");
   bookInfo.classList.add("show");
+  photo1.classList.add("hidden");
+  photo2.classList.add("hidden");
 });
 
 closeBook.addEventListener("click", function () {
   bookBackground.classList.remove("show");
   bookInfo.classList.remove("show");
+  photo1.classList.remove("hidden");
+  photo2.classList.remove("hidden");
+});
+
+const photoInfo = document.getElementById("photoInfo");
+const closePhoto = document.getElementById("closePhoto");
+const photoBackground = document.getElementById("photoBackground");
+
+const photo1 = document.getElementById("photoButton1");
+photo1.addEventListener("click", function () {
+  photoBackground.classList.add("show");
+  photoInfo.classList.add("show");
+});
+
+const photo2 = document.getElementById("photoButton2");
+photo2.addEventListener("click", function () {
+  photoBackground.classList.add("show");
+  photoInfo.classList.add("show");
+});
+
+closePhoto.addEventListener("click", function () {
+  photoBackground.classList.remove("show");
+  photoInfo.classList.remove("show");
 });
