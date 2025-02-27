@@ -394,17 +394,20 @@
 .sleep1 {
   top: 210px;
   left: 570px;
+  rotate: 17deg;
 }
 
 .sleep2 {
   top: 201px;
   left: 592px;
+  rotate: -17deg;
   animation-delay: 0.7s;
 }
 
 .sleep3 {
   top: 198px;
   left: 614px;
+  rotate: 7deg;
   animation-delay: 1.4s;
 }
 
