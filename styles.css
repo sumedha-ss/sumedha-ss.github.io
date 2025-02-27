@@ -941,7 +941,18 @@
 .book5.hidden,
 .book6.hidden,
 .photo1.hidden,
-.photo2.hidden {
+.photo2.hidden,
+.tennis1.hidden,
+.tennis2.hidden,
+.tennis3.hidden,
+.tennis4.hidden,
+.tennis5.hidden,
+.tennis6.hidden,
+.tennis7.hidden,
+.tennis8.hidden,
+.tennis9.hidden,
+.tennis10.hidden,
+.tennis11.hidden {
   display: none;
 }
 
