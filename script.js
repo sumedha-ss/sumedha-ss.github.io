@@ -264,7 +264,7 @@ cat11.addEventListener("click", function () {
 });
 
 const cat12 = document.getElementById("catButton12");
-cat2.addEventListener("click", function () {
+cat12.addEventListener("click", function () {
   catBackground.classList.add("show");
   catInfo.classList.add("show");
   catPic1.classList.add("show");

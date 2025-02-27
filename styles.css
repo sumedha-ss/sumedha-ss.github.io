@@ -558,7 +558,7 @@
 .cat19 {
   position: relative;
   background-color: rgba(0, 0, 0, 0);
-  border-width: 0px;
+  border-width: 0.1px;
   cursor: pointer;
 }
 
