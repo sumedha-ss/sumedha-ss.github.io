@@ -778,10 +778,10 @@
 .catPic1.show {
   display: block;
   position: absolute;
-  height: 200px;
-  width: 360px;
-  top: 50px;
-  left: 1100px;
+  height: 190px;
+  width: 350px;
+  top: 60px;
+  left: 1078px;
 }
 
 .catPic2 {
@@ -791,9 +791,9 @@
 .catPic2.show {
   display: block;
   position: absolute;
-  height: 300px;
-  width: 220px;
-  top: 270px;
+  height: 286px;
+  width: 200px;
+  top: 290px;
   left: 1215px;
 }
 
@@ -804,10 +804,11 @@
 .catPic3.show {
   display: block;
   position: absolute;
-  height: 370px;
-  width: 230px;
-  top: 400px;
-  left: 170px;
+  height: 330px;
+  width: 205px;
+  top: 450px;
+  left: 181px;
+  border-radius: 150px;
 }
 
 .catPic4 {
@@ -817,10 +818,10 @@
 .catPic4.show {
   display: block;
   position: absolute;
-  height: 240px;
-  width: 260px;
-  top: 590px;
-  left: 1190px;
+  height: 215px;
+  width: 245px;
+  top: 600px;
+  left: 1185px;
 }
 
 .catPic5 {
@@ -830,8 +831,73 @@
 .catPic5.show {
   display: block;
   position: absolute;
-  height: 300px;
-  width: 220px;
-  top: 78px;
-  left: 55px;
+  height: 285px;
+  width: 225px;
+  top: 118px;
+  left: 45px;
+}
+
+.catFrame1 {
+  display: none;
+}
+
+.catFrame1.show {
+  display: block;
+  position: absolute;
+  height: 250px;
+  width: 270px;
+  top: 590px;
+  left: 1180px;
+}
+
+.catFrame2 {
+  display: none;
+}
+
+.catFrame2.show {
+  display: block;
+  position: absolute;
+  height: 385px;
+  width: 350px;
+  top: 68px;
+  left: -17px;
+}
+
+.catFrame3 {
+  display: none;
+}
+
+.catFrame3.show {
+  display: block;
+  position: absolute;
+  height: 355px;
+  width: 339px;
+  top: 250px;
+  left: 1150px;
+}
+
+.catFrame4 {
+  display: none;
+}
+
+.catFrame4.show {
+  display: block;
+  position: absolute;
+  height: 230px;
+  width: 390px;
+  top: 33px;
+  left: 1060px;
+}
+
+.catFrame5 {
+  display: none;
+}
+
+.catFrame5.show {
+  display: block;
+  position: absolute;
+  height: 400px;
+  width: 295px;
+  top: 410px;
+  left: 137px;
 }
