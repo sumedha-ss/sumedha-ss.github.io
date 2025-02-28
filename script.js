@@ -726,6 +726,15 @@ const closeTennis = document.getElementById("closeTennis");
 const tennisBackground = document.getElementById("tennisBackground");
 
 const tennis1 = document.getElementById("tennisButton1");
+tennis1.addEventListener("mouseover", function () {
+  document.body.style.backgroundImage = "url('./images/tennisbgr.png')";
+  document.body.style.backgroundSize = "90% 100%";
+  document.body.style.backgroundPosition = "center";
+});
+tennis1.addEventListener("mouseout", function () {
+  document.body.style.backgroundImage =
+    "url('./images/background.skt/bgr.png')";
+});
 tennis1.addEventListener("click", function () {
   tennisBackground.classList.add("show");
   tennisInfo.classList.add("show");
@@ -740,6 +749,15 @@ tennis1.addEventListener("click", function () {
 });
 
 const tennis2 = document.getElementById("tennisButton2");
+tennis2.addEventListener("mouseover", function () {
+  document.body.style.backgroundImage = "url('./images/tennisbgr.png')";
+  document.body.style.backgroundSize = "90% 100%";
+  document.body.style.backgroundPosition = "center";
+});
+tennis2.addEventListener("mouseout", function () {
+  document.body.style.backgroundImage =
+    "url('./images/background.skt/bgr.png')";
+});
 tennis2.addEventListener("click", function () {
   tennisBackground.classList.add("show");
   tennisInfo.classList.add("show");
@@ -754,6 +772,15 @@ tennis2.addEventListener("click", function () {
 });
 
 const tennis3 = document.getElementById("tennisButton3");
+tennis3.addEventListener("mouseover", function () {
+  document.body.style.backgroundImage = "url('./images/tennisbgr.png')";
+  document.body.style.backgroundSize = "90% 100%";
+  document.body.style.backgroundPosition = "center";
+});
+tennis3.addEventListener("mouseout", function () {
+  document.body.style.backgroundImage =
+    "url('./images/background.skt/bgr.png')";
+});
 tennis3.addEventListener("click", function () {
   tennisBackground.classList.add("show");
   tennisInfo.classList.add("show");
@@ -768,6 +795,15 @@ tennis3.addEventListener("click", function () {
 });
 
 const tennis4 = document.getElementById("tennisButton4");
+tennis4.addEventListener("mouseover", function () {
+  document.body.style.backgroundImage = "url('./images/tennisbgr.png')";
+  document.body.style.backgroundSize = "90% 100%";
+  document.body.style.backgroundPosition = "center";
+});
+tennis4.addEventListener("mouseout", function () {
+  document.body.style.backgroundImage =
+    "url('./images/background.skt/bgr.png')";
+});
 tennis4.addEventListener("click", function () {
   tennisBackground.classList.add("show");
   tennisInfo.classList.add("show");
@@ -782,6 +818,15 @@ tennis4.addEventListener("click", function () {
 });
 
 const tennis5 = document.getElementById("tennisButton5");
+tennis5.addEventListener("mouseover", function () {
+  document.body.style.backgroundImage = "url('./images/tennisbgr.png')";
+  document.body.style.backgroundSize = "90% 100%";
+  document.body.style.backgroundPosition = "center";
+});
+tennis5.addEventListener("mouseout", function () {
+  document.body.style.backgroundImage =
+    "url('./images/background.skt/bgr.png')";
+});
 tennis5.addEventListener("click", function () {
   tennisBackground.classList.add("show");
   tennisInfo.classList.add("show");
@@ -796,6 +841,15 @@ tennis5.addEventListener("click", function () {
 });
 
 const tennis6 = document.getElementById("tennisButton6");
+tennis6.addEventListener("mouseover", function () {
+  document.body.style.backgroundImage = "url('./images/tennisbgr.png')";
+  document.body.style.backgroundSize = "90% 100%";
+  document.body.style.backgroundPosition = "center";
+});
+tennis6.addEventListener("mouseout", function () {
+  document.body.style.backgroundImage =
+    "url('./images/background.skt/bgr.png')";
+});
 tennis6.addEventListener("click", function () {
   tennisBackground.classList.add("show");
   tennisInfo.classList.add("show");
@@ -810,6 +864,15 @@ tennis6.addEventListener("click", function () {
 });
 
 const tennis7 = document.getElementById("tennisButton7");
+tennis7.addEventListener("mouseover", function () {
+  document.body.style.backgroundImage = "url('./images/tennisbgr.png')";
+  document.body.style.backgroundSize = "90% 100%";
+  document.body.style.backgroundPosition = "center";
+});
+tennis7.addEventListener("mouseout", function () {
+  document.body.style.backgroundImage =
+    "url('./images/background.skt/bgr.png')";
+});
 tennis7.addEventListener("click", function () {
   tennisBackground.classList.add("show");
   tennisInfo.classList.add("show");
@@ -824,6 +887,15 @@ tennis7.addEventListener("click", function () {
 });
 
 const tennis8 = document.getElementById("tennisButton8");
+tennis8.addEventListener("mouseover", function () {
+  document.body.style.backgroundImage = "url('./images/tennisbgr.png')";
+  document.body.style.backgroundSize = "90% 100%";
+  document.body.style.backgroundPosition = "center";
+});
+tennis8.addEventListener("mouseout", function () {
+  document.body.style.backgroundImage =
+    "url('./images/background.skt/bgr.png')";
+});
 tennis8.addEventListener("click", function () {
   tennisBackground.classList.add("show");
   tennisInfo.classList.add("show");
@@ -838,6 +910,15 @@ tennis8.addEventListener("click", function () {
 });
 
 const tennis9 = document.getElementById("tennisButton9");
+tennis9.addEventListener("mouseover", function () {
+  document.body.style.backgroundImage = "url('./images/tennisbgr.png')";
+  document.body.style.backgroundSize = "90% 100%";
+  document.body.style.backgroundPosition = "center";
+});
+tennis9.addEventListener("mouseout", function () {
+  document.body.style.backgroundImage =
+    "url('./images/background.skt/bgr.png')";
+});
 tennis9.addEventListener("click", function () {
   tennisBackground.classList.add("show");
   tennisInfo.classList.add("show");
@@ -852,6 +933,15 @@ tennis9.addEventListener("click", function () {
 });
 
 const tennis10 = document.getElementById("tennisButton10");
+tennis10.addEventListener("mouseover", function () {
+  document.body.style.backgroundImage = "url('./images/tennisbgr.png')";
+  document.body.style.backgroundSize = "90% 100%";
+  document.body.style.backgroundPosition = "center";
+});
+tennis10.addEventListener("mouseout", function () {
+  document.body.style.backgroundImage =
+    "url('./images/background.skt/bgr.png')";
+});
 tennis10.addEventListener("click", function () {
   tennisBackground.classList.add("show");
   tennisInfo.classList.add("show");
@@ -866,6 +956,15 @@ tennis10.addEventListener("click", function () {
 });
 
 const tennis11 = document.getElementById("tennisButton11");
+tennis11.addEventListener("mouseover", function () {
+  document.body.style.backgroundImage = "url('./images/tennisbgr.png')";
+  document.body.style.backgroundSize = "90% 100%";
+  document.body.style.backgroundPosition = "center";
+});
+tennis11.addEventListener("mouseout", function () {
+  document.body.style.backgroundImage =
+    "url('./images/background.skt/bgr.png')";
+});
 tennis11.addEventListener("click", function () {
   tennisBackground.classList.add("show");
   tennisInfo.classList.add("show");
