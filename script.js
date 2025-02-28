@@ -956,12 +956,32 @@ const closePhoto = document.getElementById("closePhoto");
 const photoBackground = document.getElementById("photoBackground");
 
 const photo1 = document.getElementById("photoButton1");
+photo1.addEventListener("mouseover", function () {
+  document.body.style.backgroundImage =
+    "url('./images/framebgr.skt/Layer~0.png')";
+  document.body.style.backgroundSize = "90% 100%";
+  document.body.style.backgroundPosition = "center";
+});
+photo1.addEventListener("mouseout", function () {
+  document.body.style.backgroundImage =
+    "url('./images/background.skt/bgr.png')";
+});
 photo1.addEventListener("click", function () {
   photoBackground.classList.add("show");
   photoInfo.classList.add("show");
 });
 
 const photo2 = document.getElementById("photoButton2");
+photo2.addEventListener("mouseover", function () {
+  document.body.style.backgroundImage =
+    "url('./images/framebgr.skt/Layer~0.png')";
+  document.body.style.backgroundSize = "90% 100%";
+  document.body.style.backgroundPosition = "center";
+});
+photo2.addEventListener("mouseout", function () {
+  document.body.style.backgroundImage =
+    "url('./images/background.skt/bgr.png')";
+});
 photo2.addEventListener("click", function () {
   photoBackground.classList.add("show");
   photoInfo.classList.add("show");

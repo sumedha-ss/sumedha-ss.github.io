@@ -1,3 +1,9 @@
+body {
+  background-image: url("./images/background.skt/bgr.png");
+  background-size: 90% 100%;
+  background-position: center;
+}
+
 .Big-Brown {
   color: rgb(205, 176, 162);
   font-size: 100px;
