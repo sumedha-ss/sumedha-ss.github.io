@@ -897,6 +897,16 @@ const closeBook = document.getElementById("closeBook");
 const bookBackground = document.getElementById("bookBackground");
 
 const book1 = document.getElementById("bookButton1");
+book1.addEventListener("mouseover", function () {
+  document.body.style.backgroundImage =
+    "url('./images/booksbgr.skt/Layer~0.png')";
+  document.body.style.backgroundSize = "90% 100%";
+  document.body.style.backgroundPosition = "center";
+});
+book1.addEventListener("mouseout", function () {
+  document.body.style.backgroundImage =
+    "url('./images/background.skt/bgr.png')";
+});
 book1.addEventListener("click", function () {
   bookBackground.classList.add("show");
   bookInfo.classList.add("show");
@@ -905,6 +915,16 @@ book1.addEventListener("click", function () {
 });
 
 const book2 = document.getElementById("bookButton2");
+book2.addEventListener("mouseover", function () {
+  document.body.style.backgroundImage =
+    "url('./images/booksbgr.skt/Layer~0.png')";
+  document.body.style.backgroundSize = "90% 100%";
+  document.body.style.backgroundPosition = "center";
+});
+book2.addEventListener("mouseout", function () {
+  document.body.style.backgroundImage =
+    "url('./images/background.skt/bgr.png')";
+});
 book2.addEventListener("click", function () {
   bookBackground.classList.add("show");
   bookInfo.classList.add("show");
@@ -913,6 +933,16 @@ book2.addEventListener("click", function () {
 });
 
 const book3 = document.getElementById("bookButton3");
+book3.addEventListener("mouseover", function () {
+  document.body.style.backgroundImage =
+    "url('./images/booksbgr.skt/Layer~0.png')";
+  document.body.style.backgroundSize = "90% 100%";
+  document.body.style.backgroundPosition = "center";
+});
+book3.addEventListener("mouseout", function () {
+  document.body.style.backgroundImage =
+    "url('./images/background.skt/bgr.png')";
+});
 book3.addEventListener("click", function () {
   bookBackground.classList.add("show");
   bookInfo.classList.add("show");
@@ -921,6 +951,16 @@ book3.addEventListener("click", function () {
 });
 
 const book4 = document.getElementById("bookButton4");
+book4.addEventListener("mouseover", function () {
+  document.body.style.backgroundImage =
+    "url('./images/booksbgr.skt/Layer~0.png')";
+  document.body.style.backgroundSize = "90% 100%";
+  document.body.style.backgroundPosition = "center";
+});
+book4.addEventListener("mouseout", function () {
+  document.body.style.backgroundImage =
+    "url('./images/background.skt/bgr.png')";
+});
 book4.addEventListener("click", function () {
   bookBackground.classList.add("show");
   bookInfo.classList.add("show");
@@ -929,6 +969,16 @@ book4.addEventListener("click", function () {
 });
 
 const book5 = document.getElementById("bookButton5");
+book5.addEventListener("mouseover", function () {
+  document.body.style.backgroundImage =
+    "url('./images/booksbgr.skt/Layer~0.png')";
+  document.body.style.backgroundSize = "90% 100%";
+  document.body.style.backgroundPosition = "center";
+});
+book5.addEventListener("mouseout", function () {
+  document.body.style.backgroundImage =
+    "url('./images/background.skt/bgr.png')";
+});
 book5.addEventListener("click", function () {
   bookBackground.classList.add("show");
   bookInfo.classList.add("show");
@@ -937,6 +987,16 @@ book5.addEventListener("click", function () {
 });
 
 const book6 = document.getElementById("bookButton6");
+book6.addEventListener("mouseover", function () {
+  document.body.style.backgroundImage =
+    "url('./images/booksbgr.skt/Layer~0.png')";
+  document.body.style.backgroundSize = "90% 100%";
+  document.body.style.backgroundPosition = "center";
+});
+book6.addEventListener("mouseout", function () {
+  document.body.style.backgroundImage =
+    "url('./images/background.skt/bgr.png')";
+});
 book6.addEventListener("click", function () {
   bookBackground.classList.add("show");
   bookInfo.classList.add("show");
