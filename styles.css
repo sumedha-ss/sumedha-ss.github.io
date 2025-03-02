@@ -1058,12 +1058,12 @@ body {
 .photoInfo.show {
   display: block;
   position: absolute;
-  top: 390px;
+  top: 400px;
   left: 755px;
   transform: translate(-50%, -50%);
   background-color: rgba(255, 245, 250, 0.8);
-  width: 830px;
-  height: 400px;
+  width: 787px;
+  height: 405px;
   border-radius: 20px;
 }
 
@@ -1077,8 +1077,8 @@ body {
   font-size: 32px;
   height: 60px;
   width: 120px;
-  top: 420px;
-  left: 712px;
+  top: 425px;
+  left: 668px;
   cursor: pointer;
 }
 
@@ -1253,14 +1253,14 @@ body {
   top: -20px;
   left: 975px;
   rotate: 10deg;
-  animation-name: decor;
+  animation-name: hearts;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-delay: 0.5s;
 }
 
-@keyframes decor {
+@keyframes hearts {
   0% {
     transform: scale(100%);
   }
@@ -1269,5 +1269,79 @@ body {
   }
   100% {
     transform: scale(100%);
+  }
+}
+
+.paintbrush {
+  position: absolute;
+  height: 450px;
+  width: 315px;
+  top: 120px;
+  left: -320px;
+  rotate: 10deg;
+}
+
+.paintPallette {
+  position: absolute;
+  height: 220px;
+  width: 270px;
+  top: -100px;
+  left: 820px;
+  rotate: 10deg;
+}
+
+.photoDecor1 {
+  position: absolute;
+  height: 170px;
+  width: 170px;
+  rotate: 20deg;
+  animation-name: decor1;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.photoDecor2 {
+  position: absolute;
+  height: 170px;
+  width: 170px;
+  rotate: 220deg;
+  animation-name: decor2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes decor1 {
+  0% {
+    top: -165px;
+    left: 965px;
+    transform: scale(80%);
+  }
+  50% {
+    top: -190px;
+    left: 980px;
+    transform: scale(100%);
+  }
+  100% {
+    top: -165px;
+    left: 965px;
+    transform: scale(80%);
+  }
+}
+
+@keyframes decor2 {
+  0% {
+    top: 325px;
+    left: -300px;
+    transform: scale(80%);
+  }
+  50% {
+    top: 340px;
+    left: -325px;
+    transform: scale(100%);
+  }
+  100% {
+    top: 325px;
+    left: -300px;
+    transform: scale(80%);
   }
 }
