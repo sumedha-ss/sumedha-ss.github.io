@@ -1219,3 +1219,55 @@ body {
   height: 370px;
   border-radius: 20px;
 }
+
+.catDecor1 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 110px;
+  left: -495px;
+  rotate: -10deg;
+  animation-name: decor;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.catDecor2 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 220px;
+  left: -370px;
+  rotate: 5deg;
+  animation-name: decor;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 1.2s;
+}
+.catDecor3 {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  top: -20px;
+  left: 975px;
+  rotate: 10deg;
+  animation-name: decor;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-delay: 0.5s;
+}
+
+@keyframes decor {
+  0% {
+    transform: scale(100%);
+  }
+  50% {
+    transform: scale(110%);
+  }
+  100% {
+    transform: scale(100%);
+  }
+}
