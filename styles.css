@@ -795,6 +795,7 @@ body {
   padding-left: 40px;
   padding-right: 40px;
   padding-bottom: 40px;
+  letter-spacing: 0.2px;
 }
 
 .catPic1 {
@@ -1013,7 +1014,7 @@ body {
   transform: translate(-50%, -50%);
   background-color: rgba(255, 245, 250, 0.8);
   width: 700px;
-  height: 340px;
+  height: 370px;
   border-radius: 20px;
 }
 
@@ -1027,7 +1028,7 @@ body {
   font-size: 32px;
   height: 60px;
   width: 120px;
-  top: 360px;
+  top: 390px;
   left: 0px;
   cursor: pointer;
 }
@@ -1057,12 +1058,12 @@ body {
 .photoInfo.show {
   display: block;
   position: absolute;
-  top: 370px;
-  left: 760px;
+  top: 390px;
+  left: 755px;
   transform: translate(-50%, -50%);
   background-color: rgba(255, 245, 250, 0.8);
-  width: 700px;
-  height: 340px;
+  width: 830px;
+  height: 400px;
   border-radius: 20px;
 }
 
@@ -1076,8 +1077,8 @@ body {
   font-size: 32px;
   height: 60px;
   width: 120px;
-  top: 360px;
-  left: 582px;
+  top: 420px;
+  left: 712px;
   cursor: pointer;
 }
 
@@ -1202,7 +1203,7 @@ body {
   font-size: 32px;
   height: 60px;
   width: 120px;
-  top: 360px;
+  top: 390px;
   left: 0px;
   cursor: pointer;
 }
@@ -1215,6 +1216,6 @@ body {
   transform: translate(-50%, -50%);
   background-color: rgba(255, 245, 250, 0.8);
   width: 700px;
-  height: 340px;
+  height: 370px;
   border-radius: 20px;
 }
