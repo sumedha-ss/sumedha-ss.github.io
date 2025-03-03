@@ -486,10 +486,10 @@ body {
 .snow6 {
   position: absolute;
   color: rgb(255, 255, 255);
-  height: 4.5px;
-  width: 4.5px;
+  height: 3.5px;
+  width: 3.5px;
   animation-name: snowfall;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
