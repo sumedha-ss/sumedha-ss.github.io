@@ -486,7 +486,8 @@ body {
 .snow6 {
   position: absolute;
   color: rgb(255, 255, 255);
-  scale: 45%;
+  height: 4.5px;
+  width: 4.5px;
   animation-name: snowfall;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -495,37 +496,37 @@ body {
 
 .snow1 {
   left: 710px;
-  top: 404px;
+  top: 422px;
   animation-delay: 1s;
 }
 .snow2 {
   left: 719px;
-  top: 401px;
+  top: 419px;
   animation-delay: 4s;
 }
 
 .snow3 {
   left: 728px;
-  top: 399px;
+  top: 420px;
   animation-delay: 2s;
 }
 
 .snow4 {
   left: 737px;
-  top: 402px;
+  top: 420px;
   animation-delay: 5s;
 }
 
 .snow5 {
   left: 746px;
-  top: 409px;
+  top: 427px;
   animation-delay: 3s;
 }
 
 .snow6 {
   left: 703px;
-  top: 412px;
-  animation-delay: 2s;
+  top: 433px;
+  animation-delay: 2.4s;
 }
 
 @keyframes snowfall {
@@ -534,11 +535,11 @@ body {
     opacity: 0;
   }
   20% {
-    transform: translateY(12px);
+    transform: translateY(6px);
     opacity: 1;
   }
   100% {
-    transform: translateY(60px);
+    transform: translateY(30px);
     opacity: 0;
   }
 }
