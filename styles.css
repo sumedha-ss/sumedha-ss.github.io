@@ -1212,7 +1212,7 @@ body {
   display: block;
   position: absolute;
   top: 430px;
-  left: 500px;
+  left: 640px;
   transform: translate(-50%, -50%);
   background-color: rgba(255, 245, 250, 0.8);
   width: 700px;
@@ -1343,5 +1343,156 @@ body {
     top: 325px;
     left: -300px;
     transform: scale(80%);
+  }
+}
+
+.tennisball {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  animation-name: tennisball;
+  animation-duration: 5.75s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes tennisball {
+  0% {
+    top: -500px;
+    left: 700px;
+    transform: rotate(0);
+  }
+  5.5% {
+    top: 155px;
+    left: 700px;
+    transform: rotate(0);
+  }
+  10.5% {
+    top: -35px;
+    left: 700px;
+    transform: rotate(0);
+  }
+  14.5% {
+    top: 155px;
+    left: 700px;
+    transform: rotate(0);
+  }
+  18% {
+    top: 25px;
+    left: 700px;
+    transform: rotate(0);
+  }
+  20.5% {
+    top: 155px;
+    left: 700px;
+    transform: rotate(0);
+  }
+  23% {
+    top: 95px;
+    left: 700px;
+    transform: rotate(0);
+  }
+  24.5% {
+    top: 155px;
+    left: 700px;
+    transform: rotate(0);
+  }
+  26% {
+    top: 115px;
+    left: 700px;
+    transform: rotate(0);
+  }
+  26.5% {
+    top: 155px;
+    left: 700px;
+    transform: rotate(0);
+  }
+  27% {
+    top: 135px;
+    left: 700px;
+    transform: rotate(0);
+  }
+  27.25% {
+    top: 155px;
+    left: 700px;
+    transform: rotate(0);
+  }
+  28.5% {
+    top: 155px;
+    left: 700px;
+  }
+  100% {
+    top: 155px;
+    left: 1300px;
+    transform: rotate(0.9turn);
+  }
+}
+
+.shadow {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  top: 165px;
+  left: 800px;
+  animation-name: shadow;
+  animation-duration: 5.75s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shadow {
+  0% {
+    opacity: 0%;
+    left: 700px;
+  }
+  5.5% {
+    opacity: 100%;
+    left: 700px;
+  }
+  10.5% {
+    opacity: 0%;
+    left: 700px;
+  }
+  14.5% {
+    opacity: 100%;
+    left: 700px;
+  }
+  18% {
+    opacity: 0%;
+    left: 700px;
+  }
+  20.5% {
+    opacity: 100%;
+    left: 700px;
+  }
+  23% {
+    opacity: 30%;
+    left: 700px;
+  }
+  24.5% {
+    opacity: 100%;
+    left: 700px;
+  }
+  26% {
+    opacity: 40%;
+    left: 700px;
+  }
+  26.5% {
+    opacity: 100%;
+    left: 700px;
+  }
+  27% {
+    opacity: 50%;
+    left: 700px;
+  }
+  27.25% {
+    opacity: 100%;
+    left: 700px;
+  }
+  28.5% {
+    opacity: 100%;
+    left: 700px;
+  }
+  100% {
+    opacity: 100%;
+    left: 1300px;
   }
 }
