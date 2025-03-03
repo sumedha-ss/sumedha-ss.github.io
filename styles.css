@@ -1227,7 +1227,7 @@ body {
   top: 110px;
   left: -495px;
   rotate: -10deg;
-  animation-name: decor;
+  animation-name: hearts;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
@@ -1240,7 +1240,7 @@ body {
   top: 220px;
   left: -370px;
   rotate: 5deg;
-  animation-name: decor;
+  animation-name: hearts;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
@@ -1276,9 +1276,13 @@ body {
   position: absolute;
   height: 450px;
   width: 315px;
-  top: 120px;
-  left: -320px;
+  top: 140px;
+  left: -285px;
   rotate: 10deg;
+  animation-name: rotation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-delay: -2.1s;
 }
 
 .paintPallette {
@@ -1288,6 +1292,10 @@ body {
   top: -100px;
   left: 820px;
   rotate: 10deg;
+  animation-name: rotation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-delay: 0.3s;
 }
 
 .photoDecor1 {
@@ -1296,7 +1304,7 @@ body {
   width: 170px;
   rotate: 20deg;
   animation-name: decor1;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
 }
 
@@ -1306,23 +1314,23 @@ body {
   width: 170px;
   rotate: 220deg;
   animation-name: decor2;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
 }
 
 @keyframes decor1 {
   0% {
-    top: -165px;
+    top: -175px;
     left: 965px;
     transform: scale(80%);
   }
   50% {
-    top: -190px;
+    top: -200px;
     left: 980px;
     transform: scale(100%);
   }
   100% {
-    top: -165px;
+    top: -175px;
     left: 965px;
     transform: scale(80%);
   }
@@ -1343,6 +1351,18 @@ body {
     top: 325px;
     left: -300px;
     transform: scale(80%);
+  }
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }
 
