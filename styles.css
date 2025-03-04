@@ -1637,10 +1637,6 @@ body {
 
 .bookHover3.show {
   width: 220;
-  height: 325px;
-  top: -265px;
-  left: 740px;
-  width: 220;
   height: 345px;
   top: -90px;
   left: 1045px;
@@ -1658,4 +1654,57 @@ body {
   height: 315px;
   top: 110px;
   left: 775px;
+}
+
+.bookHighlight1,
+.bookHighlight2,
+.bookHighlight3,
+.bookHighlight4,
+.bookHighlight5 {
+  display: none;
+}
+
+.bookHighlight1.show,
+.bookHighlight2.show,
+.bookHighlight3.show,
+.bookHighlight4.show,
+.bookHighlight5.show {
+  display: block;
+  position: absolute;
+  opacity: 80%;
+}
+
+.bookHighlight1.show {
+  width: 330;
+  height: 465px;
+  top: -420px;
+  left: 110px;
+}
+
+.bookHighlight2.show {
+  width: 320;
+  height: 470px;
+  top: -435px;
+  left: 402px;
+}
+
+.bookHighlight3.show {
+  width: 335;
+  height: 500px;
+  top: -165px;
+  left: 990px;
+}
+
+.bookHighlight4.show {
+  width: 325;
+  height: 480px;
+  top: -343px;
+  left: 686px;
+}
+
+.bookHighlight5.show {
+  width: 330;
+  height: 465px;
+  top: 35px;
+  left: 720px;
 }

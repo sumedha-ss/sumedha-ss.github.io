@@ -1353,37 +1353,53 @@ const bookHover3 = document.getElementById("bookHover3");
 const bookHover4 = document.getElementById("bookHover4");
 const bookHover5 = document.getElementById("bookHover5");
 
+const bookHighlight1 = document.getElementById("bookHighlight1");
+const bookHighlight2 = document.getElementById("bookHighlight2");
+const bookHighlight3 = document.getElementById("bookHighlight3");
+const bookHighlight4 = document.getElementById("bookHighlight4");
+const bookHighlight5 = document.getElementById("bookHighlight5");
+
 bookButton1.addEventListener("mouseover", function () {
   bookHover1.classList.add("show");
+  bookHighlight1.classList.add("show");
 });
 bookButton1.addEventListener("mouseout", function () {
   bookHover1.classList.remove("show");
+  bookHighlight1.classList.remove("show");
 });
 
 bookButton2.addEventListener("mouseover", function () {
   bookHover2.classList.add("show");
+  bookHighlight2.classList.add("show");
 });
 bookButton2.addEventListener("mouseout", function () {
   bookHover2.classList.remove("show");
+  bookHighlight2.classList.remove("show");
 });
 
 bookButton3.addEventListener("mouseover", function () {
   bookHover3.classList.add("show");
+  bookHighlight3.classList.add("show");
 });
 bookButton3.addEventListener("mouseout", function () {
   bookHover3.classList.remove("show");
+  bookHighlight3.classList.remove("show");
 });
 
 bookButton4.addEventListener("mouseover", function () {
   bookHover4.classList.add("show");
+  bookHighlight4.classList.add("show");
 });
 bookButton4.addEventListener("mouseout", function () {
   bookHover4.classList.remove("show");
+  bookHighlight4.classList.remove("show");
 });
 
 bookButton5.addEventListener("mouseover", function () {
   bookHover5.classList.add("show");
+  bookHighlight5.classList.add("show");
 });
 bookButton5.addEventListener("mouseout", function () {
   bookHover5.classList.remove("show");
+  bookHighlight5.classList.remove("show");
 });
