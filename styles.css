@@ -1010,8 +1010,8 @@ body {
 .bookInfo.show {
   display: block;
   position: absolute;
-  top: 400px;
-  left: 650px;
+  top: 570px;
+  left: 515px;
   transform: translate(-50%, -50%);
   background-color: rgba(255, 245, 250, 0.8);
   width: 700px;
@@ -1029,7 +1029,7 @@ body {
   font-size: 32px;
   height: 60px;
   width: 120px;
-  top: 390px;
+  top: 385px;
   left: 0px;
   cursor: pointer;
 }
@@ -1516,4 +1516,44 @@ body {
     opacity: 100%;
     left: 1300px;
   }
+}
+
+.bookPic1 {
+  position: absolute;
+  width: 220;
+  height: 315px;
+  top: -345px;
+  left: 165px;
+}
+
+.bookPic2 {
+  position: absolute;
+  width: 210;
+  height: 320px;
+  top: -360px;
+  left: 457px;
+}
+
+.bookPic3 {
+  position: absolute;
+  width: 220;
+  height: 345px;
+  top: -80px;
+  left: 1045px;
+}
+
+.bookPic4 {
+  position: absolute;
+  width: 220;
+  height: 325px;
+  top: -265px;
+  left: 740px;
+}
+
+.bookPic5 {
+  position: absolute;
+  width: 220;
+  height: 315px;
+  top: 110px;
+  left: 775px;
 }
