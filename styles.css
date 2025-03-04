@@ -1538,7 +1538,7 @@ body {
   position: absolute;
   width: 220;
   height: 345px;
-  top: -80px;
+  top: -90px;
   left: 1045px;
 }
 
@@ -1552,6 +1552,108 @@ body {
 
 .bookPic5 {
   position: absolute;
+  width: 220;
+  height: 315px;
+  top: 110px;
+  left: 775px;
+}
+
+.bookPicButton1,
+.bookPicButton2,
+.bookPicButton3,
+.bookPicButton4,
+.bookPicButton5 {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0);
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.bookPicButton1 {
+  width: 220;
+  height: 315px;
+  top: -345px;
+  left: 165px;
+}
+
+.bookPicButton2 {
+  width: 210;
+  height: 320px;
+  top: -360px;
+  left: 457px;
+}
+
+.bookPicButton3 {
+  width: 220;
+  height: 345px;
+  top: -90px;
+  left: 1045px;
+}
+
+.bookPicButton4 {
+  width: 220;
+  height: 325px;
+  top: -265px;
+  left: 740px;
+}
+
+.bookPicButton5 {
+  width: 220;
+  height: 315px;
+  top: 110px;
+  left: 775px;
+}
+
+.bookHover1,
+.bookHover2,
+.bookHover3,
+.bookHover4,
+.bookHover5 {
+  display: none;
+}
+
+.bookHover1.show,
+.bookHover2.show,
+.bookHover3.show,
+.bookHover4.show,
+.bookHover5.show {
+  display: block;
+  position: absolute;
+}
+
+.bookHover1.show {
+  width: 220;
+  height: 315px;
+  top: -345px;
+  left: 165px;
+}
+
+.bookHover2.show {
+  width: 210;
+  height: 320px;
+  top: -360px;
+  left: 457px;
+}
+
+.bookHover3.show {
+  width: 220;
+  height: 325px;
+  top: -265px;
+  left: 740px;
+  width: 220;
+  height: 345px;
+  top: -90px;
+  left: 1045px;
+}
+
+.bookHover4.show {
+  width: 220;
+  height: 325px;
+  top: -265px;
+  left: 740px;
+}
+
+.bookHover5.show {
   width: 220;
   height: 315px;
   top: 110px;

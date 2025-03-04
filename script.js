@@ -1340,3 +1340,50 @@ closePhoto.addEventListener("click", function () {
   photoBackground.classList.remove("show");
   photoInfo.classList.remove("show");
 });
+
+const bookButton1 = document.getElementById("bookPicButton1");
+const bookButton2 = document.getElementById("bookPicButton2");
+const bookButton3 = document.getElementById("bookPicButton3");
+const bookButton4 = document.getElementById("bookPicButton4");
+const bookButton5 = document.getElementById("bookPicButton5");
+
+const bookHover1 = document.getElementById("bookHover1");
+const bookHover2 = document.getElementById("bookHover2");
+const bookHover3 = document.getElementById("bookHover3");
+const bookHover4 = document.getElementById("bookHover4");
+const bookHover5 = document.getElementById("bookHover5");
+
+bookButton1.addEventListener("mouseover", function () {
+  bookHover1.classList.add("show");
+});
+bookButton1.addEventListener("mouseout", function () {
+  bookHover1.classList.remove("show");
+});
+
+bookButton2.addEventListener("mouseover", function () {
+  bookHover2.classList.add("show");
+});
+bookButton2.addEventListener("mouseout", function () {
+  bookHover2.classList.remove("show");
+});
+
+bookButton3.addEventListener("mouseover", function () {
+  bookHover3.classList.add("show");
+});
+bookButton3.addEventListener("mouseout", function () {
+  bookHover3.classList.remove("show");
+});
+
+bookButton4.addEventListener("mouseover", function () {
+  bookHover4.classList.add("show");
+});
+bookButton4.addEventListener("mouseout", function () {
+  bookHover4.classList.remove("show");
+});
+
+bookButton5.addEventListener("mouseover", function () {
+  bookHover5.classList.add("show");
+});
+bookButton5.addEventListener("mouseout", function () {
+  bookHover5.classList.remove("show");
+});
