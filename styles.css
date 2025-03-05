@@ -1671,40 +1671,39 @@ body {
 .bookHighlight5.show {
   display: block;
   position: absolute;
-  opacity: 80%;
 }
 
 .bookHighlight1.show {
-  width: 330;
-  height: 465px;
-  top: -420px;
-  left: 110px;
+  width: 310;
+  height: 445px;
+  top: -410px;
+  left: 120px;
 }
 
 .bookHighlight2.show {
-  width: 320;
-  height: 470px;
-  top: -435px;
-  left: 402px;
+  width: 300;
+  height: 445px;
+  top: -422px;
+  left: 412px;
 }
 
 .bookHighlight3.show {
-  width: 335;
-  height: 500px;
-  top: -195px;
-  left: 990px;
+  width: 310;
+  height: 470px;
+  top: -182px;
+  left: 998px;
 }
 
 .bookHighlight4.show {
-  width: 325;
-  height: 480px;
-  top: -363px;
-  left: 686px;
+  width: 311;
+  height: 450px;
+  top: -355px;
+  left: 696px;
 }
 
 .bookHighlight5.show {
-  width: 330;
-  height: 465px;
-  top: 5px;
-  left: 720px;
+  width: 310;
+  height: 435px;
+  top: 20px;
+  left: 730px;
 }
