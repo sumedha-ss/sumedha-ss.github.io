@@ -1626,6 +1626,7 @@ body {
   height: 315px;
   top: -345px;
   left: 165px;
+  background-color: rgb(59, 88, 119);
 }
 
 .bookHover2.show {
@@ -1633,6 +1634,7 @@ body {
   height: 320px;
   top: -360px;
   left: 457px;
+  background-color: rgb(255, 221, 136);
 }
 
 .bookHover3.show {
@@ -1640,6 +1642,7 @@ body {
   height: 345px;
   top: -120px;
   left: 1045px;
+  background-color: rgb(225, 243, 193);
 }
 
 .bookHover4.show {
@@ -1647,6 +1650,7 @@ body {
   height: 325px;
   top: -295px;
   left: 740px;
+  background-color: rgb(211, 108, 165);
 }
 
 .bookHover5.show {
@@ -1654,6 +1658,7 @@ body {
   height: 315px;
   top: 80px;
   left: 775px;
+  background-color: rgb(243, 121, 171);
 }
 
 .bookHighlight1,
