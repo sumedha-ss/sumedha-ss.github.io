@@ -20,17 +20,14 @@ const catFrame2 = document.getElementById("catFrame2");
 const catFrame3 = document.getElementById("catFrame3");
 const catFrame4 = document.getElementById("catFrame4");
 const catFrame5 = document.getElementById("catFrame5");
+const catGlow = document.getElementById("catGlow");
 
 const cat1 = document.getElementById("catButton1");
 cat1.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage =
-    "url('./images/catbgr.skt/Layer~0.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  catGlow.classList.add("show");
 });
 cat1.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  catGlow.classList.remove("show");
 });
 cat1.addEventListener("click", function () {
   catBackground.classList.add("show");
@@ -68,14 +65,10 @@ cat1.addEventListener("click", function () {
 
 const cat2 = document.getElementById("catButton2");
 cat2.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage =
-    "url('./images/catbgr.skt/Layer~0.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  catGlow.classList.add("show");
 });
 cat2.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  catGlow.classList.remove("show");
 });
 cat2.addEventListener("click", function () {
   catBackground.classList.add("show");
@@ -113,14 +106,10 @@ cat2.addEventListener("click", function () {
 
 const cat3 = document.getElementById("catButton3");
 cat3.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage =
-    "url('./images/catbgr.skt/Layer~0.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  catGlow.classList.add("show");
 });
 cat3.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  catGlow.classList.remove("show");
 });
 cat3.addEventListener("click", function () {
   catBackground.classList.add("show");
@@ -158,14 +147,10 @@ cat3.addEventListener("click", function () {
 
 const cat4 = document.getElementById("catButton4");
 cat4.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage =
-    "url('./images/catbgr.skt/Layer~0.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  catGlow.classList.add("show");
 });
 cat4.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  catGlow.classList.remove("show");
 });
 cat4.addEventListener("click", function () {
   catBackground.classList.add("show");
@@ -203,14 +188,10 @@ cat4.addEventListener("click", function () {
 
 const cat5 = document.getElementById("catButton5");
 cat5.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage =
-    "url('./images/catbgr.skt/Layer~0.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  catGlow.classList.add("show");
 });
 cat5.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  catGlow.classList.remove("show");
 });
 cat5.addEventListener("click", function () {
   catBackground.classList.add("show");
@@ -248,14 +229,10 @@ cat5.addEventListener("click", function () {
 
 const cat6 = document.getElementById("catButton6");
 cat6.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage =
-    "url('./images/catbgr.skt/Layer~0.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  catGlow.classList.add("show");
 });
 cat6.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  catGlow.classList.remove("show");
 });
 cat6.addEventListener("click", function () {
   catBackground.classList.add("show");
@@ -293,14 +270,10 @@ cat6.addEventListener("click", function () {
 
 const cat7 = document.getElementById("catButton7");
 cat7.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage =
-    "url('./images/catbgr.skt/Layer~0.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  catGlow.classList.add("show");
 });
 cat7.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  catGlow.classList.remove("show");
 });
 cat7.addEventListener("click", function () {
   catBackground.classList.add("show");
@@ -338,14 +311,10 @@ cat7.addEventListener("click", function () {
 
 const cat8 = document.getElementById("catButton8");
 cat8.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage =
-    "url('./images/catbgr.skt/Layer~0.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  catGlow.classList.add("show");
 });
 cat8.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  catGlow.classList.remove("show");
 });
 cat8.addEventListener("click", function () {
   catBackground.classList.add("show");
@@ -383,14 +352,10 @@ cat8.addEventListener("click", function () {
 
 const cat9 = document.getElementById("catButton9");
 cat9.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage =
-    "url('./images/catbgr.skt/Layer~0.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  catGlow.classList.add("show");
 });
 cat9.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  catGlow.classList.remove("show");
 });
 cat9.addEventListener("click", function () {
   catBackground.classList.add("show");
@@ -428,14 +393,10 @@ cat9.addEventListener("click", function () {
 
 const cat10 = document.getElementById("catButton10");
 cat10.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage =
-    "url('./images/catbgr.skt/Layer~0.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  catGlow.classList.add("show");
 });
 cat10.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  catGlow.classList.remove("show");
 });
 cat10.addEventListener("click", function () {
   catBackground.classList.add("show");
@@ -473,14 +434,10 @@ cat10.addEventListener("click", function () {
 
 const cat11 = document.getElementById("catButton11");
 cat11.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage =
-    "url('./images/catbgr.skt/Layer~0.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  catGlow.classList.add("show");
 });
 cat11.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  catGlow.classList.remove("show");
 });
 cat11.addEventListener("click", function () {
   catBackground.classList.add("show");
@@ -518,14 +475,10 @@ cat11.addEventListener("click", function () {
 
 const cat12 = document.getElementById("catButton12");
 cat12.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage =
-    "url('./images/catbgr.skt/Layer~0.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  catGlow.classList.add("show");
 });
 cat12.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  catGlow.classList.remove("show");
 });
 cat12.addEventListener("click", function () {
   catBackground.classList.add("show");
@@ -563,14 +516,10 @@ cat12.addEventListener("click", function () {
 
 const cat13 = document.getElementById("catButton13");
 cat13.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage =
-    "url('./images/catbgr.skt/Layer~0.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  catGlow.classList.add("show");
 });
 cat13.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  catGlow.classList.remove("show");
 });
 cat13.addEventListener("click", function () {
   catBackground.classList.add("show");
@@ -608,14 +557,10 @@ cat13.addEventListener("click", function () {
 
 const cat14 = document.getElementById("catButton14");
 cat14.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage =
-    "url('./images/catbgr.skt/Layer~0.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  catGlow.classList.add("show");
 });
 cat14.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  catGlow.classList.remove("show");
 });
 cat14.addEventListener("click", function () {
   catBackground.classList.add("show");
@@ -653,14 +598,10 @@ cat14.addEventListener("click", function () {
 
 const cat15 = document.getElementById("catButton15");
 cat15.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage =
-    "url('./images/catbgr.skt/Layer~0.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  catGlow.classList.add("show");
 });
 cat15.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  catGlow.classList.remove("show");
 });
 cat15.addEventListener("click", function () {
   catBackground.classList.add("show");
@@ -698,14 +639,10 @@ cat15.addEventListener("click", function () {
 
 const cat16 = document.getElementById("catButton16");
 cat16.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage =
-    "url('./images/catbgr.skt/Layer~0.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  catGlow.classList.add("show");
 });
 cat16.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  catGlow.classList.remove("show");
 });
 cat16.addEventListener("click", function () {
   catBackground.classList.add("show");
@@ -743,14 +680,10 @@ cat16.addEventListener("click", function () {
 
 const cat17 = document.getElementById("catButton17");
 cat17.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage =
-    "url('./images/catbgr.skt/Layer~0.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  catGlow.classList.add("show");
 });
 cat17.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  catGlow.classList.remove("show");
 });
 cat17.addEventListener("click", function () {
   catBackground.classList.add("show");
@@ -788,14 +721,10 @@ cat17.addEventListener("click", function () {
 
 const cat18 = document.getElementById("catButton18");
 cat18.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage =
-    "url('./images/catbgr.skt/Layer~0.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  catGlow.classList.add("show");
 });
 cat18.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  catGlow.classList.remove("show");
 });
 cat18.addEventListener("click", function () {
   catBackground.classList.add("show");
@@ -833,14 +762,10 @@ cat18.addEventListener("click", function () {
 
 const cat19 = document.getElementById("catButton19");
 cat19.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage =
-    "url('./images/catbgr.skt/Layer~0.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  catGlow.classList.add("show");
 });
 cat19.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  catGlow.classList.remove("show");
 });
 cat19.addEventListener("click", function () {
   catBackground.classList.add("show");
@@ -914,16 +839,14 @@ closeCat.addEventListener("click", function () {
 const tennisInfo = document.getElementById("tennisInfo");
 const closeTennis = document.getElementById("closeTennis");
 const tennisBackground = document.getElementById("tennisBackground");
+const tennisGlow = document.getElementById("tennisGlow");
 
 const tennis1 = document.getElementById("tennisButton1");
 tennis1.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage = "url('./images/tennisbgr.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  tennisGlow.classList.add("show");
 });
 tennis1.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  tennisGlow.classList.remove("show");
 });
 tennis1.addEventListener("click", function () {
   tennisBackground.classList.add("show");
@@ -940,13 +863,10 @@ tennis1.addEventListener("click", function () {
 
 const tennis2 = document.getElementById("tennisButton2");
 tennis2.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage = "url('./images/tennisbgr.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  tennisGlow.classList.add("show");
 });
 tennis2.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  tennisGlow.classList.remove("show");
 });
 tennis2.addEventListener("click", function () {
   tennisBackground.classList.add("show");
@@ -963,13 +883,10 @@ tennis2.addEventListener("click", function () {
 
 const tennis3 = document.getElementById("tennisButton3");
 tennis3.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage = "url('./images/tennisbgr.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  tennisGlow.classList.add("show");
 });
 tennis3.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  tennisGlow.classList.remove("show");
 });
 tennis3.addEventListener("click", function () {
   tennisBackground.classList.add("show");
@@ -986,13 +903,10 @@ tennis3.addEventListener("click", function () {
 
 const tennis4 = document.getElementById("tennisButton4");
 tennis4.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage = "url('./images/tennisbgr.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  tennisGlow.classList.add("show");
 });
 tennis4.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  tennisGlow.classList.remove("show");
 });
 tennis4.addEventListener("click", function () {
   tennisBackground.classList.add("show");
@@ -1009,13 +923,10 @@ tennis4.addEventListener("click", function () {
 
 const tennis5 = document.getElementById("tennisButton5");
 tennis5.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage = "url('./images/tennisbgr.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  tennisGlow.classList.add("show");
 });
 tennis5.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  tennisGlow.classList.remove("show");
 });
 tennis5.addEventListener("click", function () {
   tennisBackground.classList.add("show");
@@ -1032,13 +943,10 @@ tennis5.addEventListener("click", function () {
 
 const tennis6 = document.getElementById("tennisButton6");
 tennis6.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage = "url('./images/tennisbgr.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  tennisGlow.classList.add("show");
 });
 tennis6.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  tennisGlow.classList.remove("show");
 });
 tennis6.addEventListener("click", function () {
   tennisBackground.classList.add("show");
@@ -1055,13 +963,10 @@ tennis6.addEventListener("click", function () {
 
 const tennis7 = document.getElementById("tennisButton7");
 tennis7.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage = "url('./images/tennisbgr.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  tennisGlow.classList.add("show");
 });
 tennis7.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  tennisGlow.classList.remove("show");
 });
 tennis7.addEventListener("click", function () {
   tennisBackground.classList.add("show");
@@ -1078,13 +983,10 @@ tennis7.addEventListener("click", function () {
 
 const tennis8 = document.getElementById("tennisButton8");
 tennis8.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage = "url('./images/tennisbgr.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  tennisGlow.classList.add("show");
 });
 tennis8.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  tennisGlow.classList.remove("show");
 });
 tennis8.addEventListener("click", function () {
   tennisBackground.classList.add("show");
@@ -1101,13 +1003,10 @@ tennis8.addEventListener("click", function () {
 
 const tennis9 = document.getElementById("tennisButton9");
 tennis9.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage = "url('./images/tennisbgr.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  tennisGlow.classList.add("show");
 });
 tennis9.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  tennisGlow.classList.remove("show");
 });
 tennis9.addEventListener("click", function () {
   tennisBackground.classList.add("show");
@@ -1124,13 +1023,10 @@ tennis9.addEventListener("click", function () {
 
 const tennis10 = document.getElementById("tennisButton10");
 tennis10.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage = "url('./images/tennisbgr.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  tennisGlow.classList.add("show");
 });
 tennis10.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  tennisGlow.classList.remove("show");
 });
 tennis10.addEventListener("click", function () {
   tennisBackground.classList.add("show");
@@ -1147,13 +1043,10 @@ tennis10.addEventListener("click", function () {
 
 const tennis11 = document.getElementById("tennisButton11");
 tennis11.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage = "url('./images/tennisbgr.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  tennisGlow.classList.add("show");
 });
 tennis11.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  tennisGlow.classList.remove("show");
 });
 tennis11.addEventListener("click", function () {
   tennisBackground.classList.add("show");
@@ -1184,17 +1077,14 @@ closeTennis.addEventListener("click", function () {
 const bookInfo = document.getElementById("bookInfo");
 const closeBook = document.getElementById("closeBook");
 const bookBackground = document.getElementById("bookBackground");
+const bookGlow = document.getElementById("bookGlow");
 
 const book1 = document.getElementById("bookButton1");
 book1.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage =
-    "url('./images/booksbgr.skt/Layer~0.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  bookGlow.classList.add("show");
 });
 book1.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  bookGlow.classList.remove("show");
 });
 book1.addEventListener("click", function () {
   bookBackground.classList.add("show");
@@ -1205,14 +1095,10 @@ book1.addEventListener("click", function () {
 
 const book2 = document.getElementById("bookButton2");
 book2.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage =
-    "url('./images/booksbgr.skt/Layer~0.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  bookGlow.classList.add("show");
 });
 book2.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  bookGlow.classList.remove("show");
 });
 book2.addEventListener("click", function () {
   bookBackground.classList.add("show");
@@ -1223,14 +1109,10 @@ book2.addEventListener("click", function () {
 
 const book3 = document.getElementById("bookButton3");
 book3.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage =
-    "url('./images/booksbgr.skt/Layer~0.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  bookGlow.classList.add("show");
 });
 book3.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  bookGlow.classList.remove("show");
 });
 book3.addEventListener("click", function () {
   bookBackground.classList.add("show");
@@ -1241,14 +1123,10 @@ book3.addEventListener("click", function () {
 
 const book4 = document.getElementById("bookButton4");
 book4.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage =
-    "url('./images/booksbgr.skt/Layer~0.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  bookGlow.classList.add("show");
 });
 book4.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  bookGlow.classList.remove("show");
 });
 book4.addEventListener("click", function () {
   bookBackground.classList.add("show");
@@ -1259,14 +1137,10 @@ book4.addEventListener("click", function () {
 
 const book5 = document.getElementById("bookButton5");
 book5.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage =
-    "url('./images/booksbgr.skt/Layer~0.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  bookGlow.classList.add("show");
 });
 book5.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  bookGlow.classList.remove("show");
 });
 book5.addEventListener("click", function () {
   bookBackground.classList.add("show");
@@ -1277,14 +1151,10 @@ book5.addEventListener("click", function () {
 
 const book6 = document.getElementById("bookButton6");
 book6.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage =
-    "url('./images/booksbgr.skt/Layer~0.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  bookGlow.classList.add("show");
 });
 book6.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  bookGlow.classList.remove("show");
 });
 book6.addEventListener("click", function () {
   bookBackground.classList.add("show");
@@ -1303,17 +1173,14 @@ closeBook.addEventListener("click", function () {
 const photoInfo = document.getElementById("photoInfo");
 const closePhoto = document.getElementById("closePhoto");
 const photoBackground = document.getElementById("photoBackground");
+const photoGlow = document.getElementById("photoGlow");
 
 const photo1 = document.getElementById("photoButton1");
 photo1.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage =
-    "url('./images/framebgr.skt/Layer~0.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  photoGlow.classList.add("show");
 });
 photo1.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  photoGlow.classList.remove("show");
 });
 photo1.addEventListener("click", function () {
   photoBackground.classList.add("show");
@@ -1322,14 +1189,10 @@ photo1.addEventListener("click", function () {
 
 const photo2 = document.getElementById("photoButton2");
 photo2.addEventListener("mouseover", function () {
-  document.body.style.backgroundImage =
-    "url('./images/framebgr.skt/Layer~0.png')";
-  document.body.style.backgroundSize = "90% 100%";
-  document.body.style.backgroundPosition = "center";
+  photoGlow.classList.add("show");
 });
 photo2.addEventListener("mouseout", function () {
-  document.body.style.backgroundImage =
-    "url('./images/background.skt/bgr.png')";
+  photoGlow.classList.remove("show");
 });
 photo2.addEventListener("click", function () {
   photoBackground.classList.add("show");
