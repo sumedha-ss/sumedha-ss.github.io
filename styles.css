@@ -1680,38 +1680,38 @@ body {
 }
 
 .bookHighlight1.show {
-  width: 310;
+  width: 300;
   height: 445px;
   top: -410px;
-  left: 120px;
+  left: 125px;
 }
 
 .bookHighlight2.show {
-  width: 300;
+  width: 290;
   height: 445px;
   top: -422px;
-  left: 412px;
+  left: 417px;
 }
 
 .bookHighlight3.show {
-  width: 310;
+  width: 300;
   height: 470px;
   top: -182px;
-  left: 998px;
+  left: 1003px;
 }
 
 .bookHighlight4.show {
-  width: 311;
+  width: 301;
   height: 450px;
   top: -355px;
-  left: 696px;
+  left: 701px;
 }
 
 .bookHighlight5.show {
-  width: 310;
+  width: 300;
   height: 435px;
-  top: 20px;
-  left: 730px;
+  top: 25px;
+  left: 727px;
 }
 
 .bookHoverInfo1,
