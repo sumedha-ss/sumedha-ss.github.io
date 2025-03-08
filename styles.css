@@ -556,6 +556,31 @@ body {
   cursor: pointer;
 }
 
+.book1,
+.book2,
+.book3,
+.book4,
+.book5,
+.book6,
+.tennis1,
+.tennis2,
+.tennis3,
+.tennis4,
+.tennis5,
+.tennis6,
+.tennis7,
+.tennis8,
+.tennis9,
+.tennis10,
+.tennis11,
+.photo1,
+.photo2 {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0);
+  border-width: 0px;
+  cursor: pointer;
+}
+
 .cat1 {
   height: 50px;
   width: 105px;
@@ -744,7 +769,10 @@ body {
   border-radius: 20px;
 }
 
-.closeCat {
+.closeCat,
+.closeBook,
+.closePhoto,
+.closeTennis {
   position: absolute;
   border-width: 0px;
   background-color: rgba(255, 255, 255, 0.88);
@@ -754,9 +782,12 @@ body {
   font-size: 32px;
   height: 60px;
   width: 120px;
+  cursor: pointer;
+}
+
+.closeCat {
   top: 360px;
   left: 582px;
-  cursor: pointer;
 }
 
 .infoHeaderCat,
@@ -867,18 +898,6 @@ body {
   left: -310px;
 }
 
-.book1,
-.book2,
-.book3,
-.book4,
-.book5,
-.book6 {
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0);
-  border-width: 0px;
-  cursor: pointer;
-}
-
 .book1.hidden,
 .book2.hidden,
 .book3.hidden,
@@ -957,26 +976,8 @@ body {
 }
 
 .closeBook {
-  position: absolute;
-  border-width: 0px;
-  background-color: rgba(255, 255, 255, 0.88);
-  border-radius: 12px;
-  font-family: "Times New Roman", Times, serif;
-  color: rgba(153, 106, 75, 0.671);
-  font-size: 32px;
-  height: 60px;
-  width: 120px;
   top: 260px;
   left: 1035px;
-  cursor: pointer;
-}
-
-.photo1,
-.photo2 {
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0);
-  border-width: 0px;
-  cursor: pointer;
 }
 
 .photo1 {
@@ -1006,35 +1007,8 @@ body {
 }
 
 .closePhoto {
-  position: absolute;
-  border-width: 0px;
-  background-color: rgba(255, 255, 255, 0.88);
-  border-radius: 12px;
-  font-family: "Times New Roman", Times, serif;
-  color: rgba(153, 106, 75, 0.671);
-  font-size: 32px;
-  height: 60px;
-  width: 120px;
   top: 425px;
   left: 668px;
-  cursor: pointer;
-}
-
-.tennis1,
-.tennis2,
-.tennis3,
-.tennis4,
-.tennis5,
-.tennis6,
-.tennis7,
-.tennis8,
-.tennis9,
-.tennis10,
-.tennis11 {
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0);
-  border-width: 0px;
-  cursor: pointer;
 }
 
 .tennis1 {
@@ -1132,18 +1106,8 @@ body {
 }
 
 .closeTennis {
-  position: absolute;
-  border-width: 0px;
-  background-color: rgba(255, 255, 255, 0.88);
-  border-radius: 12px;
-  font-family: "Times New Roman", Times, serif;
-  color: rgba(153, 106, 75, 0.671);
-  font-size: 32px;
-  height: 60px;
-  width: 120px;
   top: 390px;
   left: 0px;
-  cursor: pointer;
 }
 
 .tennisInfo.show {
