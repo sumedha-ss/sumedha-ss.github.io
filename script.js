@@ -9,17 +9,7 @@ closeBtn.addEventListener("click", function () {
 
 const catInfo = document.getElementById("catInfo");
 const closeCat = document.getElementById("closeCat");
-const catPic1 = document.getElementById("catPic1");
-const catPic2 = document.getElementById("catPic2");
-const catPic3 = document.getElementById("catPic3");
-const catPic4 = document.getElementById("catPic4");
-const catPic5 = document.getElementById("catPic5");
 const catBackground = document.getElementById("catBackground");
-const catFrame1 = document.getElementById("catFrame1");
-const catFrame2 = document.getElementById("catFrame2");
-const catFrame3 = document.getElementById("catFrame3");
-const catFrame4 = document.getElementById("catFrame4");
-const catFrame5 = document.getElementById("catFrame5");
 const catGlow = document.getElementById("catGlow");
 
 const cat1 = document.getElementById("catButton1");
@@ -32,16 +22,6 @@ cat1.addEventListener("mouseout", function () {
 cat1.addEventListener("click", function () {
   catBackground.classList.add("show");
   catInfo.classList.add("show");
-  catPic1.classList.add("show");
-  catPic2.classList.add("show");
-  catPic3.classList.add("show");
-  catPic4.classList.add("show");
-  catPic5.classList.add("show");
-  catFrame1.classList.add("show");
-  catFrame2.classList.add("show");
-  catFrame3.classList.add("show");
-  catFrame4.classList.add("show");
-  catFrame5.classList.add("show");
   book1.classList.add("hidden");
   book2.classList.add("hidden");
   book3.classList.add("hidden");
@@ -73,16 +53,6 @@ cat2.addEventListener("mouseout", function () {
 cat2.addEventListener("click", function () {
   catBackground.classList.add("show");
   catInfo.classList.add("show");
-  catPic1.classList.add("show");
-  catPic2.classList.add("show");
-  catPic3.classList.add("show");
-  catPic4.classList.add("show");
-  catPic5.classList.add("show");
-  catFrame1.classList.add("show");
-  catFrame2.classList.add("show");
-  catFrame3.classList.add("show");
-  catFrame4.classList.add("show");
-  catFrame5.classList.add("show");
   book1.classList.add("hidden");
   book2.classList.add("hidden");
   book3.classList.add("hidden");
@@ -114,16 +84,6 @@ cat3.addEventListener("mouseout", function () {
 cat3.addEventListener("click", function () {
   catBackground.classList.add("show");
   catInfo.classList.add("show");
-  catPic1.classList.add("show");
-  catPic2.classList.add("show");
-  catPic3.classList.add("show");
-  catPic4.classList.add("show");
-  catPic5.classList.add("show");
-  catFrame1.classList.add("show");
-  catFrame2.classList.add("show");
-  catFrame3.classList.add("show");
-  catFrame4.classList.add("show");
-  catFrame5.classList.add("show");
   book1.classList.add("hidden");
   book2.classList.add("hidden");
   book3.classList.add("hidden");
@@ -155,16 +115,6 @@ cat4.addEventListener("mouseout", function () {
 cat4.addEventListener("click", function () {
   catBackground.classList.add("show");
   catInfo.classList.add("show");
-  catPic1.classList.add("show");
-  catPic2.classList.add("show");
-  catPic3.classList.add("show");
-  catPic4.classList.add("show");
-  catPic5.classList.add("show");
-  catFrame1.classList.add("show");
-  catFrame2.classList.add("show");
-  catFrame3.classList.add("show");
-  catFrame4.classList.add("show");
-  catFrame5.classList.add("show");
   book1.classList.add("hidden");
   book2.classList.add("hidden");
   book3.classList.add("hidden");
@@ -196,16 +146,6 @@ cat5.addEventListener("mouseout", function () {
 cat5.addEventListener("click", function () {
   catBackground.classList.add("show");
   catInfo.classList.add("show");
-  catPic1.classList.add("show");
-  catPic2.classList.add("show");
-  catPic3.classList.add("show");
-  catPic4.classList.add("show");
-  catPic5.classList.add("show");
-  catFrame1.classList.add("show");
-  catFrame2.classList.add("show");
-  catFrame3.classList.add("show");
-  catFrame4.classList.add("show");
-  catFrame5.classList.add("show");
   book1.classList.add("hidden");
   book2.classList.add("hidden");
   book3.classList.add("hidden");
@@ -237,16 +177,6 @@ cat6.addEventListener("mouseout", function () {
 cat6.addEventListener("click", function () {
   catBackground.classList.add("show");
   catInfo.classList.add("show");
-  catPic1.classList.add("show");
-  catPic2.classList.add("show");
-  catPic3.classList.add("show");
-  catPic4.classList.add("show");
-  catPic5.classList.add("show");
-  catFrame1.classList.add("show");
-  catFrame2.classList.add("show");
-  catFrame3.classList.add("show");
-  catFrame4.classList.add("show");
-  catFrame5.classList.add("show");
   book1.classList.add("hidden");
   book2.classList.add("hidden");
   book3.classList.add("hidden");
@@ -278,16 +208,6 @@ cat7.addEventListener("mouseout", function () {
 cat7.addEventListener("click", function () {
   catBackground.classList.add("show");
   catInfo.classList.add("show");
-  catPic1.classList.add("show");
-  catPic2.classList.add("show");
-  catPic3.classList.add("show");
-  catPic4.classList.add("show");
-  catPic5.classList.add("show");
-  catFrame1.classList.add("show");
-  catFrame2.classList.add("show");
-  catFrame3.classList.add("show");
-  catFrame4.classList.add("show");
-  catFrame5.classList.add("show");
   book1.classList.add("hidden");
   book2.classList.add("hidden");
   book3.classList.add("hidden");
@@ -319,16 +239,6 @@ cat8.addEventListener("mouseout", function () {
 cat8.addEventListener("click", function () {
   catBackground.classList.add("show");
   catInfo.classList.add("show");
-  catPic1.classList.add("show");
-  catPic2.classList.add("show");
-  catPic3.classList.add("show");
-  catPic4.classList.add("show");
-  catPic5.classList.add("show");
-  catFrame1.classList.add("show");
-  catFrame2.classList.add("show");
-  catFrame3.classList.add("show");
-  catFrame4.classList.add("show");
-  catFrame5.classList.add("show");
   book1.classList.add("hidden");
   book2.classList.add("hidden");
   book3.classList.add("hidden");
@@ -360,16 +270,6 @@ cat9.addEventListener("mouseout", function () {
 cat9.addEventListener("click", function () {
   catBackground.classList.add("show");
   catInfo.classList.add("show");
-  catPic1.classList.add("show");
-  catPic2.classList.add("show");
-  catPic3.classList.add("show");
-  catPic4.classList.add("show");
-  catPic5.classList.add("show");
-  catFrame1.classList.add("show");
-  catFrame2.classList.add("show");
-  catFrame3.classList.add("show");
-  catFrame4.classList.add("show");
-  catFrame5.classList.add("show");
   book1.classList.add("hidden");
   book2.classList.add("hidden");
   book3.classList.add("hidden");
@@ -401,16 +301,6 @@ cat10.addEventListener("mouseout", function () {
 cat10.addEventListener("click", function () {
   catBackground.classList.add("show");
   catInfo.classList.add("show");
-  catPic1.classList.add("show");
-  catPic2.classList.add("show");
-  catPic3.classList.add("show");
-  catPic4.classList.add("show");
-  catPic5.classList.add("show");
-  catFrame1.classList.add("show");
-  catFrame2.classList.add("show");
-  catFrame3.classList.add("show");
-  catFrame4.classList.add("show");
-  catFrame5.classList.add("show");
   book1.classList.add("hidden");
   book2.classList.add("hidden");
   book3.classList.add("hidden");
@@ -442,16 +332,6 @@ cat11.addEventListener("mouseout", function () {
 cat11.addEventListener("click", function () {
   catBackground.classList.add("show");
   catInfo.classList.add("show");
-  catPic1.classList.add("show");
-  catPic2.classList.add("show");
-  catPic3.classList.add("show");
-  catPic4.classList.add("show");
-  catPic5.classList.add("show");
-  catFrame1.classList.add("show");
-  catFrame2.classList.add("show");
-  catFrame3.classList.add("show");
-  catFrame4.classList.add("show");
-  catFrame5.classList.add("show");
   book1.classList.add("hidden");
   book2.classList.add("hidden");
   book3.classList.add("hidden");
@@ -483,16 +363,6 @@ cat12.addEventListener("mouseout", function () {
 cat12.addEventListener("click", function () {
   catBackground.classList.add("show");
   catInfo.classList.add("show");
-  catPic1.classList.add("show");
-  catPic2.classList.add("show");
-  catPic3.classList.add("show");
-  catPic4.classList.add("show");
-  catPic5.classList.add("show");
-  catFrame1.classList.add("show");
-  catFrame2.classList.add("show");
-  catFrame3.classList.add("show");
-  catFrame4.classList.add("show");
-  catFrame5.classList.add("show");
   book1.classList.add("hidden");
   book2.classList.add("hidden");
   book3.classList.add("hidden");
@@ -524,16 +394,6 @@ cat13.addEventListener("mouseout", function () {
 cat13.addEventListener("click", function () {
   catBackground.classList.add("show");
   catInfo.classList.add("show");
-  catPic1.classList.add("show");
-  catPic2.classList.add("show");
-  catPic3.classList.add("show");
-  catPic4.classList.add("show");
-  catPic5.classList.add("show");
-  catFrame1.classList.add("show");
-  catFrame2.classList.add("show");
-  catFrame3.classList.add("show");
-  catFrame4.classList.add("show");
-  catFrame5.classList.add("show");
   book1.classList.add("hidden");
   book2.classList.add("hidden");
   book3.classList.add("hidden");
@@ -565,16 +425,6 @@ cat14.addEventListener("mouseout", function () {
 cat14.addEventListener("click", function () {
   catBackground.classList.add("show");
   catInfo.classList.add("show");
-  catPic1.classList.add("show");
-  catPic2.classList.add("show");
-  catPic3.classList.add("show");
-  catPic4.classList.add("show");
-  catPic5.classList.add("show");
-  catFrame1.classList.add("show");
-  catFrame2.classList.add("show");
-  catFrame3.classList.add("show");
-  catFrame4.classList.add("show");
-  catFrame5.classList.add("show");
   book1.classList.add("hidden");
   book2.classList.add("hidden");
   book3.classList.add("hidden");
@@ -606,16 +456,6 @@ cat15.addEventListener("mouseout", function () {
 cat15.addEventListener("click", function () {
   catBackground.classList.add("show");
   catInfo.classList.add("show");
-  catPic1.classList.add("show");
-  catPic2.classList.add("show");
-  catPic3.classList.add("show");
-  catPic4.classList.add("show");
-  catPic5.classList.add("show");
-  catFrame1.classList.add("show");
-  catFrame2.classList.add("show");
-  catFrame3.classList.add("show");
-  catFrame4.classList.add("show");
-  catFrame5.classList.add("show");
   book1.classList.add("hidden");
   book2.classList.add("hidden");
   book3.classList.add("hidden");
@@ -647,16 +487,6 @@ cat16.addEventListener("mouseout", function () {
 cat16.addEventListener("click", function () {
   catBackground.classList.add("show");
   catInfo.classList.add("show");
-  catPic1.classList.add("show");
-  catPic2.classList.add("show");
-  catPic3.classList.add("show");
-  catPic4.classList.add("show");
-  catPic5.classList.add("show");
-  catFrame1.classList.add("show");
-  catFrame2.classList.add("show");
-  catFrame3.classList.add("show");
-  catFrame4.classList.add("show");
-  catFrame5.classList.add("show");
   book1.classList.add("hidden");
   book2.classList.add("hidden");
   book3.classList.add("hidden");
@@ -688,16 +518,6 @@ cat17.addEventListener("mouseout", function () {
 cat17.addEventListener("click", function () {
   catBackground.classList.add("show");
   catInfo.classList.add("show");
-  catPic1.classList.add("show");
-  catPic2.classList.add("show");
-  catPic3.classList.add("show");
-  catPic4.classList.add("show");
-  catPic5.classList.add("show");
-  catFrame1.classList.add("show");
-  catFrame2.classList.add("show");
-  catFrame3.classList.add("show");
-  catFrame4.classList.add("show");
-  catFrame5.classList.add("show");
   book1.classList.add("hidden");
   book2.classList.add("hidden");
   book3.classList.add("hidden");
@@ -729,16 +549,6 @@ cat18.addEventListener("mouseout", function () {
 cat18.addEventListener("click", function () {
   catBackground.classList.add("show");
   catInfo.classList.add("show");
-  catPic1.classList.add("show");
-  catPic2.classList.add("show");
-  catPic3.classList.add("show");
-  catPic4.classList.add("show");
-  catPic5.classList.add("show");
-  catFrame1.classList.add("show");
-  catFrame2.classList.add("show");
-  catFrame3.classList.add("show");
-  catFrame4.classList.add("show");
-  catFrame5.classList.add("show");
   book1.classList.add("hidden");
   book2.classList.add("hidden");
   book3.classList.add("hidden");
@@ -770,16 +580,6 @@ cat19.addEventListener("mouseout", function () {
 cat19.addEventListener("click", function () {
   catBackground.classList.add("show");
   catInfo.classList.add("show");
-  catPic1.classList.add("show");
-  catPic2.classList.add("show");
-  catPic3.classList.add("show");
-  catPic4.classList.add("show");
-  catPic5.classList.add("show");
-  catFrame1.classList.add("show");
-  catFrame2.classList.add("show");
-  catFrame3.classList.add("show");
-  catFrame4.classList.add("show");
-  catFrame5.classList.add("show");
   book1.classList.add("hidden");
   book2.classList.add("hidden");
   book3.classList.add("hidden");
@@ -805,16 +605,6 @@ cat19.addEventListener("click", function () {
 closeCat.addEventListener("click", function () {
   catBackground.classList.remove("show");
   catInfo.classList.remove("show");
-  catPic1.classList.remove("show");
-  catPic2.classList.remove("show");
-  catPic3.classList.remove("show");
-  catPic4.classList.remove("show");
-  catPic5.classList.remove("show");
-  catFrame1.classList.remove("show");
-  catFrame2.classList.remove("show");
-  catFrame3.classList.remove("show");
-  catFrame4.classList.remove("show");
-  catFrame5.classList.remove("show");
   book1.classList.remove("hidden");
   book2.classList.remove("hidden");
   book3.classList.remove("hidden");

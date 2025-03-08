@@ -800,134 +800,84 @@ body {
 }
 
 .catPic1 {
-  display: none;
-}
-
-.catPic1.show {
-  display: block;
   position: absolute;
   height: 190px;
   width: 350px;
-  top: 60px;
-  left: 1078px;
+  top: -260px;
+  left: 630px;
 }
 
 .catPic2 {
-  display: none;
-}
-
-.catPic2.show {
-  display: block;
   position: absolute;
   height: 286px;
   width: 200px;
-  top: 290px;
-  left: 1215px;
+  top: -30px;
+  left: 765px;
 }
 
 .catPic3 {
-  display: none;
-}
-
-.catPic3.show {
-  display: block;
   position: absolute;
   height: 330px;
   width: 205px;
-  top: 450px;
-  left: 181px;
+  top: 130px;
+  left: -260px;
   border-radius: 150px;
 }
 
 .catPic4 {
-  display: none;
-}
-
-.catPic4.show {
-  display: block;
   position: absolute;
   height: 215px;
   width: 245px;
-  top: 600px;
-  left: 1185px;
+  top: 290px;
+  left: 730px;
 }
 
 .catPic5 {
-  display: none;
-}
-
-.catPic5.show {
-  display: block;
   position: absolute;
   height: 285px;
   width: 225px;
-  top: 118px;
-  left: 45px;
+  top: -200px;
+  left: -405px;
 }
 
 .catFrame1 {
-  display: none;
-}
-
-.catFrame1.show {
-  display: block;
   position: absolute;
   height: 250px;
   width: 270px;
-  top: 590px;
-  left: 1180px;
+  top: 270px;
+  left: 725px;
 }
 
 .catFrame2 {
-  display: none;
-}
-
-.catFrame2.show {
-  display: block;
   position: absolute;
-  height: 385px;
+  height: 395px;
   width: 350px;
-  top: 68px;
-  left: -17px;
+  top: -255px;
+  left: -467px;
 }
 
 .catFrame3 {
-  display: none;
-}
-
-.catFrame3.show {
-  display: block;
   position: absolute;
   height: 355px;
-  width: 339px;
-  top: 250px;
-  left: 1150px;
+  width: 330px;
+  top: -70px;
+  left: 700px;
 }
 
 .catFrame4 {
-  display: none;
-}
-
-.catFrame4.show {
-  display: block;
   position: absolute;
   height: 230px;
   width: 390px;
-  top: 33px;
-  left: 1060px;
+  top: -285px;
+  left: 608px;
 }
 
 .catFrame5 {
-  display: none;
-}
-
-.catFrame5.show {
-  display: block;
   position: absolute;
   height: 400px;
-  width: 295px;
-  top: 410px;
-  left: 137px;
+  width: 300px;
+  top: 90px;
+  left: -310px;
 }
 
 .book1,
@@ -1711,7 +1661,7 @@ body {
   width: 300;
   height: 435px;
   top: 25px;
-  left: 727px;
+  left: 736px;
 }
 
 .bookHoverInfo1,
