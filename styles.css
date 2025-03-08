@@ -63,10 +63,6 @@ body {
   z-index: 3;
 }
 
-.popup.transition {
-  opacity: 0;
-}
-
 .popup.hidden {
   display: none;
 }
@@ -327,18 +323,6 @@ body {
   }
 }
 
-@keyframes fall1 {
-  65% {
-    transform: rotate(0.325turn);
-    opacity: 1;
-  }
-  100% {
-    transform: rotate(0.5turn);
-    top: 650px;
-    opacity: 0;
-  }
-}
-
 @keyframes fall2 {
   65% {
     transform: rotate(0.5turn);
@@ -401,19 +385,22 @@ body {
   top: 210px;
   left: 570px;
   rotate: 17deg;
+  font-size: 16px;
 }
 
 .sleep2 {
-  top: 201px;
-  left: 592px;
+  top: 197px;
+  left: 593px;
   rotate: -17deg;
+  font-size: 19px;
   animation-delay: 0.7s;
 }
 
 .sleep3 {
-  top: 198px;
-  left: 614px;
+  top: 189px;
+  left: 618px;
   rotate: 7deg;
+  font-size: 22px;
   animation-delay: 1.4s;
 }
 
