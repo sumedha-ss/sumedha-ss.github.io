@@ -1516,7 +1516,6 @@ body {
   position: absolute;
   background-color: rgba(0, 0, 0, 0);
   border-width: 0px;
-  cursor: pointer;
 }
 
 .bookPicButton1 {
@@ -1569,7 +1568,6 @@ body {
 .bookHover5.show {
   display: block;
   position: absolute;
-  cursor: pointer;
 }
 
 .bookHover1.show {
@@ -1633,14 +1631,14 @@ body {
   width: 300;
   height: 445px;
   top: -410px;
-  left: 125px;
+  left: 123px;
 }
 
 .bookHighlight2.show {
   width: 290;
   height: 445px;
   top: -422px;
-  left: 417px;
+  left: 415px;
 }
 
 .bookHighlight3.show {
@@ -1654,14 +1652,14 @@ body {
   width: 301;
   height: 450px;
   top: -355px;
-  left: 701px;
+  left: 698px;
 }
 
 .bookHighlight5.show {
   width: 300;
   height: 435px;
   top: 25px;
-  left: 736px;
+  left: 733px;
 }
 
 .bookHoverInfo1,
