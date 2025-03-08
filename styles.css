@@ -63,6 +63,11 @@ body {
   z-index: 3;
 }
 
+.popup.fade {
+  opacity: 0;
+  transition: opacity 0.4s ease-out;
+}
+
 .popup.hidden {
   display: none;
 }

@@ -2,9 +2,14 @@
 const popup = document.getElementById("popup");
 const closeBtn = document.getElementById("close-btn");
 
+function removePopup() {
+  popup.classList.replace("fade", "hidden");
+}
+
 // Close the popup when the close button is clicked
 closeBtn.addEventListener("click", function () {
-  popup.classList.add("hidden");
+  popup.classList.add("fade");
+  setTimeout(removePopup, 400);
 });
 
 const catInfo = document.getElementById("catInfo");
@@ -446,7 +451,6 @@ function normalCord() {
 lampCordOff.addEventListener("click", function () {
   lampOn.classList.remove("show");
   lampCordOff.classList.remove("show");
-  lampCord.classList.remove("onAnimate");
-  lampCord.classList.add("offAnimate");
+  lampCord.classList.replace("onAnimate", "offAnimate");
   setTimeout(normalCord, 400);
 });
