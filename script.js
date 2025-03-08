@@ -427,3 +427,26 @@ bookButton5.addEventListener("mouseout", function () {
   bookHover5.classList.remove("show");
   bookHighlight5.classList.remove("show");
 });
+
+const lampCordOn = document.getElementById("lampCordOn");
+const lampCordOff = document.getElementById("lampCordOff");
+const lampOn = document.getElementById("lampOn");
+const lampCord = document.getElementById("lampCord");
+
+lampCordOn.addEventListener("click", function () {
+  lampOn.classList.add("show");
+  lampCordOff.classList.add("show");
+  lampCord.classList.add("onAnimate");
+});
+
+function normalCord() {
+  lampCord.classList.remove("offAnimate");
+}
+
+lampCordOff.addEventListener("click", function () {
+  lampOn.classList.remove("show");
+  lampCordOff.classList.remove("show");
+  lampCord.classList.remove("onAnimate");
+  lampCord.classList.add("offAnimate");
+  setTimeout(normalCord, 400);
+});

@@ -1700,3 +1700,95 @@ body {
   top: 544px;
   left: 324px;
 }
+
+.lamp {
+  position: absolute;
+  height: 400px;
+  width: 280px;
+  left: 1170px;
+  top: -60px;
+}
+
+.lampOn {
+  display: none;
+}
+
+.lampOn.show {
+  display: block;
+  position: absolute;
+  height: 400px;
+  width: 280px;
+  left: 1170.4px;
+  top: -59.5px;
+}
+
+.lampCord {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 1290px;
+  top: 150px;
+}
+
+.lampCord.onAnimate {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 1290px;
+  top: 150px;
+  animation-name: lampCordOn;
+  animation-duration: 0.4s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.lampCord.offAnimate {
+  position: absolute;
+  animation-name: lampCordOff;
+  animation-duration: 0.4s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes lampCordOn {
+  0% {
+    top: 150px;
+  }
+  60% {
+    top: 170px;
+  }
+  100% {
+    top: 157px;
+  }
+}
+
+@keyframes lampCordOff {
+  0% {
+    top: 157px;
+  }
+  40% {
+    top: 170px;
+  }
+  100% {
+    top: 150px;
+  }
+}
+
+.lampCordOnButton,
+.lampCordOffButton.show {
+  position: absolute;
+  width: 5px;
+  height: 42px;
+  left: 1359px;
+  top: 230px;
+  border-width: 0px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.lampCordOffButton.show {
+  display: block;
+}
+
+.lampCordOffButton {
+  display: none;
+}
