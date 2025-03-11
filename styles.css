@@ -1799,3 +1799,11 @@ body {
 .lampCordOffButton {
   display: none;
 }
+
+.plantTable {
+  position: absolute;
+  height: 500px;
+  width: 400px;
+  top: 357px;
+  left: -70px;
+}
