@@ -283,6 +283,8 @@ const closeBook = document.getElementById("closeBook");
 const bookBackground = document.getElementById("bookBackground");
 const bookGlow = document.getElementById("bookGlow");
 
+const ladybug = document.getElementById("ladybug");
+
 function showBookGlow() {
   bookGlow.classList.add("show");
 }
@@ -294,12 +296,14 @@ function removeBookGlow() {
 function bookButtons() {
   bookBackground.classList.add("show");
   bookInfo.classList.add("show");
+  ladybug.classList.add("freeze");
   hidePhotoButtons();
 }
 
 function closebookButtons() {
   bookBackground.classList.remove("show");
   bookInfo.classList.remove("show");
+  ladybug.classList.remove("freeze");
   showPhotoButtons();
 }
 

@@ -1802,6 +1802,16 @@ body {
   animation-iteration-count: infinite;
 }
 
+.ladybug.freeze {
+  position: absolute;
+  height: 9px;
+  width: 9px;
+  top: 422px;
+  left: 578px;
+  rotate: -10deg;
+  animation-name: none;
+}
+
 @keyframes ladybug {
   0% {
     top: 422px;
