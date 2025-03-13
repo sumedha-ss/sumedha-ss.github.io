@@ -1802,9 +1802,129 @@ body {
 
 .ladybug {
   position: absolute;
-  height: 12px;
-  width: 12px;
-  top: 420px;
+  height: 9px;
+  width: 9px;
+  top: 422px;
   left: 578px;
   rotate: -10deg;
+  animation-name: ladybug;
+  animation-duration: 24s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ladybug {
+  0% {
+    top: 422px;
+    left: 578px;
+    rotate: -10deg;
+  }
+  3% {
+    top: 422px;
+    left: 578px;
+    rotate: -20deg;
+  }
+  8% {
+    top: 425px;
+    left: 575px;
+    rotate: -20deg;
+  }
+  11% {
+    top: 425px;
+    left: 575px;
+    rotate: -10deg;
+  }
+  16% {
+    top: 427.5px;
+    left: 569px;
+    rotate: -10deg;
+  }
+  19% {
+    top: 427.5px;
+    left: 569px;
+    rotate: -40deg;
+  }
+  24% {
+    top: 434px;
+    left: 565px;
+    rotate: -40deg;
+  }
+  27% {
+    top: 434px;
+    left: 565px;
+    rotate: -25deg;
+  }
+  32% {
+    top: 435px;
+    left: 556px;
+    rotate: -25deg;
+  }
+  35% {
+    top: 435px;
+    left: 556px;
+    rotate: 4deg;
+  }
+  40% {
+    top: 434px;
+    left: 550px;
+    rotate: 4deg;
+    transform: scaleX(1);
+  }
+  50% {
+    top: 434px;
+    left: 550px;
+    rotate: 4deg;
+    transform: scaleX(-1);
+  }
+  60% {
+    top: 435px;
+    left: 556px;
+    rotate: 4deg;
+  }
+  63% {
+    top: 435px;
+    left: 556px;
+    rotate: -25deg;
+  }
+  68% {
+    top: 434px;
+    left: 565px;
+    rotate: -25deg;
+  }
+  71% {
+    top: 434px;
+    left: 565px;
+    rotate: -40deg;
+  }
+  76% {
+    top: 427.5px;
+    left: 569px;
+    rotate: -40deg;
+  }
+  79% {
+    top: 427.5px;
+    left: 569px;
+    rotate: -10deg;
+  }
+  84% {
+    top: 425px;
+    left: 575px;
+    rotate: -10deg;
+  }
+  87% {
+    top: 425px;
+    left: 575px;
+    rotate: -20deg;
+  }
+  92% {
+    top: 422px;
+    left: 578px;
+    rotate: -20deg;
+    transform: scaleX(-1);
+  }
+  100% {
+    top: 422px;
+    left: 578px;
+    rotate: -10deg;
+    transform: scaleX(1);
+  }
 }
