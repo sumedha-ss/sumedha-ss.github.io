@@ -1291,61 +1291,51 @@ body {
   5.5% {
     top: 155px;
     left: 700px;
-    transform: rotate(0);
   }
   10.5% {
     top: -35px;
     left: 700px;
-    transform: rotate(0);
   }
   14.5% {
     top: 155px;
     left: 700px;
-    transform: rotate(0);
   }
   18% {
     top: 25px;
     left: 700px;
-    transform: rotate(0);
   }
   20.5% {
     top: 155px;
     left: 700px;
-    transform: rotate(0);
   }
   23% {
     top: 95px;
     left: 700px;
-    transform: rotate(0);
   }
   24.5% {
     top: 155px;
     left: 700px;
-    transform: rotate(0);
   }
   26% {
     top: 115px;
     left: 700px;
-    transform: rotate(0);
   }
   26.5% {
     top: 155px;
     left: 700px;
-    transform: rotate(0);
   }
   27% {
     top: 135px;
     left: 700px;
-    transform: rotate(0);
   }
   27.25% {
     top: 155px;
     left: 700px;
-    transform: rotate(0);
   }
   28.5% {
     top: 155px;
     left: 700px;
+    transform: rotate(0);
   }
   100% {
     top: 155px;
