@@ -579,7 +579,27 @@ body {
 .tennis10,
 .tennis11,
 .photo1,
-.photo2 {
+.photo2,
+.fruit1,
+.fruit2,
+.fruit3,
+.fruit4,
+.fruit5,
+.fruit6,
+.fruit7,
+.fruit8,
+.fruit9,
+.fruit10,
+.fruit11,
+.fruit12,
+.fruit13,
+.fruit14,
+.fruit15,
+.fruit16,
+.fruit17,
+.fruit18,
+.fruit19,
+.fruit20 {
   position: absolute;
   background-color: rgba(0, 0, 0, 0);
   border-width: 0px;
@@ -1660,7 +1680,8 @@ body {
 .bookGlow,
 .catGlow,
 .tennisGlow,
-.photoGlow {
+.photoGlow,
+.fruitGlow {
   display: none;
 }
 
@@ -1698,6 +1719,15 @@ body {
   height: 182px;
   top: 544px;
   left: 324px;
+}
+
+.fruitGlow.show {
+  display: block;
+  position: absolute;
+  width: 239.8px;
+  height: 232.8px;
+  top: 537.4px;
+  left: 756.7px;
 }
 
 .lamp {
@@ -1931,4 +1961,189 @@ body {
     rotate: -10deg;
     transform: scaleX(1);
   }
+}
+
+.fruit1 {
+  position: absolute;
+  height: 37px;
+  width: 160px;
+  top: 638px;
+  left: 795px;
+  border-radius: 5px;
+}
+
+.fruit2 {
+  position: absolute;
+  height: 25px;
+  width: 90px;
+  top: 674px;
+  left: 850px;
+  transform: skew(-55deg);
+}
+
+.fruit3 {
+  position: absolute;
+  height: 13px;
+  width: 90px;
+  top: 674px;
+  left: 803px;
+  transform: skew(40deg);
+}
+
+.fruit4 {
+  position: absolute;
+  height: 15px;
+  width: 85px;
+  top: 685px;
+  left: 819px;
+  transform: skew(65deg);
+}
+
+.fruit5 {
+  position: absolute;
+  height: 12px;
+  width: 68px;
+  top: 696px;
+  left: 846px;
+  border-radius: 3px;
+}
+
+.fruit6 {
+  position: absolute;
+  height: 30px;
+  width: 132px;
+  top: 610px;
+  left: 810px;
+  border-radius: 3px;
+}
+
+.fruit7 {
+  position: absolute;
+  height: 50px;
+  width: 18px;
+  top: 605px;
+  left: 805px;
+  rotate: -25deg;
+  border-radius: 3px;
+}
+
+.fruit8 {
+  position: absolute;
+  height: 10px;
+  width: 14px;
+  top: 600px;
+  left: 796px;
+  rotate: -10deg;
+  border-radius: 3px;
+}
+
+.fruit9 {
+  position: absolute;
+  height: 7px;
+  width: 25px;
+  top: 605px;
+  left: 818px;
+  transform: skew(-55deg);
+}
+
+.fruit10 {
+  position: absolute;
+  height: 15px;
+  width: 18px;
+  top: 602.5px;
+  left: 831px;
+  border-radius: 30px;
+}
+
+.fruit11 {
+  position: absolute;
+  height: 8px;
+  width: 2px;
+  top: 593px;
+  left: 795px;
+  rotate: -95deg;
+}
+
+.fruit12 {
+  position: absolute;
+  height: 15px;
+  width: 37px;
+  top: 600px;
+  left: 849px;
+  border-radius: 5px;
+  rotate: -10deg;
+}
+
+.fruit13 {
+  position: absolute;
+  height: 15px;
+  width: 39px;
+  top: 606px;
+  left: 879px;
+  border-radius: 5px;
+}
+
+.fruit14 {
+  position: absolute;
+  height: 10px;
+  width: 17px;
+  top: 600.3px;
+  left: 886px;
+  transform: skew(-55deg);
+  rotate: 59deg;
+}
+
+.fruit15 {
+  position: absolute;
+  height: 15px;
+  width: 10px;
+  top: 604px;
+  left: 928px;
+  border-radius: 30px;
+  rotate: 30deg;
+}
+
+.fruit16 {
+  position: absolute;
+  height: 25px;
+  width: 10px;
+  top: 624px;
+  left: 933px;
+  rotate: -20deg;
+}
+
+.fruit17 {
+  position: absolute;
+  height: 5px;
+  width: 10px;
+  top: 601.5px;
+  left: 894.5px;
+  rotate: 95deg;
+}
+
+.fruit18 {
+  position: absolute;
+  height: 5px;
+  width: 10px;
+  top: 599px;
+  left: 934.5px;
+  rotate: 120deg;
+}
+
+.fruit19 {
+  position: absolute;
+  height: 7px;
+  width: 8px;
+  top: 595.5px;
+  left: 860px;
+  rotate: -110deg;
+}
+
+.fruit20 {
+  position: absolute;
+  height: 5px;
+  width: 8px;
+  top: 602px;
+  left: 823.7px;
+  rotate: -110deg;
 }
