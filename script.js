@@ -48,6 +48,28 @@ function hideTennisButtons() {
   tennis11.classList.add("hidden");
 }
 
+function hideCatButtons() {
+  cat1.classList.add("hidden");
+  cat2.classList.add("hidden");
+  cat3.classList.add("hidden");
+  cat4.classList.add("hidden");
+  cat5.classList.add("hidden");
+  cat6.classList.add("hidden");
+  cat7.classList.add("hidden");
+  cat8.classList.add("hidden");
+  cat9.classList.add("hidden");
+  cat10.classList.add("hidden");
+  cat11.classList.add("hidden");
+  cat12.classList.add("hidden");
+  cat13.classList.add("hidden");
+  cat14.classList.add("hidden");
+  cat15.classList.add("hidden");
+  cat16.classList.add("hidden");
+  cat17.classList.add("hidden");
+  cat18.classList.add("hidden");
+  cat19.classList.add("hidden");
+}
+
 function hidePhotoButtons() {
   photo1.classList.add("hidden");
   photo2.classList.add("hidden");
@@ -84,6 +106,28 @@ function showTennisButtons() {
   tennis11.classList.remove("hidden");
 }
 
+function showCatButtons() {
+  cat1.classList.remove("hidden");
+  cat2.classList.remove("hidden");
+  cat3.classList.remove("hidden");
+  cat4.classList.remove("hidden");
+  cat5.classList.remove("hidden");
+  cat6.classList.remove("hidden");
+  cat7.classList.remove("hidden");
+  cat8.classList.remove("hidden");
+  cat9.classList.remove("hidden");
+  cat10.classList.remove("hidden");
+  cat11.classList.remove("hidden");
+  cat12.classList.remove("hidden");
+  cat13.classList.remove("hidden");
+  cat14.classList.remove("hidden");
+  cat15.classList.remove("hidden");
+  cat16.classList.remove("hidden");
+  cat17.classList.remove("hidden");
+  cat18.classList.remove("hidden");
+  cat19.classList.remove("hidden");
+}
+
 function showPhotoButtons() {
   photo1.classList.remove("hidden");
   photo2.classList.remove("hidden");
@@ -97,7 +141,18 @@ function closeCatButtons() {
   showPhotoButtons();
 }
 
-//
+function fruitButtons() {
+  fruitBackground.classList.add("show");
+  fruitInfo.classList.add("show");
+  hideCatButtons();
+  hidePhotoButtons();
+  hideTennisButtons();
+  hideBookButtons();
+}
+
+const fruitInfo = document.getElementById("fruitInfo");
+const closeFruit = document.getElementById("closeFruit");
+const fruitBackground = document.getElementById("fruitBackground");
 const fruitGlow = document.getElementById("fruitGlow");
 
 function showFruitGlow() {
@@ -108,87 +163,232 @@ function removeFruitGlow() {
   fruitGlow.classList.remove("show");
 }
 
+function closeFruitButtons() {
+  fruitBackground.classList.remove("show");
+  fruitInfo.classList.remove("show");
+  showCatButtons();
+  showBookButtons();
+  showTennisButtons();
+  showPhotoButtons();
+}
+
 const fruit1 = document.getElementById("fruitButton1");
 fruit1.addEventListener("mouseover", showFruitGlow);
 fruit1.addEventListener("mouseout", removeFruitGlow);
+fruit1.addEventListener("click", fruitButtons);
 
 const fruit2 = document.getElementById("fruitButton2");
 fruit2.addEventListener("mouseover", showFruitGlow);
 fruit2.addEventListener("mouseout", removeFruitGlow);
+fruit2.addEventListener("click", fruitButtons);
 
 const fruit3 = document.getElementById("fruitButton3");
 fruit3.addEventListener("mouseover", showFruitGlow);
 fruit3.addEventListener("mouseout", removeFruitGlow);
+fruit3.addEventListener("click", fruitButtons);
 
 const fruit4 = document.getElementById("fruitButton4");
 fruit4.addEventListener("mouseover", showFruitGlow);
 fruit4.addEventListener("mouseout", removeFruitGlow);
+fruit4.addEventListener("click", fruitButtons);
 
 const fruit5 = document.getElementById("fruitButton5");
 fruit5.addEventListener("mouseover", showFruitGlow);
 fruit5.addEventListener("mouseout", removeFruitGlow);
+fruit5.addEventListener("click", fruitButtons);
 
 const fruit6 = document.getElementById("fruitButton6");
 fruit6.addEventListener("mouseover", showFruitGlow);
 fruit6.addEventListener("mouseout", removeFruitGlow);
+fruit6.addEventListener("click", fruitButtons);
 
 const fruit7 = document.getElementById("fruitButton7");
 fruit7.addEventListener("mouseover", showFruitGlow);
 fruit7.addEventListener("mouseout", removeFruitGlow);
+fruit7.addEventListener("click", fruitButtons);
 
 const fruit8 = document.getElementById("fruitButton8");
 fruit8.addEventListener("mouseover", showFruitGlow);
 fruit8.addEventListener("mouseout", removeFruitGlow);
+fruit8.addEventListener("click", fruitButtons);
 
 const fruit9 = document.getElementById("fruitButton9");
 fruit9.addEventListener("mouseover", showFruitGlow);
 fruit9.addEventListener("mouseout", removeFruitGlow);
+fruit9.addEventListener("click", fruitButtons);
 
 const fruit10 = document.getElementById("fruitButton10");
 fruit10.addEventListener("mouseover", showFruitGlow);
 fruit10.addEventListener("mouseout", removeFruitGlow);
+fruit10.addEventListener("click", fruitButtons);
 
 const fruit11 = document.getElementById("fruitButton11");
 fruit11.addEventListener("mouseover", showFruitGlow);
 fruit11.addEventListener("mouseout", removeFruitGlow);
+fruit11.addEventListener("click", fruitButtons);
 
 const fruit12 = document.getElementById("fruitButton12");
 fruit12.addEventListener("mouseover", showFruitGlow);
 fruit12.addEventListener("mouseout", removeFruitGlow);
+fruit12.addEventListener("click", fruitButtons);
 
 const fruit13 = document.getElementById("fruitButton13");
 fruit13.addEventListener("mouseover", showFruitGlow);
 fruit13.addEventListener("mouseout", removeFruitGlow);
+fruit13.addEventListener("click", fruitButtons);
 
 const fruit14 = document.getElementById("fruitButton14");
 fruit14.addEventListener("mouseover", showFruitGlow);
 fruit14.addEventListener("mouseout", removeFruitGlow);
+fruit14.addEventListener("click", fruitButtons);
 
 const fruit15 = document.getElementById("fruitButton15");
 fruit15.addEventListener("mouseover", showFruitGlow);
 fruit15.addEventListener("mouseout", removeFruitGlow);
+fruit15.addEventListener("click", fruitButtons);
 
 const fruit16 = document.getElementById("fruitButton16");
 fruit16.addEventListener("mouseover", showFruitGlow);
 fruit16.addEventListener("mouseout", removeFruitGlow);
+fruit16.addEventListener("click", fruitButtons);
 
 const fruit17 = document.getElementById("fruitButton17");
 fruit17.addEventListener("mouseover", showFruitGlow);
 fruit17.addEventListener("mouseout", removeFruitGlow);
+fruit17.addEventListener("click", fruitButtons);
 
 const fruit18 = document.getElementById("fruitButton18");
 fruit18.addEventListener("mouseover", showFruitGlow);
 fruit18.addEventListener("mouseout", removeFruitGlow);
+fruit18.addEventListener("click", fruitButtons);
 
 const fruit19 = document.getElementById("fruitButton19");
 fruit19.addEventListener("mouseover", showFruitGlow);
 fruit19.addEventListener("mouseout", removeFruitGlow);
+fruit19.addEventListener("click", fruitButtons);
 
 const fruit20 = document.getElementById("fruitButton20");
 fruit20.addEventListener("mouseover", showFruitGlow);
 fruit20.addEventListener("mouseout", removeFruitGlow);
+fruit20.addEventListener("click", fruitButtons);
 
-//
+const hint = document.getElementById("hintBlob");
+const hintText1 = document.getElementById("hintText1");
+const hintText2 = document.getElementById("hintText2");
+
+function addHint() {
+  hint.classList.remove("hidden");
+  hintText1.classList.remove("hidden");
+  hintText2.classList.remove("hidden");
+}
+
+function removeHint() {
+  hint.classList.add("hidden");
+  hintText1.classList.add("hidden");
+  hintText2.classList.add("hidden");
+}
+
+const undoButton = document.getElementById("undoButton");
+undoButton.addEventListener("click", removeFruitInfoCover);
+undoButton.addEventListener("click", removeUndoButton);
+undoButton.addEventListener("click", function () {
+  fruitOption1.classList.remove("clicked");
+  fruitOption2.classList.remove("clicked");
+  fruitOption3.classList.remove("clicked");
+  fruitOption4.classList.remove("clicked");
+  fruitOption5.classList.remove("clicked");
+});
+undoButton.addEventListener("click", addHint);
+
+function addUndoButton() {
+  undoButton.classList.add("show");
+}
+
+function removeUndoButton() {
+  undoButton.classList.remove("show");
+}
+
+const fruitInfoCover = document.getElementById("fruitInfoCover");
+
+function addFruitInfoCover() {
+  fruitInfoCover.classList.add("show");
+}
+
+function removeFruitInfoCover() {
+  fruitInfoCover.classList.remove("show");
+}
+
+const fruitOption1 = document.getElementById("fruitOption1");
+fruitOption1.addEventListener("mouseover", function () {
+  fruitOption1.classList.add("hover");
+});
+fruitOption1.addEventListener("mouseout", function () {
+  fruitOption1.classList.remove("hover");
+});
+fruitOption1.addEventListener("click", removeHint);
+fruitOption1.addEventListener("click", function () {
+  fruitOption1.classList.replace("hover", "clicked");
+});
+fruitOption1.addEventListener("click", addUndoButton);
+fruitOption1.addEventListener("click", addFruitInfoCover);
+
+const fruitOption2 = document.getElementById("fruitOption2");
+fruitOption2.addEventListener("mouseover", function () {
+  fruitOption2.classList.add("hover");
+});
+fruitOption2.addEventListener("mouseout", function () {
+  fruitOption2.classList.remove("hover");
+});
+fruitOption2.addEventListener("click", removeHint);
+fruitOption2.addEventListener("click", function () {
+  fruitOption2.classList.replace("hover", "clicked");
+});
+fruitOption2.addEventListener("click", addUndoButton);
+fruitOption2.addEventListener("click", addFruitInfoCover);
+
+const fruitOption3 = document.getElementById("fruitOption3");
+fruitOption3.addEventListener("mouseover", function () {
+  fruitOption3.classList.add("hover");
+});
+fruitOption3.addEventListener("mouseout", function () {
+  fruitOption3.classList.remove("hover");
+});
+fruitOption3.addEventListener("click", removeHint);
+fruitOption3.addEventListener("click", function () {
+  fruitOption3.classList.replace("hover", "clicked");
+});
+fruitOption3.addEventListener("click", addUndoButton);
+fruitOption3.addEventListener("click", addFruitInfoCover);
+
+const fruitOption4 = document.getElementById("fruitOption4");
+fruitOption4.addEventListener("mouseover", function () {
+  fruitOption4.classList.add("hover");
+});
+fruitOption4.addEventListener("mouseout", function () {
+  fruitOption4.classList.remove("hover");
+});
+fruitOption4.addEventListener("click", removeHint);
+fruitOption4.addEventListener("click", function () {
+  fruitOption4.classList.replace("hover", "clicked");
+});
+fruitOption4.addEventListener("click", addUndoButton);
+fruitOption4.addEventListener("click", addFruitInfoCover);
+
+const fruitOption5 = document.getElementById("fruitOption5");
+fruitOption5.addEventListener("mouseover", function () {
+  fruitOption5.classList.add("hover");
+});
+fruitOption5.addEventListener("mouseout", function () {
+  fruitOption5.classList.remove("hover");
+});
+fruitOption5.addEventListener("click", removeHint);
+fruitOption5.addEventListener("click", function () {
+  fruitOption5.classList.replace("hover", "clicked");
+});
+fruitOption5.addEventListener("click", addUndoButton);
+fruitOption5.addEventListener("click", addFruitInfoCover);
+
+closeFruit.addEventListener("click", closeFruitButtons);
 
 const cat1 = document.getElementById("catButton1");
 cat1.addEventListener("mouseover", showCatGlow);
