@@ -2327,11 +2327,24 @@ body {
   border-width: 0px;
   border-radius: 20px;
   top: 600px;
-  left: 1080px;
+  left: 1060px;
   font-family: "Times New Roman", Times, serif;
   color: rgb(153, 106, 75);
   font-size: 32px;
   height: 70px;
-  width: 150px;
+  width: 170px;
   cursor: pointer;
+}
+
+.errorMessage {
+  display: none;
+}
+
+.errorMessage.show {
+  display: block;
+  position: absolute;
+  height: 330px;
+  width: 500px;
+  left: 740px;
+  top: 275px;
 }

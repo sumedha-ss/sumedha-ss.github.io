@@ -297,6 +297,7 @@ undoButton.addEventListener("click", function () {
   fruitOption3.classList.remove("clicked");
   fruitOption4.classList.remove("clicked");
   fruitOption5.classList.remove("clicked");
+  errorMessage.classList.remove("show");
 });
 undoButton.addEventListener("click", addHint);
 
@@ -306,6 +307,23 @@ function addUndoButton() {
 
 function removeUndoButton() {
   undoButton.classList.remove("show");
+}
+
+const errorMessage = document.getElementById("errorMessage");
+function addErrorMessage() {
+  errorMessage.classList.add("show");
+}
+
+function addWrongOption() {
+  addUndoButton();
+  addErrorMessage();
+  removeHint();
+  addFruitInfoCover();
+}
+
+function removeWrongOption() {
+  removeUndoButton();
+  removeErrorMessage();
 }
 
 const fruitInfoCover = document.getElementById("fruitInfoCover");
@@ -325,12 +343,10 @@ fruitOption1.addEventListener("mouseover", function () {
 fruitOption1.addEventListener("mouseout", function () {
   fruitOption1.classList.remove("hover");
 });
-fruitOption1.addEventListener("click", removeHint);
 fruitOption1.addEventListener("click", function () {
   fruitOption1.classList.replace("hover", "clicked");
 });
-fruitOption1.addEventListener("click", addUndoButton);
-fruitOption1.addEventListener("click", addFruitInfoCover);
+fruitOption1.addEventListener("click", addWrongOption);
 
 const fruitOption2 = document.getElementById("fruitOption2");
 fruitOption2.addEventListener("mouseover", function () {
@@ -339,12 +355,10 @@ fruitOption2.addEventListener("mouseover", function () {
 fruitOption2.addEventListener("mouseout", function () {
   fruitOption2.classList.remove("hover");
 });
-fruitOption2.addEventListener("click", removeHint);
 fruitOption2.addEventListener("click", function () {
   fruitOption2.classList.replace("hover", "clicked");
 });
-fruitOption2.addEventListener("click", addUndoButton);
-fruitOption2.addEventListener("click", addFruitInfoCover);
+fruitOption2.addEventListener("click", addWrongOption);
 
 const fruitOption3 = document.getElementById("fruitOption3");
 fruitOption3.addEventListener("mouseover", function () {
@@ -353,12 +367,10 @@ fruitOption3.addEventListener("mouseover", function () {
 fruitOption3.addEventListener("mouseout", function () {
   fruitOption3.classList.remove("hover");
 });
-fruitOption3.addEventListener("click", removeHint);
 fruitOption3.addEventListener("click", function () {
   fruitOption3.classList.replace("hover", "clicked");
 });
-fruitOption3.addEventListener("click", addUndoButton);
-fruitOption3.addEventListener("click", addFruitInfoCover);
+fruitOption3.addEventListener("click", addWrongOption);
 
 const fruitOption4 = document.getElementById("fruitOption4");
 fruitOption4.addEventListener("mouseover", function () {
@@ -367,12 +379,10 @@ fruitOption4.addEventListener("mouseover", function () {
 fruitOption4.addEventListener("mouseout", function () {
   fruitOption4.classList.remove("hover");
 });
-fruitOption4.addEventListener("click", removeHint);
 fruitOption4.addEventListener("click", function () {
   fruitOption4.classList.replace("hover", "clicked");
 });
-fruitOption4.addEventListener("click", addUndoButton);
-fruitOption4.addEventListener("click", addFruitInfoCover);
+fruitOption4.addEventListener("click", addWrongOption);
 
 const fruitOption5 = document.getElementById("fruitOption5");
 fruitOption5.addEventListener("mouseover", function () {
