@@ -2348,3 +2348,43 @@ body {
   left: 740px;
   top: 275px;
 }
+
+.errorAnimation1,
+.errorAnimation2 {
+  display: none;
+}
+
+.errorAnimation1.show,
+.errorAnimation2.show {
+  display: block;
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  animation-name: errorX;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.errorAnimation1.show {
+  left: 120px;
+  top: 500px;
+}
+
+.errorAnimation2.show {
+  left: 1180px;
+  top: 200px;
+  animation-delay: -1s;
+}
+
+@keyframes errorX {
+  0% {
+    transform: scale(100%);
+  }
+  50% {
+    transform: scale(80%);
+  }
+  100% {
+    transform: scale(100%);
+  }
+}

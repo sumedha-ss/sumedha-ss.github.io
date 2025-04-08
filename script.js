@@ -289,8 +289,6 @@ function removeHint() {
 }
 
 const undoButton = document.getElementById("undoButton");
-undoButton.addEventListener("click", removeFruitInfoCover);
-undoButton.addEventListener("click", removeUndoButton);
 undoButton.addEventListener("click", function () {
   fruitOption1.classList.remove("clicked");
   fruitOption2.classList.remove("clicked");
@@ -298,32 +296,29 @@ undoButton.addEventListener("click", function () {
   fruitOption4.classList.remove("clicked");
   fruitOption5.classList.remove("clicked");
   errorMessage.classList.remove("show");
+  removeFruitInfoCover();
+  addHint();
+  removeWrongOption();
 });
-undoButton.addEventListener("click", addHint);
-
-function addUndoButton() {
-  undoButton.classList.add("show");
-}
-
-function removeUndoButton() {
-  undoButton.classList.remove("show");
-}
 
 const errorMessage = document.getElementById("errorMessage");
-function addErrorMessage() {
-  errorMessage.classList.add("show");
-}
+const errorAnimation1 = document.getElementById("errorAnimation1");
+const errorAnimation2 = document.getElementById("errorAnimation2");
 
 function addWrongOption() {
-  addUndoButton();
-  addErrorMessage();
+  undoButton.classList.add("show");
+  errorMessage.classList.add("show");
+  errorAnimation1.classList.add("show");
+  errorAnimation2.classList.add("show");
   removeHint();
   addFruitInfoCover();
 }
 
 function removeWrongOption() {
-  removeUndoButton();
-  removeErrorMessage();
+  undoButton.classList.remove("show");
+  errorMessage.classList.remove("show");
+  errorAnimation1.classList.remove("show");
+  errorAnimation2.classList.remove("show");
 }
 
 const fruitInfoCover = document.getElementById("fruitInfoCover");
@@ -395,7 +390,7 @@ fruitOption5.addEventListener("click", removeHint);
 fruitOption5.addEventListener("click", function () {
   fruitOption5.classList.replace("hover", "clicked");
 });
-fruitOption5.addEventListener("click", addUndoButton);
+fruitOption5.addEventListener("click", addWrongOption);
 fruitOption5.addEventListener("click", addFruitInfoCover);
 
 closeFruit.addEventListener("click", closeFruitButtons);
