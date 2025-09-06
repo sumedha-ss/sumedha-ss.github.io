@@ -12,6 +12,117 @@ closeBtn.addEventListener("click", function () {
   setTimeout(removePopup, 400);
 });
 
+const candle1 = document.getElementById("candle1");
+const candle2 = document.getElementById("candle2");
+const candle3 = document.getElementById("candle3");
+
+function reposition() {
+  const body = document.body;
+  const bg = new Image();
+  bg.src = getComputedStyle(body).backgroundImage.replace(
+    /url\((['"])?(.*?)\1\)/gi,
+    "$2"
+  );
+
+  bg.onload = () => {
+    const bodyWidth = window.innerWidth;
+    const bodyHeight = window.innerHeight;
+    const bgRatio = bg.width / bg.height;
+    const bodyRatio = bodyWidth / bodyHeight;
+
+    let bgWidth, bgHeight, bgLeft, bgTop;
+
+    if (bodyRatio > bgRatio) {
+      // body is wider than bg
+      bgHeight = bodyHeight;
+      bgWidth = bgHeight * bgRatio;
+      bgTop = 0;
+      bgLeft = (bodyWidth - bgWidth) / 2;
+    } else {
+      // body is taller than bg
+      bgWidth = bodyWidth;
+      bgHeight = bgWidth / bgRatio;
+      bgLeft = 0;
+      bgTop = (bodyHeight - bgHeight) / 2;
+    }
+
+    // position catGlow relative to background
+    const catGlowLeft = bgLeft + 0.124 * bgWidth; // 17.2% from left of bg
+    const catGlowTop = bgTop + 0.0945 * bgHeight; // 9.35% from top of bg
+    const catGlowWidth = 0.2885 * bgWidth; // 25.2% of bg width
+    const catGlowHeight = catGlowWidth; // 1:1 ratio
+
+    catGlow.style.left = catGlowLeft + "px";
+    catGlow.style.top = catGlowTop + "px";
+    catGlow.style.width = catGlowWidth + "px";
+    catGlow.style.height = catGlowHeight + "px";
+
+    const bookGlowLeft = bgLeft + 0.662 * bgWidth;
+    const bookGlowTop = bgTop + 0.613 * bgHeight;
+    const bookGlowWidth = 0.175 * bgWidth;
+    const bookGlowHeight = 0.886 * bookGlowWidth;
+
+    bookGlow.style.left = bookGlowLeft + "px";
+    bookGlow.style.top = bookGlowTop + "px";
+    bookGlow.style.width = bookGlowWidth + "px";
+    bookGlow.style.height = bookGlowHeight + "px";
+
+    const tennisGlowLeft = bgLeft + 0.585 * bgWidth;
+    const tennisGlowTop = bgTop + 0.394 * bgHeight;
+    const tennisGlowWidth = 0.2505 * bgWidth;
+    const tennisGlowHeight = 0.505 * tennisGlowWidth;
+
+    tennisGlow.style.left = tennisGlowLeft + "px";
+    tennisGlow.style.top = tennisGlowTop + "px";
+    tennisGlow.style.width = tennisGlowWidth + "px";
+    tennisGlow.style.height = tennisGlowHeight + "px";
+
+    const photoGlowLeft = bgLeft + 0.1825 * bgWidth;
+    const photoGlowTop = bgTop + 0.635 * bgHeight;
+    const photoGlowWidth = 0.2135 * bgWidth;
+    const photoGlowHeight = 0.645 * photoGlowWidth;
+
+    photoGlow.style.left = photoGlowLeft + "px";
+    photoGlow.style.top = photoGlowTop + "px";
+    photoGlow.style.width = photoGlowWidth + "px";
+    photoGlow.style.height = photoGlowHeight + "px";
+
+    const candle1GlowLeft = bgLeft + 0.4243 * bgWidth;
+    const candle1GlowTop = bgTop + 0.65 * bgHeight;
+    const candle1GlowWidth = 0.0138 * bgWidth;
+    const candle1GlowHeight = 1.345 * candle1GlowWidth;
+
+    candle1.style.left = candle1GlowLeft + "px";
+    candle1.style.top = candle1GlowTop + "px";
+    candle1.style.width = candle1GlowWidth + "px";
+    candle1.style.height = candle1GlowHeight + "px";
+
+    const candle2GlowLeft = bgLeft + 0.444 * bgWidth;
+    const candle2GlowTop = bgTop + 0.737 * bgHeight;
+    const candle2GlowWidth = 0.019 * bgWidth;
+    const candle2GlowHeight = 1.345 * candle2GlowWidth;
+
+    candle2.style.left = candle2GlowLeft + "px";
+    candle2.style.top = candle2GlowTop + "px";
+    candle2.style.width = candle2GlowWidth + "px";
+    candle2.style.height = candle2GlowHeight + "px";
+
+    const candle3GlowLeft = bgLeft + 0.468 * bgWidth;
+    const candle3GlowTop = bgTop + 0.69 * bgHeight;
+    const candle3GlowWidth = 0.022 * bgWidth;
+    const candle3GlowHeight = 1.345 * candle3GlowWidth;
+
+    candle3.style.left = candle3GlowLeft + "px";
+    candle3.style.top = candle3GlowTop + "px";
+    candle3.style.width = candle3GlowWidth + "px";
+    candle3.style.height = candle3GlowHeight + "px";
+  };
+}
+
+// Call initially and on resize
+reposition();
+window.addEventListener("resize", reposition);
+
 const catInfo = document.getElementById("catInfo");
 const closeCat = document.getElementById("closeCat");
 const catBackground = document.getElementById("catBackground");
@@ -502,80 +613,3 @@ lampCordOff.addEventListener("click", function () {
   lampCord.classList.replace("onAnimate", "offAnimate");
   setTimeout(normalCord, 400);
 });
-
-function positionCatGlow() {
-  const body = document.body;
-  const bg = new Image();
-  bg.src = getComputedStyle(body).backgroundImage.replace(
-    /url\((['"])?(.*?)\1\)/gi,
-    "$2"
-  );
-
-  bg.onload = () => {
-    const bodyWidth = window.innerWidth;
-    const bodyHeight = window.innerHeight;
-    const bgRatio = bg.width / bg.height;
-    const bodyRatio = bodyWidth / bodyHeight;
-
-    let bgWidth, bgHeight, bgLeft, bgTop;
-
-    if (bodyRatio > bgRatio) {
-      // body is wider than bg
-      bgHeight = bodyHeight;
-      bgWidth = bgHeight * bgRatio;
-      bgTop = 0;
-      bgLeft = (bodyWidth - bgWidth) / 2;
-    } else {
-      // body is taller than bg
-      bgWidth = bodyWidth;
-      bgHeight = bgWidth / bgRatio;
-      bgLeft = 0;
-      bgTop = (bodyHeight - bgHeight) / 2;
-    }
-
-    // position catGlow relative to background
-    const catGlowLeft = bgLeft + 0.124 * bgWidth; // 17.2% from left of bg
-    const catGlowTop = bgTop + 0.0945 * bgHeight; // 9.35% from top of bg
-    const catGlowWidth = 0.2885 * bgWidth; // 25.2% of bg width
-    const catGlowHeight = catGlowWidth; // 1:1 ratio
-
-    catGlow.style.left = catGlowLeft + "px";
-    catGlow.style.top = catGlowTop + "px";
-    catGlow.style.width = catGlowWidth + "px";
-    catGlow.style.height = catGlowHeight + "px";
-
-    const bookGlowLeft = bgLeft + 0.662 * bgWidth;
-    const bookGlowTop = bgTop + 0.613 * bgHeight;
-    const bookGlowWidth = 0.175 * bgWidth;
-    const bookGlowHeight = 0.886 * bookGlowWidth;
-
-    bookGlow.style.left = bookGlowLeft + "px";
-    bookGlow.style.top = bookGlowTop + "px";
-    bookGlow.style.width = bookGlowWidth + "px";
-    bookGlow.style.height = bookGlowHeight + "px";
-
-    const tennisGlowLeft = bgLeft + 0.585 * bgWidth;
-    const tennisGlowTop = bgTop + 0.394 * bgHeight;
-    const tennisGlowWidth = 0.2505 * bgWidth;
-    const tennisGlowHeight = 0.505 * tennisGlowWidth;
-
-    tennisGlow.style.left = tennisGlowLeft + "px";
-    tennisGlow.style.top = tennisGlowTop + "px";
-    tennisGlow.style.width = tennisGlowWidth + "px";
-    tennisGlow.style.height = tennisGlowHeight + "px";
-
-    const photoGlowLeft = bgLeft + 0.1825 * bgWidth;
-    const photoGlowTop = bgTop + 0.635 * bgHeight;
-    const photoGlowWidth = 0.2135 * bgWidth;
-    const photoGlowHeight = 0.645 * photoGlowWidth;
-
-    photoGlow.style.left = photoGlowLeft + "px";
-    photoGlow.style.top = photoGlowTop + "px";
-    photoGlow.style.width = photoGlowWidth + "px";
-    photoGlow.style.height = photoGlowHeight + "px";
-  };
-}
-
-// Call initially and on resize
-positionCatGlow();
-window.addEventListener("resize", positionCatGlow);

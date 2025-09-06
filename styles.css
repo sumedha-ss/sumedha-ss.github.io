@@ -44,7 +44,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.6);
   z-index: 1;
   backdrop-filter: blur(5px);
   opacity: 1;
@@ -434,24 +434,13 @@ body {
 }
 
 .candle1 {
-  height: 3.4%;
-  width: 1.4%;
-  top: 552px;
-  left: 652px;
+  animation-delay: 0s;
 }
 
 .candle2 {
-  height: 3.8%;
-  width: 1.8%;
-  top: 632px;
-  left: 678.5px;
   animation-delay: 0.75s;
 }
 .candle3 {
-  height: 4.9%;
-  width: 1.9%;
-  top: 588.5px;
-  left: 712.25px;
   animation-delay: 1.5s;
 }
 
