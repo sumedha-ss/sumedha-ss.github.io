@@ -582,27 +582,7 @@ body {
 .tennis10,
 .tennis11,
 .photo1,
-.photo2,
-.fruit1,
-.fruit2,
-.fruit3,
-.fruit4,
-.fruit5,
-.fruit6,
-.fruit7,
-.fruit8,
-.fruit9,
-.fruit10,
-.fruit11,
-.fruit12,
-.fruit13,
-.fruit14,
-.fruit15,
-.fruit16,
-.fruit17,
-.fruit18,
-.fruit19,
-.fruit20 {
+.photo2 {
   position: absolute;
   background-color: rgba(0, 0, 0, 0);
   border-width: 0px;
@@ -761,16 +741,14 @@ body {
 .catBackground,
 .bookBackground,
 .photoBackground,
-.tennisBackground,
-.fruitBackground {
+.tennisBackground {
   display: none;
 }
 
 .catBackground.show,
 .bookBackground.show,
 .photoBackground.show,
-.tennisBackground.show,
-.fruitBackground.show {
+.tennisBackground.show {
   display: block;
   position: fixed;
   top: 0;
@@ -783,39 +761,9 @@ body {
 .catInfo,
 .bookInfo,
 .photoInfo,
-.tennisInfo,
-.fruitInfo {
+.tennisInfo {
   display: none;
 }
-
-.fruitInfo.show {
-  display: block;
-  position: absolute;
-  top: 420px;
-  left: 505px;
-  transform: translate(-50%, -50%);
-  background-color: rgba(255, 250, 240, 0.85);
-  width: 430px;
-  height: 610px;
-  border-radius: 20px;
-}
-
-.fruitInfoCover {
-  display: none;
-}
-
-.fruitInfoCover.show {
-  display: block;
-  position: absolute;
-  top: 420px;
-  left: 505px;
-  transform: translate(-50%, -50%);
-  opacity: 0;
-  width: 430px;
-  height: 610px;
-  border-radius: 20px;
-}
-
 .catInfo.show {
   display: block;
   position: absolute;
@@ -831,8 +779,7 @@ body {
 .closeCat,
 .closeBook,
 .closePhoto,
-.closeTennis,
-.closeFruit {
+.closeTennis {
   position: absolute;
   border-width: 0px;
   background-color: rgba(255, 255, 255, 0.88);
@@ -845,31 +792,18 @@ body {
   cursor: pointer;
 }
 
-.closeFruit {
-  top: 746px;
-  left: 695px;
-}
-
 .closeCat {
   top: 360px;
   left: 582px;
 }
 
-.infoHeader,
-.infoHeaderFruit {
+.infoHeader {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: rgb(153, 106, 75);
   font-size: 54px;
   position: absolute;
   top: -30px;
   padding-left: 45px;
-}
-
-.infoHeaderFruit {
-  font-size: 40px;
-  text-align: center;
-  padding-left: 0px;
-  top: -10px;
 }
 
 .infoBody {
@@ -1741,8 +1675,7 @@ body {
 .bookGlow,
 .catGlow,
 .tennisGlow,
-.photoGlow,
-.fruitGlow {
+.photoGlow {
   display: none;
 }
 
@@ -1764,15 +1697,6 @@ body {
 .photoGlow.show {
   display: block;
   position: absolute;
-}
-
-.fruitGlow.show {
-  display: block;
-  position: absolute;
-  width: 239.8px;
-  height: 232.8px;
-  top: 537.4px;
-  left: 756.7px;
 }
 
 .lamp {
@@ -2011,367 +1935,5 @@ body {
     left: 578px;
     rotate: -10deg;
     transform: scaleX(1);
-  }
-}
-
-.fruit1 {
-  position: absolute;
-  height: 37px;
-  width: 160px;
-  top: 638px;
-  left: 795px;
-  border-radius: 5px;
-}
-
-.fruit2 {
-  position: absolute;
-  height: 25px;
-  width: 90px;
-  top: 674px;
-  left: 850px;
-  transform: skew(-55deg);
-}
-
-.fruit3 {
-  position: absolute;
-  height: 13px;
-  width: 90px;
-  top: 674px;
-  left: 803px;
-  transform: skew(40deg);
-}
-
-.fruit4 {
-  position: absolute;
-  height: 15px;
-  width: 85px;
-  top: 685px;
-  left: 819px;
-  transform: skew(65deg);
-}
-
-.fruit5 {
-  position: absolute;
-  height: 12px;
-  width: 68px;
-  top: 696px;
-  left: 846px;
-  border-radius: 3px;
-}
-
-.fruit6 {
-  position: absolute;
-  height: 30px;
-  width: 132px;
-  top: 610px;
-  left: 810px;
-  border-radius: 3px;
-}
-
-.fruit7 {
-  position: absolute;
-  height: 50px;
-  width: 18px;
-  top: 605px;
-  left: 805px;
-  rotate: -25deg;
-  border-radius: 3px;
-}
-
-.fruit8 {
-  position: absolute;
-  height: 10px;
-  width: 14px;
-  top: 600px;
-  left: 796px;
-  rotate: -10deg;
-  border-radius: 3px;
-}
-
-.fruit9 {
-  position: absolute;
-  height: 7px;
-  width: 25px;
-  top: 605px;
-  left: 818px;
-  transform: skew(-55deg);
-}
-
-.fruit10 {
-  position: absolute;
-  height: 15px;
-  width: 18px;
-  top: 602.5px;
-  left: 831px;
-  border-radius: 30px;
-}
-
-.fruit11 {
-  position: absolute;
-  height: 8px;
-  width: 2px;
-  top: 593px;
-  left: 795px;
-  rotate: -95deg;
-}
-
-.fruit12 {
-  position: absolute;
-  height: 15px;
-  width: 37px;
-  top: 600px;
-  left: 849px;
-  border-radius: 5px;
-  rotate: -10deg;
-}
-
-.fruit13 {
-  position: absolute;
-  height: 15px;
-  width: 39px;
-  top: 606px;
-  left: 879px;
-  border-radius: 5px;
-}
-
-.fruit14 {
-  position: absolute;
-  height: 10px;
-  width: 17px;
-  top: 600.3px;
-  left: 886px;
-  transform: skew(-55deg);
-  rotate: 59deg;
-}
-
-.fruit15 {
-  position: absolute;
-  height: 15px;
-  width: 10px;
-  top: 604px;
-  left: 928px;
-  border-radius: 30px;
-  rotate: 30deg;
-}
-
-.fruit16 {
-  position: absolute;
-  height: 25px;
-  width: 10px;
-  top: 624px;
-  left: 933px;
-  rotate: -20deg;
-}
-
-.fruit17 {
-  position: absolute;
-  height: 5px;
-  width: 10px;
-  top: 601.5px;
-  left: 894.5px;
-  rotate: 95deg;
-}
-
-.fruit18 {
-  position: absolute;
-  height: 5px;
-  width: 10px;
-  top: 599px;
-  left: 934.5px;
-  rotate: 120deg;
-}
-
-.fruit19 {
-  position: absolute;
-  height: 7px;
-  width: 8px;
-  top: 595.5px;
-  left: 860px;
-  rotate: -110deg;
-}
-
-.fruit20 {
-  position: absolute;
-  height: 5px;
-  width: 8px;
-  top: 602px;
-  left: 823.7px;
-  rotate: -110deg;
-}
-
-.fruitOption1,
-.fruitOption2,
-.fruitOption3,
-.fruitOption4,
-.fruitOption5 {
-  position: absolute;
-  border-width: 0px;
-  background-color: rgba(255, 232, 244, 0.7);
-  width: 370px;
-  height: 70px;
-  border-radius: 10px;
-  left: 30px;
-  cursor: pointer;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: rgb(202, 158, 128);
-  font-size: 30px;
-  padding-bottom: 6px;
-  letter-spacing: 0.2px;
-  text-align: center;
-}
-
-.fruitOption1 {
-  top: 155px;
-}
-
-.fruitOption2 {
-  top: 245px;
-}
-
-.fruitOption3 {
-  top: 335px;
-}
-
-.fruitOption4 {
-  top: 425px;
-}
-
-.fruitOption5 {
-  top: 515px;
-}
-
-.fruitOption1.hover,
-.fruitOption2.hover,
-.fruitOption3.hover,
-.fruitOption4.hover,
-.fruitOption5.hover {
-  background-color: rgba(255, 205, 231, 0.7);
-  color: rgb(169, 122, 90);
-}
-
-.fruitOption1.clicked,
-.fruitOption2.clicked,
-.fruitOption3.clicked,
-.fruitOption4.clicked {
-  background-color: rgba(255, 205, 205, 0.7);
-  color: rgb(172, 56, 56);
-}
-
-.fruitOption5.clicked {
-  background-color: rgba(221, 255, 205, 0.7);
-  color: rgb(28, 126, 24);
-}
-
-.hintBlob {
-  position: absolute;
-  height: 370px;
-  width: 610px;
-  top: 327px;
-  left: 696px;
-  opacity: 0.8;
-}
-
-.responseText1,
-.responseText2 {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: rgb(110, 70, 54);
-  font-size: 32px;
-  position: absolute;
-}
-
-.responseText1 {
-  top: 395px;
-  left: 842px;
-}
-
-.responseText2 {
-  top: 440px;
-  left: 800px;
-}
-
-.hintBlob,
-.responseText1,
-.responseText2 {
-  display: block;
-}
-
-.hintBlob.hidden,
-.responseText1.hidden,
-.responseText2.hidden {
-  display: none;
-}
-
-.undoButton {
-  display: none;
-}
-
-.undoButton.show {
-  display: block;
-  position: absolute;
-  width: 130px;
-  height: 80px;
-  background-color: rgba(255, 250, 240, 0.85);
-  border-width: 0px;
-  border-radius: 20px;
-  top: 600px;
-  left: 1060px;
-  font-family: "Times New Roman", Times, serif;
-  color: rgb(153, 106, 75);
-  font-size: 32px;
-  height: 70px;
-  width: 170px;
-  cursor: pointer;
-}
-
-.errorMessage {
-  display: none;
-}
-
-.errorMessage.show {
-  display: block;
-  position: absolute;
-  height: 330px;
-  width: 500px;
-  left: 740px;
-  top: 275px;
-}
-
-.errorAnimation1,
-.errorAnimation2 {
-  display: none;
-}
-
-.errorAnimation1.show,
-.errorAnimation2.show {
-  display: block;
-  position: absolute;
-  height: 200px;
-  width: 200px;
-  animation-name: errorX;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
-
-.errorAnimation1.show {
-  left: 120px;
-  top: 500px;
-}
-
-.errorAnimation2.show {
-  left: 1180px;
-  top: 200px;
-  animation-delay: -1s;
-}
-
-@keyframes errorX {
-  0% {
-    transform: scale(100%);
-  }
-  50% {
-    transform: scale(80%);
-  }
-  100% {
-    transform: scale(100%);
   }
 }
