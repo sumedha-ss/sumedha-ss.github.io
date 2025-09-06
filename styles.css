@@ -1706,10 +1706,6 @@ body {
 
 .lampCord.onAnimate {
   position: absolute;
-  width: 150px;
-  height: 140px;
-  left: 1068px;
-  top: 140px;
   animation-name: lampCordOn;
   animation-duration: 0.4s;
   animation-timing-function: linear;
@@ -1726,25 +1722,25 @@ body {
 
 @keyframes lampCordOn {
   0% {
-    top: 140px;
+    transform: translateY(0);
   }
   60% {
-    top: 160px;
+    transform: translateY(20px);
   }
   100% {
-    top: 147px;
+    transform: translateY(7px);
   }
 }
 
 @keyframes lampCordOff {
   0% {
-    top: 147px;
+    transform: translateY(7px);
   }
   40% {
-    top: 160px;
+    transform: translateY(20px);
   }
   100% {
-    top: 140px;
+    transform: translateY(0px);
   }
 }
 

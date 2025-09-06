@@ -20,6 +20,8 @@ const sleep1 = document.getElementById("sleep1");
 const sleep2 = document.getElementById("sleep2");
 const sleep3 = document.getElementById("sleep3");
 
+const lamp = document.getElementById("lamp");
+
 function reposition() {
   const body = document.body;
   const bg = new Image();
@@ -184,6 +186,56 @@ function reposition() {
 
     snow6.style.left = snow6Left + "px";
     snow6.style.top = snow6Top + "px";
+
+    const lampLeft = bgLeft + 0.6435 * bgWidth;
+    const lampTop = bgTop - 0.0944 * bgHeight;
+    const lampWidth = 0.1965 * bgWidth;
+    const lampHeight = 1.547 * lampWidth;
+
+    lamp.style.left = lampLeft + "px";
+    lamp.style.top = lampTop + "px";
+    lamp.style.width = lampWidth + "px";
+    lamp.style.height = lampHeight + "px";
+
+    const lampOnLeft = bgLeft + 0.6436 * bgWidth;
+    const lampOnTop = bgTop - 0.09435 * bgHeight;
+    const lampOnWidth = 0.1965 * bgWidth;
+    const lampOnHeight = 1.547 * lampOnWidth;
+
+    lampOn.style.left = lampOnLeft + "px";
+    lampOn.style.top = lampOnTop + "px";
+    lampOn.style.width = lampOnWidth + "px";
+    lampOn.style.height = lampOnHeight + "px";
+
+    const lampCordLeft = bgLeft + 0.745 * bgWidth;
+    const lampCordTop = bgTop + 0.17 * bgHeight;
+    const lampCordWidth = 0.0965 * bgWidth;
+    const lampCordHeight = 1.047 * lampCordWidth;
+
+    lampCord.style.left = lampCordLeft + "px";
+    lampCord.style.top = lampCordTop + "px";
+    lampCord.style.width = lampCordWidth + "px";
+    lampCord.style.height = lampCordHeight + "px";
+
+    const lampCordOnLeft = bgLeft + 0.788 * bgWidth;
+    const lampCordOnTop = bgTop + 0.245 * bgHeight;
+    const lampCordOnWidth = 0.007 * bgWidth;
+    const lampCordOnHeight = 5.2 * lampCordOnWidth;
+
+    lampCordOn.style.left = lampCordOnLeft + "px";
+    lampCordOn.style.top = lampCordOnTop + "px";
+    lampCordOn.style.width = lampCordOnWidth + "px";
+    lampCordOn.style.height = lampCordOnHeight + "px";
+
+    const lampCordOffLeft = bgLeft + 0.788 * bgWidth;
+    const lampCordOffTop = bgTop + 0.245 * bgHeight;
+    const lampCordOffWidth = 0.007 * bgWidth;
+    const lampCordOffHeight = 5.8 * lampCordOffWidth;
+
+    lampCordOff.style.left = lampCordOffLeft + "px";
+    lampCordOff.style.top = lampCordOffTop + "px";
+    lampCordOff.style.width = lampCordOffWidth + "px";
+    lampCordOff.style.height = lampCordOffHeight + "px";
   };
 }
 
