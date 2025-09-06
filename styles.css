@@ -1749,34 +1749,21 @@ body {
 .bookGlow.show {
   display: block;
   position: absolute;
-  width: 235.6px;
-  height: 203.7px;
-  top: 526px;
-  left: 977.7px;
 }
 
 .catGlow.show {
   display: block;
   position: absolute;
-  aspect-ratio: 1;
 }
 
 .tennisGlow.show {
   display: block;
   position: absolute;
-  width: 341px;
-  height: 167px;
-  top: 337px;
-  left: 871.4px;
 }
 
 .photoGlow.show {
   display: block;
   position: absolute;
-  width: 290.3px;
-  height: 182px;
-  top: 544px;
-  left: 324px;
 }
 
 .fruitGlow.show {

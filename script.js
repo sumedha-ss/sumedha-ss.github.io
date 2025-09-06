@@ -787,16 +787,46 @@ function positionCatGlow() {
       bgTop = (bodyHeight - bgHeight) / 2;
     }
 
-    // Example: position catGlow relative to background
-    const glowLeft = bgLeft + 0.124 * bgWidth; // 17.2% from left of bg
-    const glowTop = bgTop + 0.0945 * bgHeight; // 9.35% from top of bg
-    const glowWidth = 0.2885 * bgWidth; // 25.2% of bg width
-    const glowHeight = glowWidth; // assuming 1:1 aspect ratio
+    // position catGlow relative to background
+    const catGlowLeft = bgLeft + 0.124 * bgWidth; // 17.2% from left of bg
+    const catGlowTop = bgTop + 0.0945 * bgHeight; // 9.35% from top of bg
+    const catGlowWidth = 0.2885 * bgWidth; // 25.2% of bg width
+    const catGlowHeight = catGlowWidth; // 1:1 ratio
 
-    catGlow.style.left = glowLeft + "px";
-    catGlow.style.top = glowTop + "px";
-    catGlow.style.width = glowWidth + "px";
-    catGlow.style.height = glowHeight + "px";
+    catGlow.style.left = catGlowLeft + "px";
+    catGlow.style.top = catGlowTop + "px";
+    catGlow.style.width = catGlowWidth + "px";
+    catGlow.style.height = catGlowHeight + "px";
+
+    const bookGlowLeft = bgLeft + 0.662 * bgWidth;
+    const bookGlowTop = bgTop + 0.613 * bgHeight;
+    const bookGlowWidth = 0.175 * bgWidth;
+    const bookGlowHeight = 0.886 * bookGlowWidth;
+
+    bookGlow.style.left = bookGlowLeft + "px";
+    bookGlow.style.top = bookGlowTop + "px";
+    bookGlow.style.width = bookGlowWidth + "px";
+    bookGlow.style.height = bookGlowHeight + "px";
+
+    const tennisGlowLeft = bgLeft + 0.585 * bgWidth;
+    const tennisGlowTop = bgTop + 0.394 * bgHeight;
+    const tennisGlowWidth = 0.2505 * bgWidth;
+    const tennisGlowHeight = 0.505 * tennisGlowWidth;
+
+    tennisGlow.style.left = tennisGlowLeft + "px";
+    tennisGlow.style.top = tennisGlowTop + "px";
+    tennisGlow.style.width = tennisGlowWidth + "px";
+    tennisGlow.style.height = tennisGlowHeight + "px";
+
+    const photoGlowLeft = bgLeft + 0.1825 * bgWidth;
+    const photoGlowTop = bgTop + 0.635 * bgHeight;
+    const photoGlowWidth = 0.2135 * bgWidth;
+    const photoGlowHeight = 0.645 * photoGlowWidth;
+
+    photoGlow.style.left = photoGlowLeft + "px";
+    photoGlow.style.top = photoGlowTop + "px";
+    photoGlow.style.width = photoGlowWidth + "px";
+    photoGlow.style.height = photoGlowHeight + "px";
   };
 }
 
