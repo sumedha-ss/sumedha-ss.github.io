@@ -1,7 +1,10 @@
 body {
   background-image: url("./images/background.skt/bgr.png");
-  background-size: 90% 100%;
+  background-color: rgba(252, 248, 245, 255);
+  background-size: contain;
+  background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
 }
 
 .Big-Brown {
@@ -1755,10 +1758,10 @@ body {
 .catGlow.show {
   display: block;
   position: absolute;
-  width: 392.5px;
-  height: 380.7px;
-  top: 80.8px;
-  left: 244px;
+  width: 25.2vw;
+  height: 44.4vh;
+  top: 9.45vh;
+  left: 17.15vw;
 }
 
 .tennisGlow.show {
