@@ -91,53 +91,63 @@ function reposition() {
     photoGlow.style.width = photoGlowWidth + "px";
     photoGlow.style.height = photoGlowHeight + "px";
 
-    const candle1GlowLeft = bgLeft + 0.4243 * bgWidth;
-    const candle1GlowTop = bgTop + 0.65 * bgHeight;
-    const candle1GlowWidth = 0.0138 * bgWidth;
-    const candle1GlowHeight = 1.345 * candle1GlowWidth;
+    const candle1Left = bgLeft + 0.4243 * bgWidth;
+    const candle1Top = bgTop + 0.65 * bgHeight;
+    const candle1Width = 0.0138 * bgWidth;
+    const candle1Height = 1.345 * candle1Width;
 
-    candle1.style.left = candle1GlowLeft + "px";
-    candle1.style.top = candle1GlowTop + "px";
-    candle1.style.width = candle1GlowWidth + "px";
-    candle1.style.height = candle1GlowHeight + "px";
+    candle1.style.left = candle1Left + "px";
+    candle1.style.top = candle1Top + "px";
+    candle1.style.width = candle1Width + "px";
+    candle1.style.height = candle1Height + "px";
 
-    const candle2GlowLeft = bgLeft + 0.444 * bgWidth;
-    const candle2GlowTop = bgTop + 0.737 * bgHeight;
-    const candle2GlowWidth = 0.019 * bgWidth;
-    const candle2GlowHeight = 1.345 * candle2GlowWidth;
+    const candle2Left = bgLeft + 0.444 * bgWidth;
+    const candle2Top = bgTop + 0.737 * bgHeight;
+    const candle2Width = 0.019 * bgWidth;
+    const candle2Height = 1.345 * candle2Width;
 
-    candle2.style.left = candle2GlowLeft + "px";
-    candle2.style.top = candle2GlowTop + "px";
-    candle2.style.width = candle2GlowWidth + "px";
-    candle2.style.height = candle2GlowHeight + "px";
+    candle2.style.left = candle2Left + "px";
+    candle2.style.top = candle2Top + "px";
+    candle2.style.width = candle2Width + "px";
+    candle2.style.height = candle2Height + "px";
 
-    const candle3GlowLeft = bgLeft + 0.468 * bgWidth;
-    const candle3GlowTop = bgTop + 0.69 * bgHeight;
-    const candle3GlowWidth = 0.022 * bgWidth;
-    const candle3GlowHeight = 1.345 * candle3GlowWidth;
+    const candle3Left = bgLeft + 0.468 * bgWidth;
+    const candle3Top = bgTop + 0.69 * bgHeight;
+    const candle3Width = 0.022 * bgWidth;
+    const candle3Height = 1.345 * candle3Width;
 
-    candle3.style.left = candle3GlowLeft + "px";
-    candle3.style.top = candle3GlowTop + "px";
-    candle3.style.width = candle3GlowWidth + "px";
-    candle3.style.height = candle3GlowHeight + "px";
+    candle3.style.left = candle3Left + "px";
+    candle3.style.top = candle3Top + "px";
+    candle3.style.width = candle3Width + "px";
+    candle3.style.height = candle3Height + "px";
 
-    const sleep1GlowLeft = bgLeft + 0.362 * bgWidth;
-    const sleep1GlowTop = bgTop + 0.24 * bgHeight;
+    const sleep1Left = bgLeft + 0.362 * bgWidth;
+    const sleep1Top = bgTop + 0.24 * bgHeight;
 
-    sleep1.style.left = sleep1GlowLeft + "px";
-    sleep1.style.top = sleep1GlowTop + "px";
+    sleep1.style.left = sleep1Left + "px";
+    sleep1.style.top = sleep1Top + "px";
 
-    const sleep2GlowLeft = bgLeft + 0.379 * bgWidth;
-    const sleep2GlowTop = bgTop + 0.22 * bgHeight;
+    const sleep2Left = bgLeft + 0.379 * bgWidth;
+    const sleep2Top = bgTop + 0.22 * bgHeight;
 
-    sleep2.style.left = sleep2GlowLeft + "px";
-    sleep2.style.top = sleep2GlowTop + "px";
+    sleep2.style.left = sleep2Left + "px";
+    sleep2.style.top = sleep2Top + "px";
 
-    const sleep3GlowLeft = bgLeft + 0.4 * bgWidth;
-    const sleep3GlowTop = bgTop + 0.215 * bgHeight;
+    const sleep3Left = bgLeft + 0.4 * bgWidth;
+    const sleep3Top = bgTop + 0.215 * bgHeight;
 
-    sleep3.style.left = sleep3GlowLeft + "px";
-    sleep3.style.top = sleep3GlowTop + "px";
+    sleep3.style.left = sleep3Left + "px";
+    sleep3.style.top = sleep3Top + "px";
+
+    const ladybugLeft = bgLeft + 0.405 * bgWidth;
+    const ladybugTop = bgTop + 0.473 * bgHeight;
+    const ladybugWidth = 0.009 * bgWidth;
+    const ladybugHeight = ladybugWidth;
+
+    ladybug.style.left = ladybugLeft + "px";
+    ladybug.style.top = ladybugTop + "px";
+    ladybug.style.width = ladybugWidth + "px";
+    ladybug.style.height = ladybugHeight + "px";
   };
 }
 
