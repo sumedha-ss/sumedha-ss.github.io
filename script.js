@@ -148,6 +148,42 @@ function reposition() {
     ladybug.style.top = ladybugTop + "px";
     ladybug.style.width = ladybugWidth + "px";
     ladybug.style.height = ladybugHeight + "px";
+
+    const snow1Left = bgLeft + 0.462 * bgWidth;
+    const snow1Top = bgTop + 0.505 * bgHeight;
+
+    snow1.style.left = snow1Left + "px";
+    snow1.style.top = snow1Top + "px";
+
+    const snow2Left = bgLeft + 0.468 * bgWidth;
+    const snow2Top = bgTop + 0.5 * bgHeight;
+
+    snow2.style.left = snow2Left + "px";
+    snow2.style.top = snow2Top + "px";
+
+    const snow3Left = bgLeft + 0.476 * bgWidth;
+    const snow3Top = bgTop + 0.495 * bgHeight;
+
+    snow3.style.left = snow3Left + "px";
+    snow3.style.top = snow3Top + "px";
+
+    const snow4Left = bgLeft + 0.482 * bgWidth;
+    const snow4Top = bgTop + 0.495 * bgHeight;
+
+    snow4.style.left = snow4Left + "px";
+    snow4.style.top = snow4Top + "px";
+
+    const snow5Left = bgLeft + 0.488 * bgWidth;
+    const snow5Top = bgTop + 0.5005 * bgHeight;
+
+    snow5.style.left = snow5Left + "px";
+    snow5.style.top = snow5Top + "px";
+
+    const snow6Left = bgLeft + 0.496 * bgWidth;
+    const snow6Top = bgTop + 0.505 * bgHeight;
+
+    snow6.style.left = snow6Left + "px";
+    snow6.style.top = snow6Top + "px";
   };
 }
 

@@ -478,37 +478,25 @@ body {
 }
 
 .snow1 {
-  left: 710px;
-  top: 422px;
   animation-delay: 1s;
 }
 .snow2 {
-  left: 719px;
-  top: 419px;
   animation-delay: 4s;
 }
 
 .snow3 {
-  left: 728px;
-  top: 420px;
-  animation-delay: 2s;
+  animation-delay: 3s;
 }
 
 .snow4 {
-  left: 737px;
-  top: 420px;
-  animation-delay: 5s;
+  animation-delay: 2.5s;
 }
 
 .snow5 {
-  left: 746px;
-  top: 427px;
   animation-delay: 3s;
 }
 
 .snow6 {
-  left: 703px;
-  top: 433px;
   animation-delay: 2.4s;
 }
 
