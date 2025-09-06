@@ -756,3 +756,50 @@ lampCordOff.addEventListener("click", function () {
   lampCord.classList.replace("onAnimate", "offAnimate");
   setTimeout(normalCord, 400);
 });
+
+function positionCatGlow() {
+  const body = document.body;
+  const bg = new Image();
+  bg.src = getComputedStyle(body).backgroundImage.replace(
+    /url\((['"])?(.*?)\1\)/gi,
+    "$2"
+  );
+
+  bg.onload = () => {
+    const bodyWidth = window.innerWidth;
+    const bodyHeight = window.innerHeight;
+    const bgRatio = bg.width / bg.height;
+    const bodyRatio = bodyWidth / bodyHeight;
+
+    let bgWidth, bgHeight, bgLeft, bgTop;
+
+    if (bodyRatio > bgRatio) {
+      // body is wider than bg
+      bgHeight = bodyHeight;
+      bgWidth = bgHeight * bgRatio;
+      bgTop = 0;
+      bgLeft = (bodyWidth - bgWidth) / 2;
+    } else {
+      // body is taller than bg
+      bgWidth = bodyWidth;
+      bgHeight = bgWidth / bgRatio;
+      bgLeft = 0;
+      bgTop = (bodyHeight - bgHeight) / 2;
+    }
+
+    // Example: position catGlow relative to background
+    const glowLeft = bgLeft + 0.124 * bgWidth; // 17.2% from left of bg
+    const glowTop = bgTop + 0.0945 * bgHeight; // 9.35% from top of bg
+    const glowWidth = 0.2885 * bgWidth; // 25.2% of bg width
+    const glowHeight = glowWidth; // assuming 1:1 aspect ratio
+
+    catGlow.style.left = glowLeft + "px";
+    catGlow.style.top = glowTop + "px";
+    catGlow.style.width = glowWidth + "px";
+    catGlow.style.height = glowHeight + "px";
+  };
+}
+
+// Call initially and on resize
+positionCatGlow();
+window.addEventListener("resize", positionCatGlow);

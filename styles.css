@@ -1758,10 +1758,7 @@ body {
 .catGlow.show {
   display: block;
   position: absolute;
-  width: 25.2vw;
-  height: 44.4vh;
-  top: 9.45vh;
-  left: 17.15vw;
+  aspect-ratio: 1;
 }
 
 .tennisGlow.show {
