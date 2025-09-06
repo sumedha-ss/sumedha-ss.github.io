@@ -389,24 +389,19 @@ body {
   animation-duration: 6.5s;
   animation-iteration-count: infinite;
 }
+
 .sleep1 {
-  top: 210px;
-  left: 570px;
-  rotate: 17deg;
+  rotate: 15deg;
   font-size: 16px;
 }
 
 .sleep2 {
-  top: 197px;
-  left: 593px;
   rotate: -17deg;
   font-size: 19px;
   animation-delay: 0.7s;
 }
 
 .sleep3 {
-  top: 189px;
-  left: 618px;
   rotate: 7deg;
   font-size: 22px;
   animation-delay: 1.4s;

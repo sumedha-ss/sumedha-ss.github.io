@@ -16,6 +16,10 @@ const candle1 = document.getElementById("candle1");
 const candle2 = document.getElementById("candle2");
 const candle3 = document.getElementById("candle3");
 
+const sleep1 = document.getElementById("sleep1");
+const sleep2 = document.getElementById("sleep2");
+const sleep3 = document.getElementById("sleep3");
+
 function reposition() {
   const body = document.body;
   const bg = new Image();
@@ -116,6 +120,24 @@ function reposition() {
     candle3.style.top = candle3GlowTop + "px";
     candle3.style.width = candle3GlowWidth + "px";
     candle3.style.height = candle3GlowHeight + "px";
+
+    const sleep1GlowLeft = bgLeft + 0.362 * bgWidth;
+    const sleep1GlowTop = bgTop + 0.24 * bgHeight;
+
+    sleep1.style.left = sleep1GlowLeft + "px";
+    sleep1.style.top = sleep1GlowTop + "px";
+
+    const sleep2GlowLeft = bgLeft + 0.379 * bgWidth;
+    const sleep2GlowTop = bgTop + 0.22 * bgHeight;
+
+    sleep2.style.left = sleep2GlowLeft + "px";
+    sleep2.style.top = sleep2GlowTop + "px";
+
+    const sleep3GlowLeft = bgLeft + 0.4 * bgWidth;
+    const sleep3GlowTop = bgTop + 0.215 * bgHeight;
+
+    sleep3.style.left = sleep3GlowLeft + "px";
+    sleep3.style.top = sleep3GlowTop + "px";
   };
 }
 
