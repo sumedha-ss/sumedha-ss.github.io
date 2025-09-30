@@ -178,11 +178,32 @@ body {
   left: 245px;
 }
 
+.carrot {
+  display: none;
+  position: absolute;
+  left: 113%;
+  top: 41%;
+  transform: translateY(-50%);
+  font-size: 27px;
+}
+
+.homedescription2:hover,
+.homedescription3:hover,
 .homedescription4:hover,
 .homedescription5:hover,
-.homedescription6:hover {
+.homedescription6:hover,
+.homedescription7:hover {
   color: #ffb7e3;
   cursor: pointer;
+}
+
+.homedescription2:hover .carrot,
+.homedescription3:hover .carrot,
+.homedescription4:hover .carrot,
+.homedescription5:hover .carrot,
+.homedescription6:hover .carrot,
+.homedescription7:hover .carrot {
+  display: block;
 }
 
 .homedescription6 {
