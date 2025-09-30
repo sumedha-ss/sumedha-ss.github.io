@@ -178,6 +178,13 @@ body {
   left: 245px;
 }
 
+.homedescription4:hover,
+.homedescription5:hover,
+.homedescription6:hover {
+  color: #ffb7e3;
+  cursor: pointer;
+}
+
 .homedescription6 {
   top: 388px;
   left: 245px;
