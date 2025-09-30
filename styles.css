@@ -2,6 +2,10 @@ body {
   background-color: rgb(255, 227, 243);
 }
 
+p {
+  padding-right: 15px;
+}
+
 .terminalBox {
   position: absolute;
   top: 50%;
@@ -23,7 +27,7 @@ body {
   transform: translate(-50%, -50%) translate(10px, 10px);
   width: 900px;
   height: 600px;
-  background-color: rgba(217, 217, 217, 1);
+  background-color: rgb(217, 217, 217);
   border-radius: 15px;
   z-index: -1;
 }
@@ -83,7 +87,12 @@ body {
 .homePrompt1,
 .homePrompt2,
 .homePrompt3,
-.homePrompt4 {
+.homePrompt4,
+.experiencePrompt1,
+.experiencePrompt2,
+.experiencePrompt3,
+.experiencePrompt4,
+.experiencePrompt5 {
   position: absolute;
   left: 15px;
   font-family: "Monaco", monospace;
@@ -94,15 +103,91 @@ body {
     0 -0.1px #ff5dc1;
 }
 
+.experiencePrompt1 {
+  top: -20px;
+  left: 0px;
+}
+
+.experienceText1 {
+  top: -67px;
+  left: 0px;
+}
+
+.experiencePrompt2 {
+  top: -72px;
+  left: 0px;
+}
+
+.experienceText2 {
+  top: -119px;
+  left: 0px;
+}
+
+.experiencePrompt3 {
+  top: -126.5px;
+  left: 0px;
+}
+
+.experienceText3 {
+  top: -173.5px;
+  left: 0px;
+}
+
+.experiencePrompt4 {
+  top: -177px;
+  left: 0px;
+}
+
+.experienceText4 {
+  top: -224.5px;
+  left: 0px;
+}
+
+.experiencePrompt5 {
+  top: -223px;
+  left: 0px;
+}
+
+.experienceText5 {
+  top: -270.5px;
+  left: 0px;
+}
+
 .homeText1,
 .homeText2,
 .homeText3,
 .homeText4 {
-  position: absolute;
   left: 145px;
+}
+
+.experienceText1,
+.experienceText2,
+.experienceText3,
+.experienceText4,
+.experienceText5 {
+  left: 205px;
+}
+
+.homeText1,
+.homeText2,
+.homeText3,
+.homeText4,
+.experienceText1,
+.experienceText2,
+.experienceText3,
+.experienceText4,
+.experienceText5 {
+  position: absolute;
   font-family: "Monaco", monospace;
   font-size: 20px;
   color: #e163ab;
+}
+
+.homeText1,
+.homeText2,
+.homeText3,
+.homeText4 {
+  left: 145px;
 }
 
 .homePrompt1,
@@ -146,11 +231,33 @@ body {
 .homedescription4,
 .homedescription5,
 .homedescription6,
-.homedescription7 {
+.homedescription7,
+.experienceDescription1,
+.experienceDescription2,
+.experienceDescription3,
+.experienceDescription4 {
   position: absolute;
   font-family: "Monaco", monospace;
   font-size: 20px;
   color: #fc94d4;
+}
+
+.experiencePrompt1,
+.experiencePrompt2,
+.experiencePrompt3,
+.experiencePrompt4,
+.experiencePrompt5,
+.experienceText1,
+.experienceText2,
+.experienceText3,
+.experienceText4,
+.experienceText5,
+.experienceDescription1,
+.experienceDescription2,
+.experienceDescription3,
+.experienceDescription4 {
+  position: relative;
+  display: block;
 }
 
 .homedescription1 {
@@ -176,6 +283,27 @@ body {
 .homedescription5 {
   top: 358px;
   left: 245px;
+}
+
+.experienceDescription1 {
+  top: -121px;
+  left: 0px;
+}
+
+.experienceDescription2 {
+  top: -175px;
+  left: 0px;
+}
+
+.experienceDescription3 {
+  top: -224px;
+  left: 0px;
+}
+
+.experienceDescription4 {
+  top: -268px;
+  left: 0px;
+  margin-bottom: -350px;
 }
 
 .carrot {
@@ -214,4 +342,185 @@ body {
 .homedescription7 {
   top: 418px;
   left: 245px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.modalBoxShadow {
+  position: absolute;
+  top: 52%;
+  left: 51.9%;
+  transform: translate(-50%, -50%) translate(10px, 10px);
+  width: 1000px; /* 900 + 100 */
+  height: 700px; /* 600 + 100 */
+  background-color: rgba(217, 217, 217, 1);
+  border-radius: 15px;
+  z-index: -1;
+}
+
+.modalBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  width: 1000px;
+  height: 700px;
+  background-color: white;
+  border-radius: 15px;
+  border: 0.85px solid black;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  opacity: 0;
+}
+
+.modalBox.active {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+}
+
+.modalBoxHeader {
+  position: relative;
+  width: 100%;
+  height: 58px;
+  background-color: rgb(252, 130, 205);
+
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom: 0.85px solid black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Monaco", monospace;
+  font-size: 25px;
+  color: white;
+}
+
+.redCircle,
+.yellowCircle,
+.greenCircle {
+  position: absolute;
+  top: 18px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 0.85px solid black;
+}
+.redCircle {
+  left: 20px;
+  background-color: rgb(255, 111, 111);
+}
+.yellowCircle {
+  left: 55px;
+  background-color: #ffc56f;
+}
+.greenCircle {
+  left: 90px;
+  background-color: #79db71;
+}
+
+.modalContent {
+  flex: 1;
+  padding: 20px;
+  font-family: "Monaco", monospace;
+  font-size: 18px;
+  color: #e163ab;
+  overflow-y: auto;
+  overflow-x: hidden;
+  white-space: normal;
+  word-wrap: break-word;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.redCircle1 {
+  position: absolute;
+  top: 18px;
+  left: calc(50% - 1000px / 2 + 20px);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 0.85px solid black;
+  background-color: rgb(255, 111, 111);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.closeBtn {
+  font-size: 18px;
+  color: black;
+  display: none;
+  cursor: pointer;
+  top: -100%;
+  line-height: 1;
+  position: relative;
+  top: -1.4px;
+}
+
+.redCircle1:hover .closeBtn {
+  display: block;
+}
+
+.modalContent::-webkit-scrollbar {
+  width: 30px;
+}
+
+.modalContent::-webkit-scrollbar-track {
+  background: #f7f7f7;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 15px;
+}
+
+.modalContent::-webkit-scrollbar-thumb {
+  background-color: #ededed;
+}
+
+.modalContent::-webkit-scrollbar-thumb:hover {
+  background-color: #e3e3e3;
+}
+
+#curved-corner-bottomright {
+  width: 19px;
+  height: 23px;
+  left: 981.5px;
+  top: 677.4px;
+  overflow: hidden;
+  position: absolute;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 1001;
+}
+
+#curved-corner-bottomright:before {
+  content: "";
+  display: block;
+  width: 200%;
+  height: 200%;
+  position: absolute;
+  border-radius: 40%;
+  bottom: 0;
+  right: 0;
+  box-shadow: 10px 11.5px 0 0 rgb(217, 217, 217);
+  z-index: 10001;
+  border-width: 0.8px;
+  border-style: solid;
+  border-color: black;
+}
+
+.modalBoxShadow,
+#curved-corner-bottomright {
+  opacity: 0;
+  transition: opacity 0.2s;
 }
