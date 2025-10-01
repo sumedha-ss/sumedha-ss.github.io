@@ -1,4 +1,10 @@
+html,
 body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
   background-color: rgb(255, 227, 243);
 }
 
@@ -92,7 +98,11 @@ p {
 .experiencePrompt2,
 .experiencePrompt3,
 .experiencePrompt4,
-.experiencePrompt5 {
+.experiencePrompt5,
+.hobbiesPrompt1,
+.hobbiesPrompt2,
+.hobbiesPrompt3,
+.hobbiesPrompt4 {
   position: absolute;
   left: 15px;
   font-family: "Monaco", monospace;
@@ -110,7 +120,6 @@ p {
 
 .experienceText1 {
   top: -67px;
-  left: 0px;
 }
 
 .experiencePrompt2 {
@@ -120,7 +129,6 @@ p {
 
 .experienceText2 {
   top: -119px;
-  left: 0px;
 }
 
 .experiencePrompt3 {
@@ -130,7 +138,6 @@ p {
 
 .experienceText3 {
   top: -173.5px;
-  left: 0px;
 }
 
 .experiencePrompt4 {
@@ -140,7 +147,6 @@ p {
 
 .experienceText4 {
   top: -224.5px;
-  left: 0px;
 }
 
 .experiencePrompt5 {
@@ -150,7 +156,44 @@ p {
 
 .experienceText5 {
   top: -270.5px;
+}
+
+.hobbiesPrompt1 {
+  top: -20px;
   left: 0px;
+}
+
+.hobbiesText1 {
+  top: -67px;
+}
+
+.hobbiesPrompt2 {
+  top: -72px;
+  left: 0px;
+}
+
+.hobbiesText2 {
+  top: -119px;
+}
+
+.hobbiesPrompt3 {
+  top: 20px;
+  left: 0px;
+}
+
+.hobbiesText3 {
+  top: -26px;
+}
+
+.hobbiesPrompt4 {
+  top: -605px;
+  left: 0px;
+  margin-bottom: -200px;
+}
+
+.hobbiesText4 {
+  top: -452px;
+  margin-bottom: -200px;
 }
 
 .homeText1,
@@ -168,6 +211,13 @@ p {
   left: 205px;
 }
 
+.hobbiesText1,
+.hobbiesText2,
+.hobbiesText3,
+.hobbiesText4 {
+  left: 175px;
+}
+
 .homeText1,
 .homeText2,
 .homeText3,
@@ -176,7 +226,11 @@ p {
 .experienceText2,
 .experienceText3,
 .experienceText4,
-.experienceText5 {
+.experienceText5,
+.hobbiesText1,
+.hobbiesText2,
+.hobbiesText3,
+.hobbiesText4 {
   position: absolute;
   font-family: "Monaco", monospace;
   font-size: 20px;
@@ -235,7 +289,10 @@ p {
 .experienceDescription1,
 .experienceDescription2,
 .experienceDescription3,
-.experienceDescription4 {
+.experienceDescription4,
+.hobbiesDescription1,
+.hobbiesDescription2,
+.hobbiesDescription3 {
   position: absolute;
   font-family: "Monaco", monospace;
   font-size: 20px;
@@ -247,15 +304,38 @@ p {
 .experiencePrompt3,
 .experiencePrompt4,
 .experiencePrompt5,
+.hobbiesPrompt1,
+.hobbiesPrompt2,
+.hobbiesPrompt3,
+.hobbiesPrompt4,
 .experienceText1,
 .experienceText2,
 .experienceText3,
 .experienceText4,
 .experienceText5,
+.hobbiesText1,
+.hobbiesText2,
+.hobbiesText3,
+.hobbiesText4,
 .experienceDescription1,
 .experienceDescription2,
 .experienceDescription3,
-.experienceDescription4 {
+.experienceDescription4,
+.hobbiesDescription1,
+.hobbiesDescription2,
+.hobbiesDescription3,
+.walk1,
+.walk2,
+.walk3,
+.sparkle1,
+.sparkle3,
+.art1,
+.art2,
+.art3,
+.art4,
+.book,
+.movie,
+.song {
   position: relative;
   display: block;
 }
@@ -304,6 +384,153 @@ p {
   top: -268px;
   left: 0px;
   margin-bottom: -350px;
+}
+
+.hobbiesDescription1 {
+  top: -121px;
+  left: 0px;
+}
+
+.walk3 {
+  top: -45px;
+  padding-left: 60px;
+  width: 230px;
+}
+
+.walk1 {
+  top: -390px;
+  left: 320px;
+  width: 350px;
+  z-index: 10;
+}
+
+.walk2 {
+  margin-top: -430px;
+  padding-left: 525px;
+  width: 350px;
+}
+
+.sparkle1 {
+  top: -310px;
+  left: 675px;
+  width: 135px;
+  z-index: 100;
+  margin-bottom: -130px;
+  animation: pulse 2s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.sparkle3 {
+  top: -780px;
+  left: 60px;
+  width: 190px;
+  z-index: 100;
+  margin-bottom: -160px;
+  animation: swirl 3s infinite linear;
+  transform-origin: center;
+}
+
+@keyframes swirl {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-6deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(6deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.art1 {
+  top: 50px;
+  padding-left: 30px;
+  width: 220px;
+}
+
+.art2 {
+  top: -90px;
+  left: 200px;
+  width: 185px;
+}
+
+.art3 {
+  top: -450px;
+  left: 410px;
+  width: 210px;
+}
+
+.art4 {
+  top: -700px;
+  left: 642px;
+  width: 255px;
+}
+
+.book {
+  top: 0px;
+  left: 60px;
+  width: 240px;
+  margin-bottom: -500px;
+  transition: box-shadow 0.2s ease;
+}
+
+.book:hover {
+  box-shadow: 0 6px 20px rgba(255, 21, 169, 0.8);
+  cursor: pointer;
+}
+
+.movie {
+  top: 140px;
+  left: 355px;
+  width: 240px;
+  margin-bottom: -200px;
+  transition: box-shadow 0.2s ease;
+}
+
+.movie:hover {
+  box-shadow: 0 6px 20px rgba(255, 245, 59, 0.8);
+  cursor: pointer;
+}
+
+.song {
+  top: 35px;
+  left: 650px;
+  width: 240px;
+  margin-bottom: -200px;
+  transition: box-shadow 0.2s ease;
+}
+
+.song:hover {
+  box-shadow: 0 6px 20px rgba(118, 180, 213, 0.8);
+  cursor: pointer;
+}
+
+.hobbiesDescription2 {
+  top: -27px;
+  left: 0px;
+}
+
+.hobbiesDescription3 {
+  top: -250px;
+  left: 0px;
+  margin-bottom: -200px;
 }
 
 .carrot {
@@ -485,42 +712,21 @@ p {
 
 .modalContent::-webkit-scrollbar-thumb {
   background-color: #ededed;
+  border-radius: 15px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #f7f7f7;
 }
 
 .modalContent::-webkit-scrollbar-thumb:hover {
   background-color: #e3e3e3;
-}
-
-#curved-corner-bottomright {
-  width: 19px;
-  height: 23px;
-  left: 981.5px;
-  top: 677.4px;
-  overflow: hidden;
-  position: absolute;
-  overflow: hidden;
-  pointer-events: none;
-  z-index: 1001;
-}
-
-#curved-corner-bottomright:before {
-  content: "";
-  display: block;
-  width: 200%;
-  height: 200%;
-  position: absolute;
-  border-radius: 40%;
-  bottom: 0;
-  right: 0;
-  box-shadow: 10px 11.5px 0 0 rgb(217, 217, 217);
-  z-index: 10001;
-  border-width: 0.8px;
+  border-radius: 15px;
+  border-width: 5px;
   border-style: solid;
-  border-color: black;
+  border-color: #f7f7f7;
 }
 
-.modalBoxShadow,
-#curved-corner-bottomright {
+.modalBoxShadow {
   opacity: 0;
   transition: opacity 0.2s;
 }
