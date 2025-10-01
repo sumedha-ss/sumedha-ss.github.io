@@ -24,6 +24,7 @@ p {
   border-width: 0.85px;
   border-style: solid;
   border-color: black;
+  z-index: 1;
 }
 
 .terminalBoxShadow {
@@ -35,7 +36,7 @@ p {
   height: 600px;
   background-color: rgb(217, 217, 217);
   border-radius: 15px;
-  z-index: -1;
+  z-index: 0;
 }
 
 .terminalBoxHeader {
