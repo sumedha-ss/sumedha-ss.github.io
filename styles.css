@@ -95,6 +95,7 @@ p {
 .homePrompt2,
 .homePrompt3,
 .homePrompt4,
+.experiencePrompt0,
 .experiencePrompt1,
 .experiencePrompt2,
 .experiencePrompt3,
@@ -124,6 +125,7 @@ p {
 
 .experienceText1 {
   top: -67px;
+  padding-left: 30px;
 }
 
 .experiencePrompt2 {
@@ -133,6 +135,7 @@ p {
 
 .experienceText2 {
   top: -119px;
+  padding-left: 30px;
 }
 
 .experiencePrompt3 {
@@ -142,6 +145,7 @@ p {
 
 .experienceText3 {
   top: -173.5px;
+  padding-left: 30px;
 }
 
 .experiencePrompt4 {
@@ -151,6 +155,7 @@ p {
 
 .experienceText4 {
   top: -224.5px;
+  padding-left: 30px;
 }
 
 .experiencePrompt5 {
@@ -160,6 +165,71 @@ p {
 
 .experienceText5 {
   top: -270.5px;
+  padding-left: 30px;
+}
+
+.experienceLine {
+  margin: 0 0 6px 0;
+}
+
+#experienceModal .experiencePrompt0,
+#experienceModal .experiencePrompt1,
+#experienceModal .experiencePrompt2,
+#experienceModal .experiencePrompt3,
+#experienceModal .experiencePrompt4,
+#experienceModal .experiencePrompt5,
+#experienceModal .experienceText0,
+#experienceModal .experienceText1,
+#experienceModal .experienceText2,
+#experienceModal .experienceText3,
+#experienceModal .experienceText4,
+#experienceModal .experienceText5 {
+  position: static;
+  display: inline;
+  left: auto;
+  top: auto;
+  margin: 0;
+}
+
+#experienceModal .experienceDescription0,
+#experienceModal .experienceDescription1,
+#experienceModal .experienceDescription2,
+#experienceModal .experienceDescription3,
+#experienceModal .experienceDescription4 {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  margin: 0 0 22px 0;
+}
+
+/* Experience modal layout overrides */
+#experienceModal .experienceLine {
+  margin: 0 0 8px 0;
+  line-height: 1.4;
+}
+
+#experienceModal .experienceLine .experiencePrompt0,
+#experienceModal .experienceLine .experiencePrompt1,
+#experienceModal .experienceLine .experiencePrompt2,
+#experienceModal .experienceLine .experiencePrompt3,
+#experienceModal .experienceLine .experiencePrompt4,
+#experienceModal .experienceLine .experiencePrompt5,
+#experienceModal .experienceLine .experienceText0,
+#experienceModal .experienceLine .experienceText1,
+#experienceModal .experienceLine .experienceText2,
+#experienceModal .experienceLine .experienceText3,
+#experienceModal .experienceLine .experienceText4,
+#experienceModal .experienceLine .experienceText5 {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: inline;
+  margin: 0;
+}
+
+.experienceText0 {
+  padding-left: 30px;
 }
 
 .projectsPrompt1 {
@@ -256,6 +326,7 @@ p {
 .homeText2,
 .homeText3,
 .homeText4,
+.experienceText0,
 .experienceText1,
 .experienceText2,
 .experienceText3,
@@ -330,6 +401,7 @@ p {
 .homedescription5,
 .homedescription6,
 .homedescription7,
+.experienceDescription0,
 .experienceDescription1,
 .experienceDescription2,
 .experienceDescription3,
@@ -350,6 +422,7 @@ p {
 .experiencePrompt3,
 .experiencePrompt4,
 .experiencePrompt5,
+.experiencePrompt0,
 .hobbiesPrompt1,
 .hobbiesPrompt2,
 .hobbiesPrompt3,
@@ -362,6 +435,7 @@ p {
 .experienceText3,
 .experienceText4,
 .experienceText5,
+.experienceText0,
 .projectsText1,
 .projectsText2,
 .projectsText3,
