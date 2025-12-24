@@ -36,6 +36,10 @@ document.querySelector(".homeDescription3").onclick = function () {
   openModal("hobbiesModal", "hobbiesShadow");
 };
 
+document.querySelector(".homeDescription4").onclick = function () {
+  openModal("projectsModal", "projectsShadow");
+};
+
 // Close buttons
 document.querySelectorAll(".closeBtn").forEach((btn) => {
   btn.onclick = function () {

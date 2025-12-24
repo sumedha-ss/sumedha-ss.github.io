@@ -100,6 +100,9 @@ p {
 .experiencePrompt3,
 .experiencePrompt4,
 .experiencePrompt5,
+.projectsPrompt1,
+.projectsPrompt2,
+.projectsPrompt3,
 .hobbiesPrompt1,
 .hobbiesPrompt2,
 .hobbiesPrompt3,
@@ -159,6 +162,33 @@ p {
   top: -270.5px;
 }
 
+.projectsPrompt1 {
+  top: -20px;
+  left: 0px;
+}
+
+.projectsText1 {
+  top: -67px;
+}
+
+.projectsPrompt2 {
+  top: -72px;
+  left: 0px;
+}
+
+.projectsText2 {
+  top: -119px;
+}
+
+.projectsPrompt3 {
+  top: -126.5px;
+  left: 0px;
+}
+
+.projectsText3 {
+  top: -173.5px;
+}
+
 .hobbiesPrompt1 {
   top: -20px;
   left: 0px;
@@ -208,7 +238,10 @@ p {
 .experienceText2,
 .experienceText3,
 .experienceText4,
-.experienceText5 {
+.experienceText5,
+.projectsText1,
+.projectsText2,
+.projectsText3 {
   left: 205px;
 }
 
@@ -228,6 +261,9 @@ p {
 .experienceText3,
 .experienceText4,
 .experienceText5,
+.projectsText1,
+.projectsText2,
+.projectsText3,
 .hobbiesText1,
 .hobbiesText2,
 .hobbiesText3,
@@ -280,6 +316,13 @@ p {
   }
 }
 
+.homeDescription1,
+.homeDescription2,
+.homeDescription3,
+.homeDescription4,
+.homeDescription5,
+.homeDescription6,
+.homeDescription7,
 .homedescription1,
 .homedescription2,
 .homedescription3,
@@ -291,6 +334,8 @@ p {
 .experienceDescription2,
 .experienceDescription3,
 .experienceDescription4,
+.projectsDescription1,
+.projectsDescription2,
 .hobbiesDescription1,
 .hobbiesDescription2,
 .hobbiesDescription3 {
@@ -309,11 +354,17 @@ p {
 .hobbiesPrompt2,
 .hobbiesPrompt3,
 .hobbiesPrompt4,
+.projectsPrompt1,
+.projectsPrompt2,
+.projectsPrompt3,
 .experienceText1,
 .experienceText2,
 .experienceText3,
 .experienceText4,
 .experienceText5,
+.projectsText1,
+.projectsText2,
+.projectsText3,
 .hobbiesText1,
 .hobbiesText2,
 .hobbiesText3,
@@ -322,9 +373,12 @@ p {
 .experienceDescription2,
 .experienceDescription3,
 .experienceDescription4,
+.projectsDescription1,
+.projectsDescription2,
 .hobbiesDescription1,
 .hobbiesDescription2,
 .hobbiesDescription3,
+.facDir,
 .walk1,
 .walk2,
 .walk3,
@@ -341,29 +395,50 @@ p {
   display: block;
 }
 
+.homeDescription1,
 .homedescription1 {
   top: 149px;
   left: 15px;
 }
 
+.homeDescription2,
 .homedescription2 {
   top: 358px;
   left: 15px;
 }
 
+.homeDescription3,
 .homedescription3 {
   top: 388px;
   left: 15px;
 }
 
+.homeDescription4,
 .homedescription4 {
   top: 418px;
   left: 15px;
 }
 
+.homeDescription5,
 .homedescription5 {
   top: 358px;
   left: 245px;
+}
+
+.projectsDescription1 {
+  top: -121px;
+  left: 0px;
+}
+
+.projectsDescription2 {
+  top: -175px;
+  left: 0px;
+}
+
+.facDir {
+  width: 65%;
+  max-width: 850px;
+  margin: -100px auto 20px;
 }
 
 .experienceDescription1 {
@@ -543,6 +618,12 @@ p {
   font-size: 27px;
 }
 
+.homeDescription2:hover,
+.homeDescription3:hover,
+.homeDescription4:hover,
+.homeDescription5:hover,
+.homeDescription6:hover,
+.homeDescription7:hover,
 .homedescription2:hover,
 .homedescription3:hover,
 .homedescription4:hover,
@@ -553,6 +634,12 @@ p {
   cursor: pointer;
 }
 
+.homeDescription2:hover .carrot,
+.homeDescription3:hover .carrot,
+.homeDescription4:hover .carrot,
+.homeDescription5:hover .carrot,
+.homeDescription6:hover .carrot,
+.homeDescription7:hover .carrot,
 .homedescription2:hover .carrot,
 .homedescription3:hover .carrot,
 .homedescription4:hover .carrot,
@@ -562,11 +649,13 @@ p {
   display: block;
 }
 
+.homeDescription6,
 .homedescription6 {
   top: 388px;
   left: 245px;
 }
 
+.homeDescription7,
 .homedescription7 {
   top: 418px;
   left: 245px;

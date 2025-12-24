@@ -27,17 +27,12 @@
       </div>
       <div class="homePrompt3">home ~ %</div>
       <div class="homeText3">ls</div>
-      <div class="homeDescription2" onclick="openModal()">
+      <div class="homeDescription2">
         experience <span class="carrot">◄</span>
       </div>
 
       <div class="homeDescription3">hobbies <span class="carrot">◄</span></div>
-      <div
-        class="homeDescription4"
-        onclick="window.open('./media/resume.pdf', '_blank')"
-      >
-        resume <span class="carrot">◄</span>
-      </div>
+      <div class="homeDescription4">projects <span class="carrot">◄</span></div>
       <div
         class="homeDescription5"
         onclick="window.open('https://www.linkedin.com/in/sumedha-saravanakumar', '_blank')"
@@ -49,6 +44,12 @@
         onclick="window.open('https://github.com/sumedha-ss', '_blank')"
       >
         github <span class="carrot">◄</span>
+      </div>
+      <div
+        class="homeDescription7"
+        onclick="window.open('./media/resume.pdf', '_blank')"
+      >
+        resume <span class="carrot">◄</span>
       </div>
       <div class="homePrompt4">home ~ %</div>
       <div class="homeText4">_</div>
@@ -195,6 +196,57 @@
           <a href="https://www.youtube.com/watch?v=y1cBhJLNNXU" target="_blank">
             <img src="./media/song.png" alt="glue song" class="song" />
           </a>
+        </div>
+      </div>
+    </div>
+
+    <div id="projectsModal" class="modal">
+      <div class="modalBoxShadow" id="projectsShadow"></div>
+      <div class="modalBox">
+        <div class="modalBoxHeader">
+          sumedha saravanakumar
+          <div class="redCircle1">
+            <span class="closeBtn">&times;</span>
+          </div>
+          <div class="yellowCircle"></div>
+          <div class="greenCircle"></div>
+        </div>
+        <div class="modalContent">
+          <p class="projectsPrompt1">projects ~ %</p>
+          <p class="projectsText1">what I've been working on!</p>
+          <p class="projectsPrompt2">projects ~ %</p>
+          <p class="projectsText2">cat ece_faculty_directory.txt</p>
+          <p class="projectsDescription1">
+            I built a full-stack web application for the Purdue ECE Faculty
+            Directory to make finding faculty fast and easy. It features a clean
+            React frontend with animations, backed by a Node and Express server
+            that supports searching by name or research area. To improve search
+            flexibility, I added wildcard, partial, and root-word matching using
+            regex and porter stemming. I also built a web scraper that collects
+            and caches faculty data so the app stays fast without making
+            unnecessary requests. Check it out
+            <a
+              href="https://ece-faculty-search.vercel.app"
+              target="_blank"
+              style="color: #ff0bce; text-decoration: underlined"
+            >
+              here</a
+            >!
+          </p>
+          <img
+            src="./media/facDir.png"
+            alt="Purdue ECE Faculty Directory project"
+            class="facDir"
+          />
+
+          <!-- comment out placeholder project -->
+          <!--
+          <p class="projectsPrompt3">projects ~ %</p>
+          <p class="projectsText3">cat placeholder_project_two.txt</p>
+          <p class="projectsDescription2">
+            Placeholder project two is also on the way. More info coming soon.
+          </p>
+          -->
         </div>
       </div>
     </div>
