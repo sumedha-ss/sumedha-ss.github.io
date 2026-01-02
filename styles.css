@@ -232,6 +232,59 @@ p {
   padding-left: 30px;
 }
 
+/* Projects modal layout overrides */
+#projectsModal .projectsPrompt1,
+#projectsModal .projectsPrompt2,
+#projectsModal .projectsPrompt3,
+#projectsModal .projectsText1,
+#projectsModal .projectsText2,
+#projectsModal .projectsText3 {
+  position: static;
+  display: inline;
+  left: auto;
+  top: auto;
+  margin: 0;
+}
+
+#projectsModal .projectsLine {
+  margin: 0 0 8px 0;
+  line-height: 1.4;
+}
+
+#projectsModal .projectsLine .projectsPrompt1,
+#projectsModal .projectsLine .projectsPrompt2,
+#projectsModal .projectsLine .projectsPrompt3,
+#projectsModal .projectsLine .projectsText1,
+#projectsModal .projectsLine .projectsText2,
+#projectsModal .projectsLine .projectsText3 {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: inline;
+  margin: 0;
+}
+
+#projectsModal .projectsLine .projectsText1,
+#projectsModal .projectsLine .projectsText2,
+#projectsModal .projectsLine .projectsText3 {
+  padding-left: 30px;
+}
+
+#projectsModal .projectsDescription1,
+#projectsModal .projectsDescription2 {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  margin: 0 0 22px 0;
+}
+
+#projectsModal .facDir {
+  position: relative;
+  margin: 0 auto 22px;
+  top: 0;
+}
+
 .projectsPrompt1 {
   top: -20px;
   left: 0px;

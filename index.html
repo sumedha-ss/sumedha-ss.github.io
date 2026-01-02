@@ -244,10 +244,14 @@
           <div class="greenCircle"></div>
         </div>
         <div class="modalContent">
-          <p class="projectsPrompt1">projects ~ %</p>
-          <p class="projectsText1">what I've been working on!</p>
-          <p class="projectsPrompt2">projects ~ %</p>
-          <p class="projectsText2">cat ece_faculty_directory.txt</p>
+          <p class="projectsLine">
+            <span class="projectsPrompt1">projects ~ %</span>
+            <span class="projectsText1">what I've been working on!</span>
+          </p>
+          <p class="projectsLine">
+            <span class="projectsPrompt2">projects ~ %</span>
+            <span class="projectsText2">cat ece_faculty_directory.txt</span>
+          </p>
           <p class="projectsDescription1">
             I built a full-stack web application for the Purdue ECE Faculty
             Directory to make finding faculty fast and easy. It features a clean
@@ -271,14 +275,36 @@
             class="facDir"
           />
 
-          <!-- comment out placeholder project -->
-          <!--
-          <p class="projectsPrompt3">projects ~ %</p>
-          <p class="projectsText3">cat placeholder_project_two.txt</p>
-          <p class="projectsDescription2">
-            Placeholder project two is also on the way. More info coming soon.
+          <p class="projectsLine">
+            <span class="projectsPrompt3">projects ~ %</span>
+            <span class="projectsText3">cat task_tracker.txt</span>
           </p>
-          -->
+          <p class="projectsDescription2">
+            I built a personalized weekly task planner (heavily inspired by
+            Notion) to help organize tasks by day of the week. It features a
+            React and TypeScript frontend with animations and a drag-and-drop
+            interface powered by the HTML5 Drag and Drop API. To improve the
+            user's experience, I implemented scroll-based scaling animations
+            where calendar boxes dynamically enlarge as you scroll, along with
+            hover and click animations throughout the interface. The app allows
+            full customization with multiple color themes (mine is set to pink
+            of course), custom emoji selection that updates the favicon
+            dynamically, and persistent data storage using localStorage. I also
+            added an optional "other tasks" section separate from daily tasks, a
+            weekend toggle, and inline task editing. Try it out
+            <a
+              href="https://personal-weekly-todo.vercel.app/"
+              target="_blank"
+              style="color: #ff0bce; text-decoration: underlined"
+            >
+              here</a
+            >!
+          </p>
+          <img
+            src="./media/taskTracker.png"
+            alt="Task Tracker project"
+            class="facDir"
+          />
         </div>
       </div>
     </div>
